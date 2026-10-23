@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Placar da Escalação</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏀%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4F1E9;--surface:#fff;--surface-2:#ECE7DA;--ink:#1B1B18;--ink-dim:#5C584E;--border:#D8D2C2;--accent:#B3592A;--accent-ink:#fff;--tier-green:#2E8B4F;--tier-purple:#7A5AC0;--tier-orange:#D98A22;--tier-red:#C4433B;--tier-ink:#fff;--warn:#B3592A}
+@media (prefers-color-scheme:dark){:root{--bg:#15171B;--surface:#1E2126;--surface-2:#262A31;--ink:#F1EFE9;--ink-dim:#A6A296;--border:#33363D;--accent:#E08A4F;--accent-ink:#15171B;--tier-green:#3FAE6B;--tier-purple:#9678DD;--tier-orange:#E6A13B;--tier-red:#E3574E;--tier-ink:#15171B;--warn:#E08A4F}}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.display{font-family:'Oswald','Arial Narrow',sans-serif;font-weight:600;letter-spacing:.01em}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 20px 64px}
+header.top{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-end;justify-content:space-between;border-bottom:3px solid var(--ink);padding-bottom:16px;margin-bottom:22px}
+header.top h1{font-size:clamp(28px,4vw,40px);margin:0;line-height:1}
+header.top p{margin:6px 0 0;color:var(--ink-dim);font-size:14.5px}
+.legend{display:flex;gap:8px;flex-wrap:wrap}
+.legend span{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink-dim);padding:5px 10px;border:1px solid var(--border);border-radius:999px;background:var(--surface)}
+.legend i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.tabs{display:flex;gap:4px;margin-bottom:18px;border-bottom:1px solid var(--border)}
+.tab{background:none;border:none;border-bottom:3px solid transparent;padding:10px 16px;font-family:'Oswald','Arial Narrow',sans-serif;font-weight:600;font-size:16px;letter-spacing:.02em;color:var(--ink-dim);cursor:pointer;margin-bottom:-1px}
+.tab.on{color:var(--ink);border-bottom-color:var(--accent)}
+details.settings{background:var(--surface);border:1px solid var(--border);border-radius:10px;margin-bottom:16px;overflow:hidden}
+details.settings summary{cursor:pointer;list-style:none;padding:14px 18px;font-size:14.5px}
+details.settings summary::-webkit-details-marker{display:none}
+.settings-body{padding:4px 18px 18px;border-top:1px solid var(--border)}
+.weights-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(126px,1fr));gap:10px;margin:14px 0}
+.wfield label{display:block;font-size:11px;color:var(--ink-dim);margin-bottom:4px}
+.wfield input{width:100%;padding:7px 8px;border:1px solid var(--border);border-radius:6px;background:var(--surface-2);color:var(--ink);font-size:13.5px}
+.btn{border:none;border-radius:7px;padding:6px 10px;font-size:12.5px;cursor:pointer;font-family:inherit}
+.btn:hover{opacity:.85}
+.btn[disabled]{opacity:.4;cursor:default}
+.btn.primary{background:var(--accent);color:var(--accent-ink);font-weight:600}
+.btn.ghost{background:var(--surface-2);color:var(--ink);border:1px solid var(--border)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 16px 14px}
+.card-head{display:flex;gap:12px;align-items:center}
+.avatar{width:46px;height:46px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:15px;font-family:'Oswald',sans-serif}
+.name-block{min-width:0;flex:1}
+.nm{font-size:17px;margin:0;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.meta{font-size:12px;color:var(--ink-dim);margin-top:2px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.tag{border:1px solid var(--border);border-radius:5px;padding:1px 6px;font-size:11px}
+.summary-row{display:flex;gap:14px;margin:14px 0 4px;padding:10px 12px;background:var(--surface-2);border-radius:8px;font-size:12.5px;color:var(--ink-dim);flex-wrap:wrap}
+.summary-row b{display:block;color:var(--ink);font-size:16px;font-family:'Oswald',sans-serif}
+.missed-note{font-size:12px;color:var(--warn);margin:6px 2px 10px;padding:7px 10px;background:color-mix(in srgb,var(--warn) 14%,transparent);border-radius:7px;border:1px dashed var(--warn)}
+.games{margin-top:8px}
+.game-row{display:flex;align-items:center;gap:10px;padding:7px 2px;border-top:1px solid var(--border)}
+.game-row:first-child{border-top:none}
+.game-info{flex:1;min-width:0}
+.gd{font-size:12.5px;color:var(--ink-dim);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.gd b{color:var(--ink);font-weight:600}
+.ne-badge{font-size:10px;font-weight:700;color:var(--warn);border:1px solid var(--warn);border-radius:5px;padding:1px 5px}
+.score-chip{font-family:'Oswald',sans-serif;font-weight:700;font-size:13.5px;padding:4px 10px;border-radius:999px;color:var(--tier-ink);min-width:52px;text-align:center}
+.score-chip.faded{opacity:.5;border:1px dashed var(--ink)}
+.empty-games{font-size:12.5px;color:var(--ink-dim);padding:10px 2px;font-style:italic}
+.details-toggle{font-size:11.5px;color:var(--accent)}
+.stat-breakdown{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:5px;font-size:11px;color:var(--ink-dim);background:var(--surface-2);border-radius:6px;padding:8px;margin:6px 0 2px}
+.stat-breakdown b{color:var(--ink)}
+.week-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.week-bar select{padding:8px 10px;border:1px solid var(--border);border-radius:7px;background:var(--surface);color:var(--ink);font-size:13.5px}
+.week-bar .nav{padding:7px 14px;font-size:16px}
+.opp-input{flex:1;min-width:220px;padding:9px 11px;border:1px solid var(--border);border-radius:7px;background:var(--surface);color:var(--ink);font-size:13.5px}
+.week-hero{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px;margin-bottom:16px;display:flex;gap:24px;flex-wrap:wrap;align-items:flex-end;justify-content:space-between}
+.week-hero .big{font-family:'Oswald',sans-serif;font-weight:700;font-size:54px;line-height:1}
+.week-hero .lbl{font-size:12.5px;color:var(--ink-dim);margin-bottom:4px}
+.week-hero .side{display:flex;gap:22px;flex-wrap:wrap}
+.week-hero .side div{font-size:12px;color:var(--ink-dim)}
+.week-hero .side b{display:block;font-family:'Oswald',sans-serif;font-size:20px;color:var(--ink)}
+.day-table-wrap{overflow-x:auto;margin-bottom:20px;background:var(--surface);border:1px solid var(--border);border-radius:12px}
+table.day-table{border-collapse:collapse;width:100%;font-size:13px;min-width:420px}
+.day-table th,.day-table td{padding:10px 12px;text-align:right;border-bottom:1px solid var(--border)}
+.day-table th:first-child,.day-table td:first-child{text-align:left;color:var(--ink-dim)}
+.day-table th{font-weight:600;color:var(--ink-dim);font-size:12px}
+.day-table tr:last-child td{border-bottom:none}
+.day-table td.tot{font-family:'Oswald',sans-serif;font-weight:700}
+.day-table tr.missed td{color:var(--warn)}
+h2.sec{font-size:18px;margin:6px 0 10px}
+.wk-players{display:flex;flex-direction:column;gap:10px;margin-bottom:22px}
+.wk-row{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.wk-row .avatar{width:38px;height:38px;font-size:13px}
+.wk-who{min-width:150px;flex:1 1 150px}
+.wk-who .nm{font-size:15.5px}
+.wk-who .meta{font-size:11.5px}
+.wk-games{display:flex;gap:8px;flex-wrap:wrap;flex:2 1 200px}
+.wk-g{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;color:var(--ink-dim)}
+.wk-g .score-chip{font-size:12.5px;padding:3px 9px;min-width:48px}
+.wk-sum{text-align:right;min-width:90px}
+.wk-sum b{display:block;font-family:'Oswald',sans-serif;font-size:19px}
+.wk-sum span{font-size:11.5px;color:var(--ink-dim);display:block}
+.wk-sum .lost{color:var(--warn)}
+.hist{display:flex;flex-direction:column;gap:6px}
+.hist-row{display:flex;gap:12px;align-items:center;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:10px;cursor:pointer;font-size:13.5px;flex-wrap:wrap}
+.hist-row.cur{border-color:var(--accent)}
+.hist-row .w{font-family:'Oswald',sans-serif;font-weight:600;min-width:80px}
+.hist-row .o{flex:1;min-width:140px;color:var(--ink-dim)}
+.hist-row .t{font-family:'Oswald',sans-serif;font-weight:700}
+footer.note{margin-top:30px;font-size:12px;color:var(--ink-dim);text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1 class="display">PLACAR DA ESCALAÇÃO</h1>
+      <p id="updated">Carregando dados do ESPN…</p>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--tier-red)"></i>&lt; 15</span>
+      <span><i style="background:var(--tier-orange)"></i>15&ndash;25</span>
+      <span><i style="background:var(--tier-purple)"></i>25&ndash;35</span>
+      <span><i style="background:var(--tier-green)"></i>&ge; 35</span>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab on" id="tabPlayers" onclick="showTab('players')">Jogadores</button>
+    <button class="tab" id="tabWeeks" onclick="showTab('weeks')">Semanas</button>
+  </nav>
+
+  <div id="viewPlayers">
+    <details class="settings">
+      <summary>⚙️ Tabela de pontuação (editar pesos)</summary>
+      <div class="settings-body">
+        <div class="weights-grid" id="weightsGrid"></div>
+        <button class="btn primary" onclick="saveWeightsFromForm()">Salvar pesos</button>
+        <button class="btn ghost" onclick="resetWeights()">Restaurar padrão</button>
+      </div>
+    </details>
+    <div class="grid" id="playersGrid"></div>
+  </div>
+  <div id="viewWeeks" style="display:none"></div>
+
+  <footer class="note">Dados do ESPN atualizados todo dia às 4h (Brasília). Jogos em andamento podem aparecer parciais até a próxima atualização.</footer>
+</div>
+
+<script>
+const OWNER = 'matheusmedeiros235-netizen', REPO = 'API-FANTASY-ESPN';
+const SOURCES = [`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/data.json`, 'data.json'];
+const TOTAL_WEEKS = 26;
+const DEFAULT_OPP = {1: 'Baltimore Bogaloos (Vitor Zottos Batista)'};
+const WEIGHTS_KEY = 'fantasy_gh_weights_v1', WEEKS_KEY = 'fantasy_gh_weeks_v1';
+
+const STAT_FIELDS = [
+  {k:'fgm',label:'FGM',title:'Cestas de quadra convertidas'},{k:'fgmi',label:'FGMI',title:'Cestas de quadra erradas'},
+  {k:'ftm',label:'FTM',title:'Lances livres convertidos'},{k:'ftmi',label:'FTMI',title:'Lances livres errados'},
+  {k:'tpm',label:'3PM',title:'Bolas de 3 convertidas'},{k:'tpmi',label:'3PMI',title:'Bolas de 3 erradas'},
+  {k:'oreb',label:'OREB',title:'Rebotes ofensivos'},{k:'reb',label:'REB',title:'Rebotes totais'},
+  {k:'ast',label:'AST',title:'Assistências'},{k:'stl',label:'STL',title:'Roubos de bola'},
+  {k:'blk',label:'BLK',title:'Tocos'},{k:'to',label:'TO',title:'Turnovers'},
+  {k:'ej',label:'EJ',title:'Expulsões'},{k:'ff',label:'FF',title:'Faltas flagrantes'},
+  {k:'pf',label:'PF',title:'Faltas pessoais'},{k:'tf',label:'TF',title:'Faltas técnicas'},
+  {k:'dd',label:'DD',title:'Duplo-duplo'},{k:'td',label:'TD',title:'Triplo-duplo'},
+  {k:'qd',label:'QD',title:'Quádruplo-duplo'},{k:'pts',label:'PTS',title:'Pontos'}
+];
+const DEFAULT_WEIGHTS = {fgm:.5,fgmi:-.5,ftm:.25,ftmi:-.25,tpm:.5,tpmi:-.25,oreb:1,reb:1,ast:2.25,stl:3.75,blk:4,to:-2.5,ej:-5,ff:-2,pf:-1,tf:-1.5,dd:2,td:3,qd:20,pts:1};
+
+function loadJSON(k, f){ try{ const r = localStorage.getItem(k); return r ? JSON.parse(r) : f; }catch(e){ return f; } }
+function saveJSON(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+
+let players = [], gamesData = {};
+let weights = Object.assign({}, DEFAULT_WEIGHTS, loadJSON(WEIGHTS_KEY, {}));
+let weeksData = loadJSON(WEEKS_KEY, {});
+
+function computeScore(s){ let t = 0; for(const f of STAT_FIELDS) t += (Number(s[f.k]) || 0) * (Number(weights[f.k]) || 0); return Math.round(t * 100) / 100; }
+function tierColor(s){ return s >= 35 ? 'var(--tier-green)' : s >= 25 ? 'var(--tier-purple)' : s >= 15 ? 'var(--tier-orange)' : 'var(--tier-red)'; }
+function hashHue(str){ let h = 0; for(let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) % 360; return h; }
+function initials(n){ return n.split(' ').filter(Boolean).slice(0,2).map(p => p[0]).join('').toUpperCase(); }
+function fmt(n){ return (Math.round(n * 100) / 100).toString(); }
+function dm(iso){ return iso.slice(8,10) + '/' + iso.slice(5,7); }
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+function pad2(n){ return String(n).padStart(2,'0'); }
+function isoOf(d){ return d.getUTCFullYear() + '-' + pad2(d.getUTCMonth()+1) + '-' + pad2(d.getUTCDate()); }
+
+/* ---------- Pesos ---------- */
+function renderWeightsForm(){
+  document.getElementById('weightsGrid').innerHTML = STAT_FIELDS.map(f =>
+    `<div class="wfield"><label title="${f.title}">${f.label}</label><input type="number" step="0.01" id="w_${f.k}" value="${weights[f.k]}"></div>`).join('');
+}
+function saveWeightsFromForm(){
+  const w = {};
+  for(const f of STAT_FIELDS) w[f.k] = parseFloat(document.getElementById('w_' + f.k).value) || 0;
+  weights = w; saveJSON(WEIGHTS_KEY, w); renderAll();
+}
+function resetWeights(){ weights = Object.assign({}, DEFAULT_WEIGHTS); saveJSON(WEIGHTS_KEY, weights); renderWeightsForm(); renderAll(); }
+
+/* ---------- Jogadores ---------- */
+function renderPlayers(){
+  document.getElementById('playersGrid').innerHTML = players.map(p => {
+    const all = (gamesData[p.id] || []).slice().sort((a,b) => a.date.localeCompare(b.date));
+    const st = all.filter(g => !g.notStarted), bn = all.filter(g => g.notStarted);
+    const total = st.reduce((a,g) => a + computeScore(g.stats), 0);
+    const avg = st.length ? total / st.length : 0;
+    const lost = bn.reduce((a,g) => a + computeScore(g.stats), 0);
+    const rows = all.length ? all.map(g => {
+      const sc = computeScore(g.stats);
+      const bd = STAT_FIELDS.filter(f => Number(g.stats[f.k])).map(f => `<div title="${f.title}"><b>${f.label}</b> ${g.stats[f.k]}</div>`).join('');
+      return `<div class="game-row"><div class="game-info"><div class="gd"><b>${dm(g.date)}</b>${g.opp ? ' vs ' + esc(g.opp) : ''}${g.notStarted ? '<span class="ne-badge">NÃO ESCALADO</span>' : ''}</div>${bd ? `<details><summary class="details-toggle" style="list-style:none;cursor:pointer">ver stats</summary><div class="stat-breakdown">${bd}</div></details>` : ''}</div><div class="score-chip ${g.notStarted ? 'faded' : ''}" style="background:${tierColor(sc)}">${fmt(sc)}</div></div>`;
+    }).join('') : '<div class="empty-games">Nenhum jogo ainda.</div>';
+    return `<div class="card"><div class="card-head"><div class="avatar" style="background:hsl(${hashHue(p.name)},48%,42%)">${initials(p.name)}</div><div class="name-block"><p class="nm display">${p.name}</p><div class="meta"><span class="tag">${p.team}</span><span class="tag">${p.pos}</span>${p.gone ? '<span class="tag">fora do time</span>' : ''}</div></div></div><div class="summary-row"><div>Jogos<b>${st.length}</b></div><div>Média<b>${fmt(avg)}</b></div><div>Total<b>${fmt(total)}</b></div></div>${bn.length ? `<div class="missed-note">No banco em ${bn.length} jogo${bn.length > 1 ? 's' : ''} &mdash; ${fmt(lost)} pts que ficaram de fora (méd ${fmt(lost / bn.length)}/jogo)</div>` : ''}<div class="games">${rows}</div></div>`;
+  }).join('');
+}
+
+/* ---------- Semanas ---------- */
+function weekRange(n){
+  let start, end;
+  if(n === 1){ start = new Date(Date.UTC(2026,9,20)); end = new Date(Date.UTC(2026,9,25)); }
+  else { start = new Date(Date.UTC(2026,9,26 + 7*(n-2))); end = new Date(start.getTime() + 6*86400000); }
+  const days = [];
+  for(let t = start.getTime(); t <= end.getTime(); t += 86400000) days.push(isoOf(new Date(t)));
+  return {n, start: isoOf(start), end: isoOf(end), days};
+}
+function weekForToday(){
+  const t = new Date(), today = t.getFullYear() + '-' + pad2(t.getMonth()+1) + '-' + pad2(t.getDate());
+  for(let n = 1; n <= TOTAL_WEEKS; n++) if(today <= weekRange(n).end) return n;
+  return TOTAL_WEEKS;
+}
+let currentWeek = weekForToday();
+function getOpp(n){ const w = weeksData[n]; return w && w.opp !== undefined ? w.opp : (DEFAULT_OPP[n] || ''); }
+
+function weekStats(n){
+  const wk = weekRange(n), dayTotals = {}, dayMissed = {}, rows = [];
+  wk.days.forEach(d => { dayTotals[d] = 0; dayMissed[d] = 0; });
+  let total = 0, missedTotal = 0, counted = 0, missedCount = 0;
+  players.forEach(p => {
+    const gs = (gamesData[p.id] || []).filter(g => g.date >= wk.start && g.date <= wk.end).sort((a,b) => a.date.localeCompare(b.date));
+    if(!gs.length) return;
+    let pTotal = 0, pMissed = 0, pCount = 0;
+    gs.forEach(g => {
+      const sc = computeScore(g.stats);
+      if(g.notStarted){ pMissed += sc; dayMissed[g.date] += sc; missedCount++; }
+      else { pTotal += sc; pCount++; dayTotals[g.date] += sc; counted++; }
+    });
+    total += pTotal; missedTotal += pMissed;
+    rows.push({p, gs, pTotal, pMissed, pCount});
+  });
+  rows.sort((a,b) => b.pTotal - a.pTotal);
+  return {wk, rows, dayTotals, dayMissed, total, missedTotal, counted, missedCount};
+}
+function saveOpp(v){ weeksData[currentWeek] = {opp: v.trim()}; saveJSON(WEEKS_KEY, weeksData); renderWeeks(); }
+function setWeek(n){ currentWeek = Math.min(TOTAL_WEEKS, Math.max(1, parseInt(n, 10) || 1)); renderWeeks(); }
+function shiftWeek(d){ setWeek(currentWeek + d); }
+
+function renderWeeks(){
+  const s = weekStats(currentWeek), opp = getOpp(currentWeek);
+  const opts = [];
+  for(let n = 1; n <= TOTAL_WEEKS; n++){ const r = weekRange(n); opts.push(`<option value="${n}" ${n === currentWeek ? 'selected' : ''}>Semana ${n} · ${dm(r.start)} – ${dm(r.end)}</option>`); }
+  const dayHead = s.wk.days.map(d => `<th>${dm(d)}</th>`).join('');
+  const dayCells = s.wk.days.map(d => `<td>${s.dayTotals[d] ? fmt(s.dayTotals[d]) : '–'}</td>`).join('');
+  const missCells = s.wk.days.map(d => `<td>${s.dayMissed[d] ? fmt(s.dayMissed[d]) : '–'}</td>`).join('');
+  const rowsHtml = s.rows.length ? s.rows.map(r => {
+    const chips = r.gs.map(g => { const sc = computeScore(g.stats); return `<div class="wk-g"><div class="score-chip ${g.notStarted ? 'faded' : ''}" style="background:${tierColor(sc)}">${fmt(sc)}</div><span>${dm(g.date)}${g.notStarted ? ' · banco' : ''}</span></div>`; }).join('');
+    return `<div class="wk-row"><div class="avatar" style="background:hsl(${hashHue(r.p.name)},48%,42%)">${initials(r.p.name)}</div><div class="wk-who"><p class="nm display">${r.p.name}</p><div class="meta">${r.p.team} · ${r.p.pos}</div></div><div class="wk-games">${chips}</div><div class="wk-sum"><b>${fmt(r.pTotal)}</b><span>${r.pCount} jogo${r.pCount === 1 ? '' : 's'}${r.pCount ? ' · méd ' + fmt(r.pTotal / r.pCount) : ''}</span>${r.pMissed ? `<span class="lost">${fmt(r.pMissed)} no banco</span>` : ''}</div></div>`;
+  }).join('') : '<div class="empty-games">Nenhum jogo nessa semana ainda.</div>';
+  const hero = `<div class="week-hero"><div><div class="lbl">Meu total na semana ${s.wk.n}</div><div class="big">${fmt(s.total)}</div></div><div class="side"><div><b>${s.counted}</b>jogos pontuados</div><div><b>${s.counted ? fmt(s.total / s.counted) : '0'}</b>média por jogo</div>${s.missedCount ? `<div><b style="color:var(--warn)">${fmt(s.missedTotal)}</b>pts no banco (${s.missedCount} jogo${s.missedCount === 1 ? '' : 's'})</div>` : ''}</div></div>`;
+  const hist = [];
+  for(let n = 1; n <= TOTAL_WEEKS; n++){
+    const st = weekStats(n), o = getOpp(n);
+    if(!st.counted && !st.missedCount && !o) continue;
+    hist.push(`<div class="hist-row ${n === currentWeek ? 'cur' : ''}" onclick="setWeek(${n})"><span class="w">Semana ${n}</span><span class="o">${o ? 'vs ' + esc(o) : 'sem adversário anotado'} · ${dm(st.wk.start)}–${dm(st.wk.end)}</span><span class="t">${fmt(st.total)}</span></div>`);
+  }
+  document.getElementById('viewWeeks').innerHTML = `<div class="week-bar"><button class="btn ghost nav" onclick="shiftWeek(-1)" ${currentWeek <= 1 ? 'disabled' : ''}>‹</button><select onchange="setWeek(this.value)">${opts.join('')}</select><button class="btn ghost nav" onclick="shiftWeek(1)" ${currentWeek >= TOTAL_WEEKS ? 'disabled' : ''}>›</button><input class="opp-input" type="text" placeholder="Contra quem você joga nessa semana?" value="${esc(opp)}" onchange="saveOpp(this.value)"></div>${hero}<div class="day-table-wrap"><table class="day-table"><tr><th></th>${dayHead}<th>Total</th></tr><tr><td>Meu time</td>${dayCells}<td class="tot">${fmt(s.total)}</td></tr>${s.missedCount ? `<tr class="missed"><td>Ficou no banco</td>${missCells}<td class="tot">${fmt(s.missedTotal)}</td></tr>` : ''}</table></div><h2 class="sec display">Jogadores da semana</h2><div class="wk-players">${rowsHtml}</div><h2 class="sec display">Histórico</h2><div class="hist">${hist.join('') || '<div class="empty-games">As semanas com jogos aparecem aqui.</div>'}</div>`;
+}
+
+function showTab(t){
+  document.getElementById('viewPlayers').style.display = t === 'players' ? '' : 'none';
+  document.getElementById('viewWeeks').style.display = t === 'weeks' ? '' : 'none';
+  document.getElementById('tabPlayers').classList.toggle('on', t === 'players');
+  document.getElementById('tabWeeks').classList.toggle('on', t === 'weeks');
+  if(t === 'weeks') renderWeeks();
+}
+function renderAll(){ renderPlayers(); renderWeeks(); }
+
+/* ---------- Dados do ESPN (data.json gerado pelo robô do GitHub) ---------- */
+async function loadData(){
+  for(const u of SOURCES){
+    try{
+      const r = await fetch(u + (u.startsWith('http') ? '?t=' + Date.now() : ''), {cache: 'no-store'});
+      if(r.ok) return await r.json();
+    }catch(e){}
+  }
+  return null;
+}
+(async function init(){
+  renderWeightsForm();
+  const d = await loadData(), el = document.getElementById('updated');
+  if(!d){ el.textContent = 'Não consegui carregar o data.json. Rode o workflow no GitHub e recarregue a página.'; return; }
+  gamesData = d.gamesData || {};
+  players = (d.players || []).slice();
+  Object.keys(gamesData).forEach(pid => {   // quem já saiu do time mas tem jogos
+    if(!players.some(p => p.id === pid))
+      players.push({id: pid, name: pid.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '), team: '—', pos: '—', gone: true});
+  });
+  el.textContent = 'Temporada 2026–27 · atualizado em ' + new Date(d.updatedAt).toLocaleString('pt-BR', {timeZone: 'America/Sao_Paulo', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit'});
+  renderAll();
+})();
+</script>
+</body>
+</html>

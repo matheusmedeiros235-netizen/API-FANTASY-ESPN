@@ -1,0 +1,493 @@
+{
+  "updatedAt": "2026-10-23T03:21:43.668002+00:00",
+  "players": [
+    {
+      "id": "nikola-jokic",
+      "name": "Nikola Jokic",
+      "team": "DEN",
+      "pos": "C"
+    },
+    {
+      "id": "cooper-flagg",
+      "name": "Cooper Flagg",
+      "team": "DAL",
+      "pos": "SF"
+    },
+    {
+      "id": "darryn-peterson",
+      "name": "Darryn Peterson",
+      "team": "UTAH",
+      "pos": "SG"
+    },
+    {
+      "id": "dylan-harper",
+      "name": "Dylan Harper",
+      "team": "SA",
+      "pos": "PG"
+    },
+    {
+      "id": "brandin-podziemski",
+      "name": "Brandin Podziemski",
+      "team": "GS",
+      "pos": "SG"
+    },
+    {
+      "id": "peyton-watson",
+      "name": "Peyton Watson",
+      "team": "CLE",
+      "pos": "SF"
+    },
+    {
+      "id": "ace-bailey",
+      "name": "Ace Bailey",
+      "team": "UTAH",
+      "pos": "SF"
+    },
+    {
+      "id": "mitchell-robinson",
+      "name": "Mitchell Robinson",
+      "team": "BOS",
+      "pos": "C"
+    },
+    {
+      "id": "davion-mitchell",
+      "name": "Davion Mitchell",
+      "team": "MIA",
+      "pos": "PG"
+    },
+    {
+      "id": "julian-champagnie",
+      "name": "Julian Champagnie",
+      "team": "SA",
+      "pos": "SF"
+    },
+    {
+      "id": "isaiah-stewart",
+      "name": "Isaiah Stewart",
+      "team": "MEM",
+      "pos": "C"
+    },
+    {
+      "id": "gradey-dick",
+      "name": "Gradey Dick",
+      "team": "LAC",
+      "pos": "SG"
+    },
+    {
+      "id": "jalen-smith",
+      "name": "Jalen Smith",
+      "team": "CHI",
+      "pos": "PF"
+    },
+    {
+      "id": "dennis-schroder",
+      "name": "Dennis Schroder",
+      "team": "CHA",
+      "pos": "PG"
+    },
+    {
+      "id": "obi-toppin",
+      "name": "Obi Toppin",
+      "team": "IND",
+      "pos": "PF"
+    },
+    {
+      "id": "kasparas-jakucionis",
+      "name": "Kasparas Jakucionis",
+      "team": "MIL",
+      "pos": "PG"
+    }
+  ],
+  "gamesData": {
+    "dylan-harper": [
+      {
+        "id": "espn-2026-10-20-dylan-harper",
+        "date": "2026-10-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 7,
+          "fgmi": 10,
+          "ftm": 4,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 2,
+          "oreb": 2,
+          "reb": 7,
+          "ast": 5,
+          "stl": 0,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 5,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 18
+        }
+      }
+    ],
+    "mitchell-robinson": [
+      {
+        "id": "espn-2026-10-20-mitchell-robinson",
+        "date": "2026-10-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 2,
+          "fgmi": 0,
+          "ftm": 0,
+          "ftmi": 2,
+          "tpm": 0,
+          "tpmi": 0,
+          "oreb": 1,
+          "reb": 3,
+          "ast": 1,
+          "stl": 1,
+          "blk": 2,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 4
+        }
+      }
+    ],
+    "julian-champagnie": [
+      {
+        "id": "espn-2026-10-20-julian-champagnie",
+        "date": "2026-10-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 3,
+          "fgmi": 5,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 4,
+          "oreb": 1,
+          "reb": 3,
+          "ast": 1,
+          "stl": 2,
+          "blk": 3,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 8
+        }
+      }
+    ],
+    "cooper-flagg": [
+      {
+        "id": "espn-2026-10-21-cooper-flagg",
+        "date": "2026-10-21",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 10,
+          "fgmi": 7,
+          "ftm": 11,
+          "ftmi": 2,
+          "tpm": 1,
+          "tpmi": 3,
+          "oreb": 0,
+          "reb": 5,
+          "ast": 2,
+          "stl": 3,
+          "blk": 1,
+          "to": 4,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 32
+        }
+      }
+    ],
+    "darryn-peterson": [
+      {
+        "id": "espn-2026-10-21-darryn-peterson",
+        "date": "2026-10-21",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 3,
+          "fgmi": 4,
+          "ftm": 3,
+          "ftmi": 1,
+          "tpm": 0,
+          "tpmi": 1,
+          "oreb": 0,
+          "reb": 4,
+          "ast": 3,
+          "stl": 0,
+          "blk": 0,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 9
+        }
+      }
+    ],
+    "ace-bailey": [
+      {
+        "id": "espn-2026-10-21-ace-bailey",
+        "date": "2026-10-21",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 6,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 3,
+          "oreb": 2,
+          "reb": 5,
+          "ast": 3,
+          "stl": 0,
+          "blk": 3,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 12
+        }
+      }
+    ],
+    "davion-mitchell": [
+      {
+        "id": "espn-2026-10-21-davion-mitchell",
+        "date": "2026-10-21",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 4,
+          "ftm": 2,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 1,
+          "oreb": 0,
+          "reb": 0,
+          "ast": 11,
+          "stl": 0,
+          "blk": 1,
+          "to": 5,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 11
+        }
+      }
+    ],
+    "gradey-dick": [
+      {
+        "id": "espn-2026-10-21-gradey-dick",
+        "date": "2026-10-21",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 3,
+          "fgmi": 1,
+          "ftm": 5,
+          "ftmi": 1,
+          "tpm": 1,
+          "tpmi": 1,
+          "oreb": 0,
+          "reb": 4,
+          "ast": 0,
+          "stl": 0,
+          "blk": 1,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 12
+        }
+      }
+    ],
+    "jalen-smith": [
+      {
+        "id": "espn-2026-10-21-jalen-smith",
+        "date": "2026-10-21",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 5,
+          "ftm": 5,
+          "ftmi": 1,
+          "tpm": 0,
+          "tpmi": 3,
+          "oreb": 4,
+          "reb": 8,
+          "ast": 1,
+          "stl": 0,
+          "blk": 1,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 15
+        }
+      }
+    ],
+    "dennis-schroder": [
+      {
+        "id": "espn-2026-10-21-dennis-schroder",
+        "date": "2026-10-21",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 7,
+          "fgmi": 6,
+          "ftm": 5,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 3,
+          "oreb": 0,
+          "reb": 4,
+          "ast": 6,
+          "stl": 0,
+          "blk": 0,
+          "to": 3,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 19
+        }
+      }
+    ],
+    "de-anthony-melton": [
+      {
+        "id": "espn-2026-10-21-de-anthony-melton",
+        "date": "2026-10-21",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 0,
+          "fgmi": 2,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 2,
+          "oreb": 1,
+          "reb": 2,
+          "ast": 2,
+          "stl": 1,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 0
+        }
+      }
+    ],
+    "nikola-jokic": [
+      {
+        "id": "espn-2026-10-22-nikola-jokic",
+        "date": "2026-10-22",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 10,
+          "ftm": 1,
+          "ftmi": 1,
+          "tpm": 1,
+          "tpmi": 6,
+          "oreb": 1,
+          "reb": 4,
+          "ast": 4,
+          "stl": 1,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 12
+        }
+      }
+    ],
+    "peyton-watson": [
+      {
+        "id": "espn-2026-10-22-peyton-watson",
+        "date": "2026-10-22",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 2,
+          "fgmi": 5,
+          "ftm": 4,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 3,
+          "oreb": 0,
+          "reb": 1,
+          "ast": 2,
+          "stl": 2,
+          "blk": 1,
+          "to": 5,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 8
+        }
+      }
+    ]
+  }
+}

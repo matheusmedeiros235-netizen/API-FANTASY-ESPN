@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T03:34:30.975089+00:00",
+  "updatedAt": "2026-10-23T03:37:53.618841+00:00",
   "players": [
     {
       "id": "nikola-jokic",
@@ -437,13 +437,13 @@
         "notStarted": false,
         "stats": {
           "fgm": 5,
-          "fgmi": 12,
+          "fgmi": 13,
           "ftm": 1,
           "ftmi": 1,
           "tpm": 1,
           "tpmi": 6,
           "oreb": 1,
-          "reb": 6,
+          "reb": 7,
           "ast": 5,
           "stl": 1,
           "blk": 0,

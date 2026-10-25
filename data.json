@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T07:32:52.523873+00:00",
+  "updatedAt": "2026-10-25T07:33:56.231093+00:00",
   "players": [
     {
       "id": "nikola-jokic",
@@ -90,6 +90,12 @@
       "name": "Kasparas Jakucionis",
       "team": "MIL",
       "pos": "PG"
+    },
+    {
+      "id": "isaiah-joe",
+      "name": "Isaiah Joe",
+      "team": "DET",
+      "pos": "SG"
     }
   ],
   "gamesData": {
@@ -148,6 +154,34 @@
           "td": 0,
           "qd": 0,
           "pts": 20
+        }
+      },
+      {
+        "id": "espn-2026-10-24-dylan-harper",
+        "date": "2026-10-24",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 9,
+          "fgmi": 9,
+          "ftm": 1,
+          "ftmi": 0,
+          "tpm": 3,
+          "tpmi": 5,
+          "oreb": 2,
+          "reb": 5,
+          "ast": 2,
+          "stl": 2,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 22
         }
       }
     ],
@@ -264,6 +298,34 @@
           "td": 0,
           "qd": 0,
           "pts": 6
+        }
+      },
+      {
+        "id": "espn-2026-10-24-julian-champagnie",
+        "date": "2026-10-24",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 4,
+          "ftm": 1,
+          "ftmi": 0,
+          "tpm": 3,
+          "tpmi": 4,
+          "oreb": 0,
+          "reb": 5,
+          "ast": 3,
+          "stl": 1,
+          "blk": 3,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 12
         }
       }
     ],
@@ -497,6 +559,34 @@
           "qd": 0,
           "pts": 18
         }
+      },
+      {
+        "id": "espn-2026-10-24-davion-mitchell",
+        "date": "2026-10-24",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 8,
+          "fgmi": 5,
+          "ftm": 3,
+          "ftmi": 0,
+          "tpm": 3,
+          "tpmi": 1,
+          "oreb": 0,
+          "reb": 1,
+          "ast": 10,
+          "stl": 1,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 22
+        }
       }
     ],
     "gradey-dick": [
@@ -609,6 +699,34 @@
           "pf": 1,
           "tf": 0,
           "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 14
+        }
+      },
+      {
+        "id": "espn-2026-10-24-jalen-smith",
+        "date": "2026-10-24",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 6,
+          "ftm": 2,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 5,
+          "oreb": 1,
+          "reb": 3,
+          "ast": 1,
+          "stl": 0,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 0,
           "td": 0,
           "qd": 0,
           "pts": 14
@@ -731,6 +849,34 @@
           "qd": 0,
           "pts": 13
         }
+      },
+      {
+        "id": "espn-2026-10-24-nikola-jokic",
+        "date": "2026-10-24",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 12,
+          "fgmi": 11,
+          "ftm": 8,
+          "ftmi": 0,
+          "tpm": 3,
+          "tpmi": 7,
+          "oreb": 4,
+          "reb": 15,
+          "ast": 10,
+          "stl": 2,
+          "blk": 3,
+          "to": 6,
+          "ej": 0,
+          "ff": 0,
+          "pf": 5,
+          "tf": 0,
+          "dd": 1,
+          "td": 1,
+          "qd": 0,
+          "pts": 35
+        }
       }
     ],
     "peyton-watson": [
@@ -760,6 +906,34 @@
           "td": 0,
           "qd": 0,
           "pts": 8
+        }
+      },
+      {
+        "id": "espn-2026-10-24-peyton-watson",
+        "date": "2026-10-24",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 7,
+          "ftm": 1,
+          "ftmi": 1,
+          "tpm": 2,
+          "tpmi": 4,
+          "oreb": 2,
+          "reb": 3,
+          "ast": 4,
+          "stl": 1,
+          "blk": 1,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 6,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 11
         }
       }
     ],
@@ -880,6 +1054,34 @@
           "td": 0,
           "qd": 0,
           "pts": 7
+        }
+      },
+      {
+        "id": "espn-2026-10-24-kasparas-jakucionis",
+        "date": "2026-10-24",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 4,
+          "ftm": 4,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 3,
+          "oreb": 0,
+          "reb": 3,
+          "ast": 2,
+          "stl": 2,
+          "blk": 0,
+          "to": 3,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 12
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T07:33:56.231093+00:00",
+  "updatedAt": "2026-10-26T07:47:36.519514+00:00",
   "players": [
     {
       "id": "nikola-jokic",
@@ -443,6 +443,34 @@
           "qd": 0,
           "pts": 15
         }
+      },
+      {
+        "id": "espn-2026-10-25-darryn-peterson",
+        "date": "2026-10-25",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 9,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 4,
+          "oreb": 2,
+          "reb": 3,
+          "ast": 2,
+          "stl": 3,
+          "blk": 1,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 5,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 8
+        }
       }
     ],
     "ace-bailey": [
@@ -500,6 +528,34 @@
           "td": 0,
           "qd": 0,
           "pts": 6
+        }
+      },
+      {
+        "id": "espn-2026-10-25-ace-bailey",
+        "date": "2026-10-25",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 8,
+          "fgmi": 3,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 1,
+          "oreb": 6,
+          "reb": 12,
+          "ast": 4,
+          "stl": 0,
+          "blk": 1,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 17
         }
       }
     ],
@@ -639,6 +695,34 @@
           "ej": 0,
           "ff": 0,
           "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 6
+        }
+      },
+      {
+        "id": "espn-2026-10-25-gradey-dick",
+        "date": "2026-10-25",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 2,
+          "fgmi": 3,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 2,
+          "oreb": 2,
+          "reb": 3,
+          "ast": 0,
+          "stl": 1,
+          "blk": 0,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
           "tf": 0,
           "dd": 0,
           "td": 0,
@@ -995,6 +1079,34 @@
           "qd": 0,
           "pts": 4
         }
+      },
+      {
+        "id": "espn-2026-10-25-isaiah-stewart",
+        "date": "2026-10-25",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 4,
+          "ftm": 3,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 1,
+          "oreb": 3,
+          "reb": 5,
+          "ast": 2,
+          "stl": 1,
+          "blk": 2,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 5,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 13
+        }
       }
     ],
     "obi-toppin": [
@@ -1024,6 +1136,34 @@
           "td": 0,
           "qd": 0,
           "pts": 13
+        }
+      },
+      {
+        "id": "espn-2026-10-25-obi-toppin",
+        "date": "2026-10-25",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 6,
+          "fgmi": 3,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 4,
+          "tpmi": 3,
+          "oreb": 2,
+          "reb": 6,
+          "ast": 2,
+          "stl": 0,
+          "blk": 0,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 16
         }
       }
     ],
@@ -1082,6 +1222,36 @@
           "td": 0,
           "qd": 0,
           "pts": 12
+        }
+      }
+    ],
+    "isaiah-joe": [
+      {
+        "id": "espn-2026-10-25-isaiah-joe",
+        "date": "2026-10-25",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 1,
+          "fgmi": 0,
+          "ftm": 0,
+          "ftmi": 1,
+          "tpm": 0,
+          "tpmi": 0,
+          "oreb": 0,
+          "reb": 0,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 0,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 2
         }
       }
     ]

@@ -2,7 +2,7 @@ name: Atualizar pontuações
 
 on:
   schedule:
-    - cron: "0 7 * * *"   # 07:00 UTC = 04:00 em Brasília
+    - cron: "0 7,15,21 * * *"   # 04:00, 12:00 e 18:00 em Brasília (UTC-3)
   workflow_dispatch:       # permite rodar na mão pelo botão "Run workflow"
 
 permissions:

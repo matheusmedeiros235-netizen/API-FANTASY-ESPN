@@ -1,91 +1,190 @@
 {
-  "updatedAt": "2026-10-27T07:43:06.732393+00:00",
+  "updatedAt": "2026-10-28T02:01:45.414407+00:00",
   "players": [
     {
-      "id": "nikola-jokic",
-      "name": "Nikola Jokic",
-      "team": "DEN",
-      "pos": "C"
-    },
-    {
-      "id": "cooper-flagg",
-      "name": "Cooper Flagg",
-      "team": "DAL",
-      "pos": "SF"
-    },
-    {
-      "id": "darryn-peterson",
-      "name": "Darryn Peterson",
+      "id": "ace-bailey",
+      "name": "Ace Bailey",
       "team": "UTAH",
-      "pos": "SG"
-    },
-    {
-      "id": "dylan-harper",
-      "name": "Dylan Harper",
-      "team": "SA",
-      "pos": "PG"
+      "pos": "SF",
+      "active": true
     },
     {
       "id": "brandin-podziemski",
       "name": "Brandin Podziemski",
       "team": "GS",
-      "pos": "SG"
+      "pos": "SG",
+      "active": true
     },
     {
-      "id": "peyton-watson",
-      "name": "Peyton Watson",
-      "team": "CLE",
-      "pos": "SF"
+      "id": "cooper-flagg",
+      "name": "Cooper Flagg",
+      "team": "DAL",
+      "pos": "SF",
+      "active": true
     },
     {
-      "id": "ace-bailey",
-      "name": "Ace Bailey",
+      "id": "darryn-peterson",
+      "name": "Darryn Peterson",
       "team": "UTAH",
-      "pos": "SF"
-    },
-    {
-      "id": "mitchell-robinson",
-      "name": "Mitchell Robinson",
-      "team": "BOS",
-      "pos": "C"
+      "pos": "SG",
+      "active": true
     },
     {
       "id": "davion-mitchell",
       "name": "Davion Mitchell",
       "team": "MIA",
-      "pos": "PG"
+      "pos": "PG",
+      "active": true
     },
     {
-      "id": "julian-champagnie",
-      "name": "Julian Champagnie",
+      "id": "dylan-harper",
+      "name": "Dylan Harper",
       "team": "SA",
-      "pos": "SF"
+      "pos": "PG",
+      "active": true
     },
     {
       "id": "isaiah-stewart",
       "name": "Isaiah Stewart",
       "team": "MEM",
-      "pos": "C"
+      "pos": "C",
+      "active": true
     },
     {
       "id": "jalen-smith",
       "name": "Jalen Smith",
       "team": "CHI",
-      "pos": "PF"
+      "pos": "PF",
+      "active": true
     },
     {
-      "id": "obi-toppin",
-      "name": "Obi Toppin",
-      "team": "IND",
-      "pos": "PF"
+      "id": "julian-champagnie",
+      "name": "Julian Champagnie",
+      "team": "SA",
+      "pos": "SF",
+      "active": true
     },
     {
       "id": "kasparas-jakucionis",
       "name": "Kasparas Jakucionis",
       "team": "MIL",
-      "pos": "PG"
+      "pos": "PG",
+      "active": true
+    },
+    {
+      "id": "mitchell-robinson",
+      "name": "Mitchell Robinson",
+      "team": "BOS",
+      "pos": "C",
+      "active": true
+    },
+    {
+      "id": "nikola-jokic",
+      "name": "Nikola Jokic",
+      "team": "DEN",
+      "pos": "C",
+      "active": true
+    },
+    {
+      "id": "obi-toppin",
+      "name": "Obi Toppin",
+      "team": "IND",
+      "pos": "PF",
+      "active": true
+    },
+    {
+      "id": "peyton-watson",
+      "name": "Peyton Watson",
+      "team": "CLE",
+      "pos": "SF",
+      "active": true
+    },
+    {
+      "id": "danny-wolf",
+      "name": "Danny Wolf",
+      "team": "BKN",
+      "pos": "PF",
+      "active": false
+    },
+    {
+      "id": "de-anthony-melton",
+      "name": "De'Anthony Melton",
+      "team": "GS",
+      "pos": "PG",
+      "active": false
+    },
+    {
+      "id": "dennis-schroder",
+      "name": "Dennis Schroder",
+      "team": "CHA",
+      "pos": "PG",
+      "active": false
+    },
+    {
+      "id": "gradey-dick",
+      "name": "Gradey Dick",
+      "team": "LAC",
+      "pos": "SG",
+      "active": false
+    },
+    {
+      "id": "isaiah-joe",
+      "name": "Isaiah Joe",
+      "team": "DET",
+      "pos": "SG",
+      "active": false
     }
   ],
+  "weeks": {
+    "1": {
+      "opp": "Baltimore Bogaloos (Vitor Zottos Batista)"
+    },
+    "2": {
+      "opp": "SAF BLAKE HINSON (Joao Vitor)"
+    },
+    "3": {
+      "opp": "Jung vai te aniquilar  (Matheus Meireles Matoso)"
+    },
+    "4": {
+      "opp": "CLEVAND LAKERS MIAMI  (Rafael Lucas)"
+    },
+    "5": {
+      "opp": "Detroit Finest Team  (Jesuel David)"
+    },
+    "6": {
+      "opp": "SAF Lakers de Hinson (Pedro Camelo)"
+    },
+    "7": {
+      "opp": "Marcus's Monstrous Team (Marcus Cunha)"
+    },
+    "8": {
+      "opp": "Everglades Gators (Ale Sotilli)"
+    },
+    "9": {
+      "opp": "Houston Lunar Fury (Vitor Hugo Melo Alves)"
+    },
+    "10": {
+      "opp": "IBS Basketball Team (IGOR DA SILVA)"
+    },
+    "11": {
+      "opp": "JAU BENGALS (Bruno Machado)"
+    },
+    "12": {
+      "opp": "Houston Foguetes (Bruno Carvalho)"
+    },
+    "13": {
+      "opp": "SAF BLAKE HINSON (Joao Vitor)"
+    },
+    "14": {
+      "opp": "Sociedade Esportiva Utah Jazz (Pedro Ulhoa)"
+    },
+    "15": {
+      "opp": "Space City Br (Matheus Sampaio)"
+    },
+    "16": {
+      "opp": "Gigantes da Colina (Alexsander Mendes)"
+    }
+  },
   "gamesData": {
     "dylan-harper": [
       {
@@ -171,6 +270,34 @@
           "qd": 0,
           "pts": 22
         }
+      },
+      {
+        "id": "espn-2026-10-27-dylan-harper",
+        "date": "2026-10-27",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 1,
+          "ftm": 1,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 0,
+          "oreb": 2,
+          "reb": 6,
+          "ast": 6,
+          "stl": 2,
+          "blk": 0,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 11
+        }
       }
     ],
     "mitchell-robinson": [
@@ -252,6 +379,34 @@
           "ff": 0,
           "pf": 4,
           "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 7
+        }
+      },
+      {
+        "id": "espn-2026-10-27-mitchell-robinson",
+        "date": "2026-10-27",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 3,
+          "fgmi": 1,
+          "ftm": 1,
+          "ftmi": 1,
+          "tpm": 0,
+          "tpmi": 0,
+          "oreb": 2,
+          "reb": 4,
+          "ast": 0,
+          "stl": 1,
+          "blk": 0,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 1,
           "dd": 0,
           "td": 0,
           "qd": 0,
@@ -342,6 +497,34 @@
           "td": 0,
           "qd": 0,
           "pts": 12
+        }
+      },
+      {
+        "id": "espn-2026-10-27-julian-champagnie",
+        "date": "2026-10-27",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 8,
+          "fgmi": 4,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 8,
+          "tpmi": 4,
+          "oreb": 0,
+          "reb": 2,
+          "ast": 3,
+          "stl": 0,
+          "blk": 0,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 24
         }
       }
     ],

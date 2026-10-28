@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T02:01:45.414407+00:00",
+  "updatedAt": "2026-10-28T02:12:32.190396+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -137,54 +137,354 @@
   ],
   "weeks": {
     "1": {
-      "opp": "Baltimore Bogaloos (Vitor Zottos Batista)"
+      "opp": "Baltimore Bogaloos (Vitor Zottos Batista)",
+      "oppId": 29
     },
     "2": {
-      "opp": "SAF BLAKE HINSON (Joao Vitor)"
+      "opp": "SAF BLAKE HINSON (Joao Vitor)",
+      "oppId": 22
     },
     "3": {
-      "opp": "Jung vai te aniquilar  (Matheus Meireles Matoso)"
+      "opp": "Jung vai te aniquilar  (Matheus Meireles Matoso)",
+      "oppId": 27
     },
     "4": {
-      "opp": "CLEVAND LAKERS MIAMI  (Rafael Lucas)"
+      "opp": "CLEVAND LAKERS MIAMI  (Rafael Lucas)",
+      "oppId": 23
     },
     "5": {
-      "opp": "Detroit Finest Team  (Jesuel David)"
+      "opp": "Detroit Finest Team  (Jesuel David)",
+      "oppId": 3
     },
     "6": {
-      "opp": "SAF Lakers de Hinson (Pedro Camelo)"
+      "opp": "SAF Lakers de Hinson (Pedro Camelo)",
+      "oppId": 25
     },
     "7": {
-      "opp": "Marcus's Monstrous Team (Marcus Cunha)"
+      "opp": "Marcus's Monstrous Team (Marcus Cunha)",
+      "oppId": 30
     },
     "8": {
-      "opp": "Everglades Gators (Ale Sotilli)"
+      "opp": "Everglades Gators (Ale Sotilli)",
+      "oppId": 1
     },
     "9": {
-      "opp": "Houston Lunar Fury (Vitor Hugo Melo Alves)"
+      "opp": "Houston Lunar Fury (Vitor Hugo Melo Alves)",
+      "oppId": 24
     },
     "10": {
-      "opp": "IBS Basketball Team (IGOR DA SILVA)"
+      "opp": "IBS Basketball Team (IGOR DA SILVA)",
+      "oppId": 31
     },
     "11": {
-      "opp": "JAU BENGALS (Bruno Machado)"
+      "opp": "JAU BENGALS (Bruno Machado)",
+      "oppId": 33
     },
     "12": {
-      "opp": "Houston Foguetes (Bruno Carvalho)"
+      "opp": "Houston Foguetes (Bruno Carvalho)",
+      "oppId": 21
     },
     "13": {
-      "opp": "SAF BLAKE HINSON (Joao Vitor)"
+      "opp": "SAF BLAKE HINSON (Joao Vitor)",
+      "oppId": 22
     },
     "14": {
-      "opp": "Sociedade Esportiva Utah Jazz (Pedro Ulhoa)"
+      "opp": "Sociedade Esportiva Utah Jazz (Pedro Ulhoa)",
+      "oppId": 26
     },
     "15": {
-      "opp": "Space City Br (Matheus Sampaio)"
+      "opp": "Space City Br (Matheus Sampaio)",
+      "oppId": 19
     },
     "16": {
-      "opp": "Gigantes da Colina (Alexsander Mendes)"
+      "opp": "Gigantes da Colina (Alexsander Mendes)",
+      "oppId": 28
     }
   },
+  "oppDaily": {
+    "2026-10-23": 182.25,
+    "2026-10-24": 167.75,
+    "2026-10-25": 186.0,
+    "2026-10-26": 85.75,
+    "2026-10-27": 0.0
+  },
+  "table": [
+    {
+      "id": 19,
+      "name": "Space City Br",
+      "owner": "Matheus Sampaio",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 1163.25,
+      "pa": 1133.25,
+      "me": false
+    },
+    {
+      "id": 31,
+      "name": "IBS Basketball Team",
+      "owner": "IGOR DA SILVA",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 1105.5,
+      "pa": 1083.25,
+      "me": false
+    },
+    {
+      "id": 26,
+      "name": "Sociedade Esportiva Utah Jazz",
+      "owner": "Pedro Ulhoa",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 1076.5,
+      "pa": 1008.25,
+      "me": false
+    },
+    {
+      "id": 28,
+      "name": "Gigantes da Colina",
+      "owner": "Alexsander Mendes",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 1032.75,
+      "pa": 965.25,
+      "me": false
+    },
+    {
+      "id": 29,
+      "name": "Baltimore Bogaloos",
+      "owner": "Vitor Zottos Batista",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 999.5,
+      "pa": 1040.75,
+      "me": false
+    },
+    {
+      "id": 30,
+      "name": "Marcus's Monstrous Team",
+      "owner": "Marcus Cunha",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 980.25,
+      "pa": 1129.25,
+      "me": false
+    },
+    {
+      "id": 33,
+      "name": "JAU BENGALS",
+      "owner": "Bruno Machado",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 946.0,
+      "pa": 934.25,
+      "me": false
+    },
+    {
+      "id": 27,
+      "name": "Jung vai te aniquilar ",
+      "owner": "Matheus Meireles Matoso",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 937.0,
+      "pa": 615.25,
+      "me": false
+    },
+    {
+      "id": 32,
+      "name": "Matheus's das Montanhans Team",
+      "owner": "Matheus Medeiros",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 1171.5,
+      "pa": 967.75,
+      "me": true
+    },
+    {
+      "id": 21,
+      "name": "Houston Foguetes",
+      "owner": "Bruno Carvalho",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 1121.75,
+      "pa": 1067.5,
+      "me": false
+    },
+    {
+      "id": 1,
+      "name": "Everglades Gators",
+      "owner": "Ale Sotilli",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 1121.0,
+      "pa": 1035.25,
+      "me": false
+    },
+    {
+      "id": 3,
+      "name": "Detroit Finest Team ",
+      "owner": "Jesuel David",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 1105.25,
+      "pa": 1142.25,
+      "me": false
+    },
+    {
+      "id": 24,
+      "name": "Houston Lunar Fury",
+      "owner": "Vitor Hugo Melo Alves",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 1085.75,
+      "pa": 1261.25,
+      "me": false
+    },
+    {
+      "id": 23,
+      "name": "CLEVAND LAKERS MIAMI ",
+      "owner": "Rafael Lucas",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 987.25,
+      "pa": 1048.5,
+      "me": false
+    },
+    {
+      "id": 25,
+      "name": "SAF Lakers de Hinson",
+      "owner": "Pedro Camelo",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 941.75,
+      "pa": 858.75,
+      "me": false
+    },
+    {
+      "id": 22,
+      "name": "SAF BLAKE HINSON",
+      "owner": "Joao Vitor",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 583.5,
+      "pa": 1067.75,
+      "me": false
+    }
+  ],
+  "freeAgents": [
+    {
+      "name": "Terrence Shannon Jr.",
+      "team": "MIN",
+      "pos": "SG",
+      "total": 84.0,
+      "avg": 21.0,
+      "owned": 5.6
+    },
+    {
+      "name": "Isaiah Collier",
+      "team": "UTAH",
+      "pos": "PG",
+      "total": 78.25,
+      "avg": 19.56,
+      "owned": 3.7
+    },
+    {
+      "name": "De'Anthony Melton",
+      "team": "GS",
+      "pos": "PG",
+      "total": 78.25,
+      "avg": 19.56,
+      "owned": 2.8
+    },
+    {
+      "name": "Allen Graves",
+      "team": "TOR",
+      "pos": "SF",
+      "total": 73.25,
+      "avg": 24.42,
+      "owned": 1.0
+    },
+    {
+      "name": "Jock Landale",
+      "team": "ATL",
+      "pos": "C",
+      "total": 70.75,
+      "avg": 17.69,
+      "owned": 0.7
+    },
+    {
+      "name": "Kentavious Caldwell-Pope",
+      "team": "PHI",
+      "pos": "SG",
+      "total": 69.75,
+      "avg": 17.44,
+      "owned": 3.2
+    },
+    {
+      "name": "Jordan Walsh",
+      "team": "BOS",
+      "pos": "SF",
+      "total": 62.75,
+      "avg": 15.69,
+      "owned": 0.9
+    },
+    {
+      "name": "Tre Johnson",
+      "team": "WAS",
+      "pos": "SG",
+      "total": 57.75,
+      "avg": 14.44,
+      "owned": 2.2
+    },
+    {
+      "name": "Marcus Sasser",
+      "team": "DAL",
+      "pos": "PG",
+      "total": 56.75,
+      "avg": 14.19,
+      "owned": 0.7
+    },
+    {
+      "name": "Aday Mara",
+      "team": "OKC",
+      "pos": "C",
+      "total": 55.25,
+      "avg": 13.81,
+      "owned": 9.7
+    },
+    {
+      "name": "Luguentz Dort",
+      "team": "ATL",
+      "pos": "SG",
+      "total": 54.5,
+      "avg": 13.62,
+      "owned": 2.5
+    },
+    {
+      "name": "Leonard Miller",
+      "team": "CHI",
+      "pos": "SF",
+      "total": 53.0,
+      "avg": 13.25,
+      "owned": 0.9
+    }
+  ],
+  "today": null,
   "gamesData": {
     "dylan-harper": [
       {
@@ -277,7 +577,7 @@
         "opp": "",
         "notStarted": false,
         "stats": {
-          "fgm": 5,
+          "fgm": 6,
           "fgmi": 1,
           "ftm": 1,
           "ftmi": 0,
@@ -296,7 +596,7 @@
           "dd": 0,
           "td": 0,
           "qd": 0,
-          "pts": 11
+          "pts": 13
         }
       }
     ],
@@ -394,11 +694,11 @@
           "fgm": 3,
           "fgmi": 1,
           "ftm": 1,
-          "ftmi": 1,
+          "ftmi": 3,
           "tpm": 0,
           "tpmi": 0,
           "oreb": 2,
-          "reb": 4,
+          "reb": 5,
           "ast": 0,
           "stl": 1,
           "blk": 0,
@@ -505,14 +805,14 @@
         "opp": "",
         "notStarted": false,
         "stats": {
-          "fgm": 8,
-          "fgmi": 4,
+          "fgm": 9,
+          "fgmi": 5,
           "ftm": 0,
           "ftmi": 0,
           "tpm": 8,
-          "tpmi": 4,
+          "tpmi": 5,
           "oreb": 0,
-          "reb": 2,
+          "reb": 3,
           "ast": 3,
           "stl": 0,
           "blk": 0,
@@ -524,7 +824,7 @@
           "dd": 0,
           "td": 0,
           "qd": 0,
-          "pts": 24
+          "pts": 26
         }
       }
     ],

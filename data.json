@@ -1,10 +1,17 @@
 {
-  "updatedAt": "2026-10-28T02:19:16.291712+00:00",
+  "updatedAt": "2026-10-28T07:46:44.784634+00:00",
   "players": [
     {
       "id": "ace-bailey",
       "name": "Ace Bailey",
       "team": "UTAH",
+      "pos": "SF",
+      "active": true
+    },
+    {
+      "id": "allen-graves",
+      "name": "Allen Graves",
+      "team": "TOR",
       "pos": "SF",
       "active": true
     },
@@ -62,13 +69,6 @@
       "name": "Julian Champagnie",
       "team": "SA",
       "pos": "SF",
-      "active": true
-    },
-    {
-      "id": "kasparas-jakucionis",
-      "name": "Kasparas Jakucionis",
-      "team": "MIL",
-      "pos": "PG",
       "active": true
     },
     {
@@ -132,6 +132,13 @@
       "name": "Isaiah Joe",
       "team": "DET",
       "pos": "SG",
+      "active": false
+    },
+    {
+      "id": "kasparas-jakucionis",
+      "name": "Kasparas Jakucionis",
+      "team": "MIL",
+      "pos": "PG",
       "active": false
     }
   ],
@@ -206,10 +213,11 @@
     "2026-10-24": 167.75,
     "2026-10-25": 186.0,
     "2026-10-26": 85.75,
-    "2026-10-27": 0.0,
+    "2026-10-27": 13.25,
     "2026-10-20": 130.0,
     "2026-10-21": 163.5,
-    "2026-10-22": 52.5
+    "2026-10-22": 52.5,
+    "2026-10-28": 0.0
   },
   "table": [
     {
@@ -219,8 +227,8 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1163.25,
-      "pa": 1133.25,
+      "pf": 1286.75,
+      "pa": 1203.0,
       "me": false
     },
     {
@@ -230,19 +238,8 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1105.5,
-      "pa": 1083.25,
-      "me": false
-    },
-    {
-      "id": 26,
-      "name": "Sociedade Esportiva Utah Jazz",
-      "owner": "Pedro Ulhoa",
-      "w": 1,
-      "l": 0,
-      "t": 0,
-      "pf": 1076.5,
-      "pa": 1008.25,
+      "pf": 1252.5,
+      "pa": 1269.0,
       "me": false
     },
     {
@@ -252,19 +249,8 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1032.75,
-      "pa": 965.25,
-      "me": false
-    },
-    {
-      "id": 29,
-      "name": "Baltimore Bogaloos",
-      "owner": "Vitor Zottos Batista",
-      "w": 1,
-      "l": 0,
-      "t": 0,
-      "pf": 999.5,
-      "pa": 1040.75,
+      "pf": 1216.0,
+      "pa": 1116.5,
       "me": false
     },
     {
@@ -274,19 +260,30 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 980.25,
-      "pa": 1129.25,
+      "pf": 1165.5,
+      "pa": 1182.25,
       "me": false
     },
     {
-      "id": 33,
-      "name": "JAU BENGALS",
-      "owner": "Bruno Machado",
+      "id": 26,
+      "name": "Sociedade Esportiva Utah Jazz",
+      "owner": "Pedro Ulhoa",
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 946.0,
-      "pa": 934.25,
+      "pf": 1146.25,
+      "pa": 1131.75,
+      "me": false
+    },
+    {
+      "id": 29,
+      "name": "Baltimore Bogaloos",
+      "owner": "Vitor Zottos Batista",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 1124.0,
+      "pa": 1168.0,
       "me": false
     },
     {
@@ -296,8 +293,19 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 937.0,
-      "pa": 615.25,
+      "pf": 1064.0,
+      "pa": 739.75,
+      "me": false
+    },
+    {
+      "id": 33,
+      "name": "JAU BENGALS",
+      "owner": "Bruno Machado",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 998.25,
+      "pa": 1035.75,
       "me": false
     },
     {
@@ -307,8 +315,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1171.5,
-      "pa": 967.75,
+      "pf": 1261.0,
+      "pa": 981.0,
       "me": true
     },
     {
@@ -318,8 +326,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1121.75,
-      "pa": 1067.5,
+      "pf": 1223.25,
+      "pa": 1119.75,
       "me": false
     },
     {
@@ -329,8 +337,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1121.0,
-      "pa": 1035.25,
+      "pf": 1197.0,
+      "pa": 1065.0,
       "me": false
     },
     {
@@ -340,8 +348,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1105.25,
-      "pa": 1142.25,
+      "pf": 1177.25,
+      "pa": 1234.25,
       "me": false
     },
     {
@@ -351,8 +359,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1085.75,
-      "pa": 1261.25,
+      "pf": 1118.0,
+      "pa": 1333.0,
       "me": false
     },
     {
@@ -362,8 +370,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 987.25,
-      "pa": 1048.5,
+      "pf": 1079.25,
+      "pa": 1120.5,
       "me": false
     },
     {
@@ -373,8 +381,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 941.75,
-      "pa": 858.75,
+      "pf": 994.75,
+      "pa": 1044.0,
       "me": false
     },
     {
@@ -384,27 +392,19 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 583.5,
-      "pa": 1067.75,
+      "pf": 596.75,
+      "pa": 1157.0,
       "me": false
     }
   ],
   "freeAgents": [
     {
-      "name": "Terrence Shannon Jr.",
-      "team": "MIN",
-      "pos": "SG",
-      "total": 84.0,
-      "avg": 21.0,
-      "owned": 5.6
-    },
-    {
-      "name": "Isaiah Collier",
-      "team": "UTAH",
+      "name": "Kasparas Jakucionis",
+      "team": "MIL",
       "pos": "PG",
-      "total": 78.25,
-      "avg": 19.56,
-      "owned": 3.7
+      "total": 78.75,
+      "avg": 19.69,
+      "owned": 2.6
     },
     {
       "name": "De'Anthony Melton",
@@ -413,14 +413,6 @@
       "total": 78.25,
       "avg": 19.56,
       "owned": 2.8
-    },
-    {
-      "name": "Allen Graves",
-      "team": "TOR",
-      "pos": "SF",
-      "total": 73.25,
-      "avg": 24.42,
-      "owned": 1.0
     },
     {
       "name": "Jock Landale",
@@ -460,7 +452,7 @@
       "pos": "PG",
       "total": 56.75,
       "avg": 14.19,
-      "owned": 0.7
+      "owned": 0.6
     },
     {
       "name": "Aday Mara",
@@ -468,7 +460,7 @@
       "pos": "C",
       "total": 55.25,
       "avg": 13.81,
-      "owned": 9.7
+      "owned": 9.9
     },
     {
       "name": "Luguentz Dort",
@@ -485,6 +477,22 @@
       "total": 53.0,
       "avg": 13.25,
       "owned": 0.9
+    },
+    {
+      "name": "Jake LaRavia",
+      "team": "LAL",
+      "pos": "PF",
+      "total": 48.75,
+      "avg": 16.25,
+      "owned": 8.1
+    },
+    {
+      "name": "Bub Carrington",
+      "team": "WAS",
+      "pos": "PG",
+      "total": 48.5,
+      "avg": 12.12,
+      "owned": 2.3
     }
   ],
   "today": null,
@@ -1574,6 +1582,129 @@
         "elig": [
           0,
           5
+        ]
+      }
+    ],
+    "2026-10-28": [
+      {
+        "id": "nikola-jokic",
+        "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 0,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 5,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 10,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 12,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "isaiah-stewart",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "allen-graves",
+        "slot": 12,
+        "elig": [
+          2,
+          10
         ]
       }
     ]

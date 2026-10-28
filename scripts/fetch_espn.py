@@ -126,6 +126,19 @@ def day_split(player, spid):
     )
 
 
+DEFAULT_LINEUP = {"0": 1, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "10": 1}  # PG, SG, SF, PF, C, G, F/C
+
+
+def fetch_lineup_cfg(cookies):
+    """Vagas de titular da liga (sem banco e IR)."""
+    data = get_json(cookies, [("view", "mSettings")])
+    counts = data["settings"]["rosterSettings"]["lineupSlotCounts"]
+    cfg = {k: v for k, v in counts.items() if int(k) not in (12, 13) and v}
+    if not cfg:
+        raise ValueError("sem vagas de titular")
+    return cfg
+
+
 def fetch_league(cookies):
     """Adversário de cada semana + tabela da liga."""
     data = get_json(cookies, [("view", "mTeam"), ("view", "mMatchup"), ("view", "mMatchupScore")])
@@ -215,13 +228,16 @@ def main():
             old, games_data, old_players, old_weeks = {}, {}, {}, {}
     # primeira vez (ou faltando dados de algum jogador): temporada inteira;
     # depois: só os últimos dias (pega correções de stats)
-    missing = any(pid not in old_players for pid in games_data)
+    missing = any(pid not in old_players for pid in games_data) or ("lineups" not in old)
     first = max(1, current - 4) if games_data and not missing else 1
 
     seen, active, bad, total_found = {}, set(), [], 0
     today_entries, opp_daily = {}, dict(old.get("oppDaily", {}))
     weeks, table = safe("adversários e tabela", lambda: fetch_league(cookies), (old_weeks, old.get("table", [])))
     weeks = weeks or old_weeks
+    lineup_cfg = safe("vagas da escalação", lambda: fetch_lineup_cfg(cookies), old.get("lineup") or DEFAULT_LINEUP)
+    starter_slots = {int(k) for k in lineup_cfg}
+    lineups = dict(old.get("lineups", {}))
     for spid in range(first, current + 1):
         day = (START + timedelta(days=spid - 1)).isoformat()
         data = fetch(spid, cookies)
@@ -230,6 +246,7 @@ def main():
             sys.exit(f"Time {TEAM_ID} não encontrado na liga.")
 
         found = 0
+        lineup_day = []
         for entry in team.get("roster", {}).get("entries", []):
             player = entry.get("playerPoolEntry", {}).get("player", {})
             name = player.get("fullName", "Desconhecido")
@@ -241,6 +258,11 @@ def main():
                 "team": PRO_TEAMS.get(player.get("proTeamId"), "—"),
                 "pos": POS.get(player.get("defaultPositionId"), "—"),
             }
+            lineup_day.append({
+                "id": pid,
+                "slot": entry.get("lineupSlotId"),
+                "elig": [x for x in player.get("eligibleSlots", []) if x in starter_slots],
+            })
             if spid == current:
                 active.add(pid)
                 today_entries[pid] = {
@@ -277,6 +299,7 @@ def main():
             games.append(game)
             games_data[pid] = games
             found += 1
+        lineups[day] = lineup_day
         # pontos do adversário no dia (só quem estava titular)
         opp_id = (weeks.get(str(matchup_period(spid))) or {}).get("oppId")
         opp_team = next((t for t in data.get("teams", []) if t.get("id") == opp_id), None) if opp_id is not None else None
@@ -326,6 +349,8 @@ def main():
         "table": table,
         "freeAgents": free_agents,
         "today": today,
+        "lineup": lineup_cfg,
+        "lineups": lineups,
         "gamesData": games_data,
     }
     with open(OUTPUT_FILE, "w", encoding="utf-8") as fh:

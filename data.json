@@ -1,11 +1,18 @@
 {
-  "updatedAt": "2026-10-28T07:46:44.784634+00:00",
+  "updatedAt": "2026-10-28T15:39:28.704288+00:00",
   "players": [
     {
       "id": "ace-bailey",
       "name": "Ace Bailey",
       "team": "UTAH",
       "pos": "SF",
+      "active": true
+    },
+    {
+      "id": "aday-mara",
+      "name": "Aday Mara",
+      "team": "OKC",
+      "pos": "C",
       "active": true
     },
     {
@@ -48,13 +55,6 @@
       "name": "Dylan Harper",
       "team": "SA",
       "pos": "PG",
-      "active": true
-    },
-    {
-      "id": "isaiah-stewart",
-      "name": "Isaiah Stewart",
-      "team": "MEM",
-      "pos": "C",
       "active": true
     },
     {
@@ -132,6 +132,13 @@
       "name": "Isaiah Joe",
       "team": "DET",
       "pos": "SG",
+      "active": false
+    },
+    {
+      "id": "isaiah-stewart",
+      "name": "Isaiah Stewart",
+      "team": "MEM",
+      "pos": "C",
       "active": false
     },
     {
@@ -404,7 +411,7 @@
       "pos": "PG",
       "total": 78.75,
       "avg": 19.69,
-      "owned": 2.6
+      "owned": 2.7
     },
     {
       "name": "De'Anthony Melton",
@@ -412,7 +419,7 @@
       "pos": "PG",
       "total": 78.25,
       "avg": 19.56,
-      "owned": 2.8
+      "owned": 2.7
     },
     {
       "name": "Jock Landale",
@@ -420,23 +427,7 @@
       "pos": "C",
       "total": 70.75,
       "avg": 17.69,
-      "owned": 0.7
-    },
-    {
-      "name": "Kentavious Caldwell-Pope",
-      "team": "PHI",
-      "pos": "SG",
-      "total": 69.75,
-      "avg": 17.44,
-      "owned": 3.2
-    },
-    {
-      "name": "Jordan Walsh",
-      "team": "BOS",
-      "pos": "SF",
-      "total": 62.75,
-      "avg": 15.69,
-      "owned": 0.9
+      "owned": 0.8
     },
     {
       "name": "Tre Johnson",
@@ -455,14 +446,6 @@
       "owned": 0.6
     },
     {
-      "name": "Aday Mara",
-      "team": "OKC",
-      "pos": "C",
-      "total": 55.25,
-      "avg": 13.81,
-      "owned": 9.9
-    },
-    {
       "name": "Luguentz Dort",
       "team": "ATL",
       "pos": "SG",
@@ -479,6 +462,14 @@
       "owned": 0.9
     },
     {
+      "name": "Kentavious Caldwell-Pope",
+      "team": "PHI",
+      "pos": "SG",
+      "total": 52.0,
+      "avg": 17.33,
+      "owned": 3.2
+    },
+    {
       "name": "Jake LaRavia",
       "team": "LAL",
       "pos": "PF",
@@ -493,6 +484,22 @@
       "total": 48.5,
       "avg": 12.12,
       "owned": 2.3
+    },
+    {
+      "name": "Walter Clayton Jr.",
+      "team": "DAL",
+      "pos": "SG",
+      "total": 45.75,
+      "avg": 15.25,
+      "owned": 1.7
+    },
+    {
+      "name": "Jordan Walsh",
+      "team": "BOS",
+      "pos": "SF",
+      "total": 45.0,
+      "avg": 15.0,
+      "owned": 0.8
     }
   ],
   "today": null,
@@ -1632,7 +1639,7 @@
       },
       {
         "id": "peyton-watson",
-        "slot": 3,
+        "slot": 12,
         "elig": [
           2,
           3,
@@ -1641,7 +1648,7 @@
       },
       {
         "id": "ace-bailey",
-        "slot": 10,
+        "slot": 3,
         "elig": [
           2,
           3,
@@ -1674,15 +1681,6 @@
         ]
       },
       {
-        "id": "isaiah-stewart",
-        "slot": 12,
-        "elig": [
-          3,
-          4,
-          10
-        ]
-      },
-      {
         "id": "jalen-smith",
         "slot": 12,
         "elig": [
@@ -1704,6 +1702,14 @@
         "slot": 12,
         "elig": [
           2,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 10,
+        "elig": [
+          4,
           10
         ]
       }

@@ -95,23 +95,60 @@ def score(stats):
     return round(sum(stats[k] * w for k, w in WEIGHTS.items()), 2)
 
 
+def fetch_opponents(cookies):
+    """Adversário de cada semana, lido do calendário da liga: {"1": {"opp": "Time (Dono)"}}."""
+    r = requests.get(
+        URL,
+        params=[("view", "mTeam"), ("view", "mMatchup"), ("view", "mMatchupScore")],
+        cookies=cookies,
+        timeout=60,
+    )
+    r.raise_for_status()
+    data = r.json()
+    members = {m.get("id"): m for m in data.get("members", [])}
+    names = {}
+    for t in data.get("teams", []):
+        nome = t.get("name") or f"{t.get('location', '')} {t.get('nickname', '')}".strip() or f"Time {t.get('id')}"
+        dono = ""
+        for oid in t.get("owners", []):
+            m = members.get(oid)
+            if m:
+                dono = f"{m.get('firstName', '')} {m.get('lastName', '')}".strip() or m.get("displayName", "")
+                break
+        names[t.get("id")] = f"{nome} ({dono})" if dono else nome
+    weeks = {}
+    for m in data.get("schedule", []):
+        home = (m.get("home") or {}).get("teamId")
+        away = (m.get("away") or {}).get("teamId")
+        if TEAM_ID in (home, away):
+            opp = away if home == TEAM_ID else home
+            if opp is not None and m.get("matchupPeriodId") is not None:
+                weeks[str(m["matchupPeriodId"])] = {"opp": names.get(opp, f"Time {opp}")}
+    return weeks
+
+
 def main():
     cookies = {"SWID": need("SWID"), "espn_s2": need("ESPN_S2")}
 
     print("Conectando à API da ESPN...")
     current = int(fetch(None, cookies).get("scoringPeriodId") or 1)
 
-    games_data = {}
+    games_data, old_players, old_weeks = {}, {}, {}
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, encoding="utf-8") as fh:
-                games_data = json.load(fh).get("gamesData", {})
+                old = json.load(fh)
+            games_data = old.get("gamesData", {})
+            old_players = {p["id"]: p for p in old.get("players", [])}
+            old_weeks = old.get("weeks", {})
         except Exception:
-            games_data = {}
-    # primeira vez: temporada inteira; depois: só os últimos dias (pega correções de stats)
-    first = max(1, current - 4) if games_data else 1
+            games_data, old_players, old_weeks = {}, {}, {}
+    # primeira vez (ou faltando dados de algum jogador): temporada inteira;
+    # depois: só os últimos dias (pega correções de stats)
+    missing = any(pid not in old_players for pid in games_data)
+    first = max(1, current - 4) if games_data and not missing else 1
 
-    players_list, bad, total_found = [], [], 0
+    seen, active, bad, total_found = {}, set(), [], 0
     for spid in range(first, current + 1):
         day = (START + timedelta(days=spid - 1)).isoformat()
         data = fetch(spid, cookies)
@@ -125,13 +162,14 @@ def main():
             name = player.get("fullName", "Desconhecido")
             pid = slugify(name)
 
+            seen[pid] = {
+                "id": pid,
+                "name": name,
+                "team": PRO_TEAMS.get(player.get("proTeamId"), "—"),
+                "pos": POS.get(player.get("defaultPositionId"), "—"),
+            }
             if spid == current:
-                players_list.append({
-                    "id": pid,
-                    "name": name,
-                    "team": PRO_TEAMS.get(player.get("proTeamId"), "—"),
-                    "pos": POS.get(player.get("defaultPositionId"), "—"),
-                })
+                active.add(pid)
 
             # stats reais (source 0) de um único dia (split 5) daquele scoring period
             st = next(
@@ -172,9 +210,23 @@ def main():
     if total_found == 0 and not games_data:
         sys.exit("Nenhum jogo encontrado. Veja o log acima.")
 
+    all_players = dict(old_players)
+    all_players.update(seen)
+    players_list = [dict(p, active=p["id"] in active) for p in all_players.values()]
+    players_list.sort(key=lambda p: (not p["active"], p["name"]))
+
+    try:  # adversários: se falhar, o resto continua funcionando
+        weeks = fetch_opponents(cookies)
+    except Exception as e:
+        print(f"Aviso: não consegui ler os adversários ({e})", file=sys.stderr)
+        weeks = {}
+    weeks = weeks or old_weeks
+    print("Adversários encontrados:", len(weeks))
+
     payload = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "players": players_list,
+        "weeks": weeks,
         "gamesData": games_data,
     }
     with open(OUTPUT_FILE, "w", encoding="utf-8") as fh:

@@ -95,18 +95,42 @@ def score(stats):
     return round(sum(stats[k] * w for k, w in WEIGHTS.items()), 2)
 
 
-def fetch_opponents(cookies):
-    """Adversário de cada semana, lido do calendário da liga: {"1": {"opp": "Time (Dono)"}}."""
-    r = requests.get(
-        URL,
-        params=[("view", "mTeam"), ("view", "mMatchup"), ("view", "mMatchupScore")],
-        cookies=cookies,
-        timeout=60,
-    )
+SLOTS = {0: "PG", 1: "SG", 2: "SF", 3: "PF", 4: "C", 5: "G", 6: "F", 7: "SG/SF", 8: "G/F", 9: "PF/C", 10: "F/C", 11: "UTIL", 12: "BE", 13: "IR"}
+
+
+def matchup_period(spid):
+    # semana 1 = 6 dias (20/10 a 25/10); depois, 7 dias por semana
+    return 1 if spid <= 6 else 2 + (spid - 7) // 7
+
+
+def get_json(cookies, params, headers=None):
+    r = requests.get(URL, params=params, cookies=cookies, headers=headers, timeout=60)
     r.raise_for_status()
-    data = r.json()
+    return r.json()
+
+
+def safe(label, fn, fallback):
+    """Partes extras nunca derrubam a atualização das pontuações."""
+    try:
+        return fn()
+    except Exception as e:
+        print(f"Aviso: {label} indisponível ({e})", file=sys.stderr)
+        return fallback
+
+
+def day_split(player, spid):
+    return next(
+        (s for s in player.get("stats", [])
+         if s.get("statSourceId") == 0 and s.get("statSplitTypeId") == 5 and s.get("scoringPeriodId") == spid),
+        None,
+    )
+
+
+def fetch_league(cookies):
+    """Adversário de cada semana + tabela da liga."""
+    data = get_json(cookies, [("view", "mTeam"), ("view", "mMatchup"), ("view", "mMatchupScore")])
     members = {m.get("id"): m for m in data.get("members", [])}
-    names = {}
+    names, table = {}, []
     for t in data.get("teams", []):
         nome = t.get("name") or f"{t.get('location', '')} {t.get('nickname', '')}".strip() or f"Time {t.get('id')}"
         dono = ""
@@ -116,6 +140,14 @@ def fetch_opponents(cookies):
                 dono = f"{m.get('firstName', '')} {m.get('lastName', '')}".strip() or m.get("displayName", "")
                 break
         names[t.get("id")] = f"{nome} ({dono})" if dono else nome
+        rec = (t.get("record") or {}).get("overall") or {}
+        table.append({
+            "id": t.get("id"), "name": nome, "owner": dono,
+            "w": rec.get("wins", 0), "l": rec.get("losses", 0), "t": rec.get("ties", 0),
+            "pf": round(rec.get("pointsFor", 0), 2), "pa": round(rec.get("pointsAgainst", 0), 2),
+            "me": t.get("id") == TEAM_ID,
+        })
+    table.sort(key=lambda r: (-r["w"], -r["pf"]))
     weeks = {}
     for m in data.get("schedule", []):
         home = (m.get("home") or {}).get("teamId")
@@ -123,8 +155,46 @@ def fetch_opponents(cookies):
         if TEAM_ID in (home, away):
             opp = away if home == TEAM_ID else home
             if opp is not None and m.get("matchupPeriodId") is not None:
-                weeks[str(m["matchupPeriodId"])] = {"opp": names.get(opp, f"Time {opp}")}
-    return weeks
+                weeks[str(m["matchupPeriodId"])] = {"opp": names.get(opp, f"Time {opp}"), "oppId": opp}
+    return weeks, table
+
+
+def fetch_free_agents(cookies, limit=60):
+    """Melhores livres dos últimos 7 dias, na pontuação da sua liga."""
+    flt = {"players": {
+        "filterStatus": {"value": ["FREEAGENT", "WAIVERS"]},
+        "limit": limit,
+        "sortPercOwned": {"sortPriority": 1, "sortAsc": False},
+    }}
+    data = get_json(cookies, [("view", "kona_player_info")], {"x-fantasy-filter": json.dumps(flt)})
+    out = []
+    for e in data.get("players", []):
+        p = e.get("player", {})
+        l7 = next((s for s in p.get("stats", []) if s.get("statSourceId") == 0 and s.get("statSplitTypeId") == 1), None)
+        if not l7 or not l7.get("appliedTotal"):
+            continue
+        out.append({
+            "name": p.get("fullName", "?"),
+            "team": PRO_TEAMS.get(p.get("proTeamId"), "—"),
+            "pos": POS.get(p.get("defaultPositionId"), "—"),
+            "total": round(l7["appliedTotal"], 2),
+            "avg": round(l7.get("appliedAverage") or 0, 2),
+            "owned": round((p.get("ownership") or {}).get("percentOwned") or 0, 1),
+        })
+    out.sort(key=lambda x: -x["total"])
+    return out[:12]
+
+
+def fetch_pro_games(cookies, spid):
+    """Jogos da NBA no scoring period: {proTeamId: {opp, home, date}}."""
+    data = get_json(cookies, [("view", "proTeamSchedules_wl")])
+    games = {}
+    for t in (data.get("settings") or {}).get("proTeamSchedules", []):
+        for g in (t.get("proGamesByScoringPeriod") or {}).get(str(spid), []):
+            h, a = g.get("homeProTeamId"), g.get("awayProTeamId")
+            games[h] = {"opp": PRO_TEAMS.get(a, "—"), "home": True, "date": g.get("date")}
+            games[a] = {"opp": PRO_TEAMS.get(h, "—"), "home": False, "date": g.get("date")}
+    return games
 
 
 def main():
@@ -133,7 +203,7 @@ def main():
     print("Conectando à API da ESPN...")
     current = int(fetch(None, cookies).get("scoringPeriodId") or 1)
 
-    games_data, old_players, old_weeks = {}, {}, {}
+    old, games_data, old_players, old_weeks = {}, {}, {}, {}
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, encoding="utf-8") as fh:
@@ -142,13 +212,16 @@ def main():
             old_players = {p["id"]: p for p in old.get("players", [])}
             old_weeks = old.get("weeks", {})
         except Exception:
-            games_data, old_players, old_weeks = {}, {}, {}
+            old, games_data, old_players, old_weeks = {}, {}, {}, {}
     # primeira vez (ou faltando dados de algum jogador): temporada inteira;
     # depois: só os últimos dias (pega correções de stats)
     missing = any(pid not in old_players for pid in games_data)
     first = max(1, current - 4) if games_data and not missing else 1
 
     seen, active, bad, total_found = {}, set(), [], 0
+    today_entries, opp_daily = {}, dict(old.get("oppDaily", {}))
+    weeks, table = safe("adversários e tabela", lambda: fetch_league(cookies), (old_weeks, old.get("table", [])))
+    weeks = weeks or old_weeks
     for spid in range(first, current + 1):
         day = (START + timedelta(days=spid - 1)).isoformat()
         data = fetch(spid, cookies)
@@ -170,6 +243,11 @@ def main():
             }
             if spid == current:
                 active.add(pid)
+                today_entries[pid] = {
+                    "slot": SLOTS.get(entry.get("lineupSlotId"), "?"),
+                    "pro": player.get("proTeamId"),
+                    "inj": player.get("injuryStatus", ""),
+                }
 
             # stats reais (source 0) de um único dia (split 5) daquele scoring period
             st = next(
@@ -199,6 +277,18 @@ def main():
             games.append(game)
             games_data[pid] = games
             found += 1
+        # pontos do adversário no dia (só quem estava titular)
+        opp_id = (weeks.get(str(matchup_period(spid))) or {}).get("oppId")
+        opp_team = next((t for t in data.get("teams", []) if t.get("id") == opp_id), None) if opp_id is not None else None
+        if opp_team:
+            opp_total = 0.0
+            for e in opp_team.get("roster", {}).get("entries", []):
+                if e.get("lineupSlotId") in BENCH_SLOTS:
+                    continue
+                raw_o = (day_split(e.get("playerPoolEntry", {}).get("player", {}), spid) or {}).get("stats") or {}
+                if any(raw_o.values()):
+                    opp_total += score(parse(raw_o))
+            opp_daily[day] = round(opp_total, 2)
         total_found += found
         print(f"{day}: {found} jogos")
 
@@ -215,18 +305,27 @@ def main():
     players_list = [dict(p, active=p["id"] in active) for p in all_players.values()]
     players_list.sort(key=lambda p: (not p["active"], p["name"]))
 
-    try:  # adversários: se falhar, o resto continua funcionando
-        weeks = fetch_opponents(cookies)
-    except Exception as e:
-        print(f"Aviso: não consegui ler os adversários ({e})", file=sys.stderr)
-        weeks = {}
-    weeks = weeks or old_weeks
     print("Adversários encontrados:", len(weeks))
+    free_agents = safe("free agents", lambda: fetch_free_agents(cookies), old.get("freeAgents", []))
+    games_today = safe("jogos de hoje", lambda: fetch_pro_games(cookies, current), {})
+    today = old.get("today")
+    if today_entries and games_today:
+        today = {
+            "date": (START + timedelta(days=current - 1)).isoformat(),
+            "players": [
+                {"id": pid, "name": seen[pid]["name"], "slot": e["slot"], "inj": e["inj"], "game": games_today.get(e["pro"])}
+                for pid, e in today_entries.items()
+            ],
+        }
 
     payload = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "players": players_list,
         "weeks": weeks,
+        "oppDaily": opp_daily,
+        "table": table,
+        "freeAgents": free_agents,
+        "today": today,
         "gamesData": games_data,
     }
     with open(OUTPUT_FILE, "w", encoding="utf-8") as fh:

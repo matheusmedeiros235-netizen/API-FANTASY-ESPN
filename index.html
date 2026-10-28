@@ -239,11 +239,33 @@ function weekForToday(){
   return TOTAL_WEEKS;
 }
 let currentWeek = weekForToday();
-let espnWeeks = {}, oppDaily = {}, table = [], freeAgents = [], today = null, stamp = '';
+let espnWeeks = {}, oppDaily = {}, table = [], freeAgents = [], today = null, stamp = '', lineups = {}, lineupCfg = {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 10: 1};
 function getOpp(n){ const w = weeksData[n]; if(w && w.opp) return w.opp; const e = espnWeeks[n]; return (e && e.opp) || DEFAULT_OPP[n] || ''; }
 
+function bestLineup(day){
+  const L = lineups[day]; if(!L) return null;
+  const slots = []; Object.keys(lineupCfg).forEach(k => { for(let i = 0; i < lineupCfg[k]; i++) slots.push(+k); });
+  const nameOf = id => { const p = players.find(x => x.id === id); return p ? p.name : id; };
+  const scoreOf = id => { const g = (gamesData[id] || []).find(x => x.date === day); return g ? computeScore(g.stats) : 0; };
+  const cand = L.filter(p => p.slot !== 13).map(p => ({id: p.id, sc: scoreOf(p.id), el: p.elig || [], cur: p.slot !== 12}));
+  let dp = new Map([[0, {v: 0, pick: []}]]);   // melhor escalação respeitando posições (vagas x elegibilidade)
+  cand.forEach(c => {
+    const next = new Map(dp);
+    dp.forEach((st, mask) => slots.forEach((s, i) => {
+      if((mask & (1 << i)) || !c.el.includes(s)) return;
+      const m = mask | (1 << i), v = st.v + c.sc, cur = next.get(m);
+      if(!cur || v > cur.v) next.set(m, {v, pick: st.pick.concat(c.id)});
+    }));
+    dp = next;
+  });
+  let best = null; dp.forEach(st => { if(!best || st.v > best.v) best = st; });
+  const actual = cand.filter(c => c.cur).reduce((a, c) => a + c.sc, 0);
+  const inn = cand.filter(c => !c.cur && best.pick.includes(c.id)).map(c => ({name: nameOf(c.id), sc: c.sc}));
+  const out = cand.filter(c => c.cur && !best.pick.includes(c.id)).map(c => ({name: nameOf(c.id), sc: c.sc}));
+  return {gain: best.v - actual, inn, out};
+}
 function weekStats(n){
-  const wk = weekRange(n), dayTotals = {}, dayMissed = {}, rows = [], byDay = {};
+  const wk = weekRange(n), dayTotals = {}, dayMissed = {}, rows = [];
   wk.days.forEach(d => { dayTotals[d] = 0; dayMissed[d] = 0; });
   let total = 0, missedTotal = 0, counted = 0, missedCount = 0;
   players.forEach(p => {
@@ -252,7 +274,6 @@ function weekStats(n){
     let pTotal = 0, pMissed = 0, pCount = 0;
     gs.forEach(g => {
       const sc = computeScore(g.stats);
-      (byDay[g.date] = byDay[g.date] || {s: [], b: []})[g.notStarted ? 'b' : 's'].push({name: p.name, sc});
       if(g.notStarted){ pMissed += sc; dayMissed[g.date] += sc; missedCount++; }
       else { pTotal += sc; pCount++; dayTotals[g.date] += sc; counted++; }
     });
@@ -261,10 +282,7 @@ function weekStats(n){
   });
   rows.sort((a,b) => b.pTotal - a.pTotal);
   const swaps = []; let swapGain = 0;
-  Object.keys(byDay).sort().forEach(d => {
-    const S = byDay[d].s.slice().sort((a,b) => a.sc - b.sc), B = byDay[d].b.slice().sort((a,b) => b.sc - a.sc);
-    for(let i = 0; i < Math.min(S.length, B.length) && B[i].sc > S[i].sc; i++){ const gain = B[i].sc - S[i].sc; swapGain += gain; swaps.push({d, bn: B[i], st: S[i], gain}); }
-  });
+  wk.days.forEach(d => { const r = bestLineup(d); if(r && r.gain > 0.01){ swapGain += r.gain; swaps.push(Object.assign({d}, r)); } });
   const oppTotal = wk.days.reduce((a, d) => a + (oppDaily[d] || 0), 0), hasOpp = wk.days.some(d => oppDaily[d] !== undefined);
   return {wk, rows, dayTotals, dayMissed, total, missedTotal, counted, missedCount, swaps, swapGain, oppTotal, hasOpp};
 }
@@ -285,7 +303,8 @@ function renderWeeks(){
     return `<div class="wk-row"><div class="avatar" style="background:hsl(${hashHue(r.p.name)},48%,42%)">${initials(r.p.name)}</div><div class="wk-who"><p class="nm display">${r.p.name}</p><div class="meta">${r.p.team} · ${r.p.pos}</div></div><div class="wk-games">${chips}</div><div class="wk-sum"><b>${fmt(r.pTotal)}</b><span>${r.pCount} jogo${r.pCount === 1 ? '' : 's'}${r.pCount ? ' · méd ' + fmt(r.pTotal / r.pCount) : ''}</span>${r.pMissed ? `<span class="lost">${fmt(r.pMissed)} no banco</span>` : ''}</div></div>`;
   }).join('') : '<div class="empty-games">Nenhum jogo nessa semana ainda.</div>';
   const diff = s.total - s.oppTotal, oppShort = (opp || 'adversário').replace(/\s*\(.*\)$/, '');
-  const swapHtml = s.swaps.length ? `<h2 class="sec display">Trocas que valiam a pena</h2><p class="note-small">Dias em que alguém do banco fez mais que um titular (sem considerar posições). Total: <b>+${fmt(s.swapGain)}</b> pts.</p><div class="swaps">${s.swaps.map(w => `<div class="swap"><span>${dm(w.d)}</span><span><b>${w.bn.name}</b> (banco, ${fmt(w.bn.sc)}) &gt; ${w.st.name} (titular, ${fmt(w.st.sc)})</span><b class="g">+${fmt(w.gain)}</b></div>`).join('')}</div>` : '';
+  const nm = x => `${esc(x.name)} (${fmt(x.sc)})`;
+  const swapHtml = s.swaps.length ? `<h2 class="sec display">Trocas que valiam a pena</h2><p class="note-small">Melhor escalação possível de cada dia, respeitando as vagas e as posições de cada jogador. Não considera o horário de bloqueio dos jogos. Total: <b>+${fmt(s.swapGain)}</b> pts.</p><div class="swaps">${s.swaps.map(w => `<div class="swap"><span>${dm(w.d)}</span><span><b>Entrariam:</b> ${w.inn.length ? w.inn.map(nm).join(', ') : 'ninguém (vaga vazia)'}<br><b>Sairiam:</b> ${w.out.map(nm).join(', ')}</span><b class="g">+${fmt(w.gain)}</b></div>`).join('')}</div>` : '';
   const hero = `<div class="week-hero"><div><div class="lbl">Meu total na semana ${s.wk.n}</div><div class="big">${fmt(s.total)}</div></div><div class="side">${s.hasOpp ? `<div><b style="color:var(--${diff >= 0 ? 'tier-green' : 'tier-red'})">${diff >= 0 ? '+' : ''}${fmt(diff)}</b>${diff >= 0 ? 'na frente de' : 'atrás de'} ${esc(oppShort)} (${fmt(s.oppTotal)})</div>` : ''}<div><b>${s.counted}</b>jogos pontuados</div><div><b>${s.counted ? fmt(s.total / s.counted) : '0'}</b>média por jogo</div>${s.missedCount ? `<div><b style="color:var(--warn)">${fmt(s.missedTotal)}</b>pts no banco (${s.missedCount} jogo${s.missedCount === 1 ? '' : 's'})</div>` : ''}</div></div>`;
   const hist = [];
   for(let n = 1; n <= TOTAL_WEEKS; n++){
@@ -342,7 +361,7 @@ async function loadData(){
   const d = await loadData(), el = document.getElementById('updated');
   if(!d){ el.textContent = 'Não consegui carregar o data.json. Rode o workflow no GitHub e recarregue a página.'; return; }
   gamesData = d.gamesData || {};
-  espnWeeks = d.weeks || {}; oppDaily = d.oppDaily || {}; table = d.table || []; freeAgents = d.freeAgents || []; today = d.today || null;
+  espnWeeks = d.weeks || {}; oppDaily = d.oppDaily || {}; table = d.table || []; freeAgents = d.freeAgents || []; today = d.today || null; lineups = d.lineups || {}; lineupCfg = d.lineup || lineupCfg;
   players = (d.players || []).map(p => Object.assign({}, p, {gone: p.active === false}));
   players.sort((a, b) => a.gone - b.gone);
   Object.keys(gamesData).forEach(pid => {   // quem já saiu do time mas tem jogos

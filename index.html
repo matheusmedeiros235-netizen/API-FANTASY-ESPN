@@ -218,7 +218,8 @@ function weekForToday(){
   return TOTAL_WEEKS;
 }
 let currentWeek = weekForToday();
-function getOpp(n){ const w = weeksData[n]; return w && w.opp !== undefined ? w.opp : (DEFAULT_OPP[n] || ''); }
+let espnWeeks = {};
+function getOpp(n){ const w = weeksData[n]; if(w && w.opp) return w.opp; const e = espnWeeks[n]; return (e && e.opp) || DEFAULT_OPP[n] || ''; }
 
 function weekStats(n){
   const wk = weekRange(n), dayTotals = {}, dayMissed = {}, rows = [];
@@ -258,7 +259,7 @@ function renderWeeks(){
   const hist = [];
   for(let n = 1; n <= TOTAL_WEEKS; n++){
     const st = weekStats(n), o = getOpp(n);
-    if(!st.counted && !st.missedCount && !o) continue;
+    if(!st.counted && !st.missedCount && !(o && n <= weekForToday())) continue;
     hist.push(`<div class="hist-row ${n === currentWeek ? 'cur' : ''}" onclick="setWeek(${n})"><span class="w">Semana ${n}</span><span class="o">${o ? 'vs ' + esc(o) : 'sem adversário anotado'} · ${dm(st.wk.start)}–${dm(st.wk.end)}</span><span class="t">${fmt(st.total)}</span></div>`);
   }
   document.getElementById('viewWeeks').innerHTML = `<div class="week-bar"><button class="btn ghost nav" onclick="shiftWeek(-1)" ${currentWeek <= 1 ? 'disabled' : ''}>‹</button><select onchange="setWeek(this.value)">${opts.join('')}</select><button class="btn ghost nav" onclick="shiftWeek(1)" ${currentWeek >= TOTAL_WEEKS ? 'disabled' : ''}>›</button><input class="opp-input" type="text" placeholder="Contra quem você joga nessa semana?" value="${esc(opp)}" onchange="saveOpp(this.value)"></div>${hero}<div class="day-table-wrap"><table class="day-table"><tr><th></th>${dayHead}<th>Total</th></tr><tr><td>Meu time</td>${dayCells}<td class="tot">${fmt(s.total)}</td></tr>${s.missedCount ? `<tr class="missed"><td>Ficou no banco</td>${missCells}<td class="tot">${fmt(s.missedTotal)}</td></tr>` : ''}</table></div><h2 class="sec display">Jogadores da semana</h2><div class="wk-players">${rowsHtml}</div><h2 class="sec display">Histórico</h2><div class="hist">${hist.join('') || '<div class="empty-games">As semanas com jogos aparecem aqui.</div>'}</div>`;
@@ -288,7 +289,9 @@ async function loadData(){
   const d = await loadData(), el = document.getElementById('updated');
   if(!d){ el.textContent = 'Não consegui carregar o data.json. Rode o workflow no GitHub e recarregue a página.'; return; }
   gamesData = d.gamesData || {};
-  players = (d.players || []).slice();
+  espnWeeks = d.weeks || {};
+  players = (d.players || []).map(p => Object.assign({}, p, {gone: p.active === false}));
+  players.sort((a, b) => a.gone - b.gone);
   Object.keys(gamesData).forEach(pid => {   // quem já saiu do time mas tem jogos
     if(!players.some(p => p.id === pid))
       players.push({id: pid, name: pid.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '), team: '—', pos: '—', gone: true});

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T15:39:28.704288+00:00",
+  "updatedAt": "2026-10-28T21:27:36.323558+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -411,7 +411,7 @@
       "pos": "PG",
       "total": 78.75,
       "avg": 19.69,
-      "owned": 2.7
+      "owned": 2.8
     },
     {
       "name": "De'Anthony Melton",
@@ -428,6 +428,22 @@
       "total": 70.75,
       "avg": 17.69,
       "owned": 0.8
+    },
+    {
+      "name": "Matisse Thybulle",
+      "team": "LAL",
+      "pos": "SF",
+      "total": 67.5,
+      "avg": 16.88,
+      "owned": 6.6
+    },
+    {
+      "name": "Quenton Jackson",
+      "team": "IND",
+      "pos": "PG",
+      "total": 59.5,
+      "avg": 14.88,
+      "owned": 0.6
     },
     {
       "name": "Tre Johnson",
@@ -454,14 +470,6 @@
       "owned": 2.5
     },
     {
-      "name": "Leonard Miller",
-      "team": "CHI",
-      "pos": "SF",
-      "total": 53.0,
-      "avg": 13.25,
-      "owned": 0.9
-    },
-    {
       "name": "Kentavious Caldwell-Pope",
       "team": "PHI",
       "pos": "SG",
@@ -475,7 +483,7 @@
       "pos": "PF",
       "total": 48.75,
       "avg": 16.25,
-      "owned": 8.1
+      "owned": 8.0
     },
     {
       "name": "Bub Carrington",
@@ -492,14 +500,6 @@
       "total": 45.75,
       "avg": 15.25,
       "owned": 1.7
-    },
-    {
-      "name": "Jordan Walsh",
-      "team": "BOS",
-      "pos": "SF",
-      "total": 45.0,
-      "avg": 15.0,
-      "owned": 0.8
     }
   ],
   "today": null,

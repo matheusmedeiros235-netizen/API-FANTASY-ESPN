@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T15:40:33.000160+00:00",
+  "updatedAt": "2026-10-29T21:28:16.867651+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -412,7 +412,7 @@
       "pos": "PG",
       "total": 93.25,
       "avg": 23.31,
-      "owned": 2.6
+      "owned": 2.5
     },
     {
       "name": "Matisse Thybulle",
@@ -420,7 +420,7 @@
       "pos": "SF",
       "total": 81.0,
       "avg": 20.25,
-      "owned": 5.4
+      "owned": 5.2
     },
     {
       "name": "Ziaire Williams",
@@ -428,7 +428,7 @@
       "pos": "SF",
       "total": 76.0,
       "avg": 25.33,
-      "owned": 5.8
+      "owned": 5.6
     },
     {
       "name": "Max Christie",
@@ -468,7 +468,7 @@
       "pos": "PG",
       "total": 62.5,
       "avg": 15.62,
-      "owned": 2.5
+      "owned": 2.4
     },
     {
       "name": "Jake LaRavia",
@@ -484,7 +484,7 @@
       "pos": "SF",
       "total": 57.25,
       "avg": 14.31,
-      "owned": 0.6
+      "owned": 0.7
     },
     {
       "name": "Walter Clayton Jr.",

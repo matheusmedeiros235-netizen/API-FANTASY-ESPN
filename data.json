@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T07:48:54.335192+00:00",
+  "updatedAt": "2026-10-30T15:39:28.956198+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -413,7 +413,7 @@
       "pos": "SG",
       "total": 78.5,
       "avg": 19.62,
-      "owned": 17.0
+      "owned": 17.4
     },
     {
       "name": "Ziaire Williams",
@@ -421,7 +421,7 @@
       "pos": "SF",
       "total": 76.0,
       "avg": 25.33,
-      "owned": 5.4
+      "owned": 5.3
     },
     {
       "name": "Isaiah Collier",
@@ -437,7 +437,7 @@
       "pos": "SG",
       "total": 74.5,
       "avg": 18.62,
-      "owned": 2.4
+      "owned": 2.5
     },
     {
       "name": "Justin Champagnie",
@@ -445,7 +445,7 @@
       "pos": "SF",
       "total": 71.5,
       "avg": 23.83,
-      "owned": 2.5
+      "owned": 2.4
     },
     {
       "name": "Dennis Schroder",
@@ -453,7 +453,7 @@
       "pos": "PG",
       "total": 71.25,
       "avg": 17.81,
-      "owned": 9.1
+      "owned": 8.9
     },
     {
       "name": "Robert Williams III",
@@ -461,7 +461,7 @@
       "pos": "C",
       "total": 66.25,
       "avg": 33.12,
-      "owned": 8.9
+      "owned": 8.3
     },
     {
       "name": "Brice Sensabaugh",
@@ -477,23 +477,15 @@
       "pos": "SG",
       "total": 65.75,
       "avg": 16.44,
-      "owned": 0.8
+      "owned": 0.9
     },
     {
-      "name": "Kentavious Caldwell-Pope",
-      "team": "PHI",
-      "pos": "SG",
-      "total": 63.5,
-      "avg": 15.88,
-      "owned": 3.0
-    },
-    {
-      "name": "Kasparas Jakucionis",
-      "team": "MIL",
-      "pos": "PG",
-      "total": 62.5,
-      "avg": 15.62,
-      "owned": 2.3
+      "name": "Moritz Wagner",
+      "team": "BKN",
+      "pos": "C",
+      "total": 61.75,
+      "avg": 20.58,
+      "owned": 0.6
     },
     {
       "name": "Jake LaRavia",
@@ -502,6 +494,14 @@
       "total": 60.0,
       "avg": 20.0,
       "owned": 7.8
+    },
+    {
+      "name": "Aaron Nesmith",
+      "team": "IND",
+      "pos": "SF",
+      "total": 58.25,
+      "avg": 14.56,
+      "owned": 3.4
     }
   ],
   "today": null,

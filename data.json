@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T21:28:16.867651+00:00",
+  "updatedAt": "2026-10-30T07:48:54.335192+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -225,7 +225,8 @@
     "2026-10-21": 163.5,
     "2026-10-22": 52.5,
     "2026-10-28": 172.0,
-    "2026-10-29": 0.0
+    "2026-10-29": 112.0,
+    "2026-10-30": 0.0
   },
   "table": [
     {
@@ -235,19 +236,8 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1502.25,
-      "pa": 1481.5,
-      "me": false
-    },
-    {
-      "id": 19,
-      "name": "Space City Br",
-      "owner": "Matheus Sampaio",
-      "w": 1,
-      "l": 0,
-      "t": 0,
-      "pf": 1433.75,
-      "pa": 1411.75,
+      "pf": 1572.75,
+      "pa": 1575.0,
       "me": false
     },
     {
@@ -257,30 +247,19 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1430.5,
-      "pa": 1365.75,
+      "pf": 1524.0,
+      "pa": 1436.25,
       "me": false
     },
     {
-      "id": 26,
-      "name": "Sociedade Esportiva Utah Jazz",
-      "owner": "Pedro Ulhoa",
+      "id": 19,
+      "name": "Space City Br",
+      "owner": "Matheus Sampaio",
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1352.75,
-      "pa": 1283.25,
-      "me": false
-    },
-    {
-      "id": 29,
-      "name": "Baltimore Bogaloos",
-      "owner": "Vitor Zottos Batista",
-      "w": 1,
-      "l": 0,
-      "t": 0,
-      "pf": 1314.25,
-      "pa": 1307.25,
+      "pf": 1511.75,
+      "pa": 1511.75,
       "me": false
     },
     {
@@ -290,8 +269,19 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1310.75,
-      "pa": 1358.75,
+      "pf": 1462.5,
+      "pa": 1368.75,
+      "me": false
+    },
+    {
+      "id": 26,
+      "name": "Sociedade Esportiva Utah Jazz",
+      "owner": "Pedro Ulhoa",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 1452.75,
+      "pa": 1361.25,
       "me": false
     },
     {
@@ -301,8 +291,19 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1206.25,
-      "pa": 931.0,
+      "pf": 1387.5,
+      "pa": 958.5,
+      "me": false
+    },
+    {
+      "id": 29,
+      "name": "Baltimore Bogaloos",
+      "owner": "Vitor Zottos Batista",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 1341.75,
+      "pa": 1490.75,
       "me": false
     },
     {
@@ -312,20 +313,9 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1166.0,
-      "pa": 1246.5,
+      "pf": 1201.5,
+      "pa": 1332.0,
       "me": false
-    },
-    {
-      "id": 32,
-      "name": "Matheus's das Montanhans Team",
-      "owner": "Matheus Medeiros",
-      "w": 0,
-      "l": 1,
-      "t": 0,
-      "pf": 1458.5,
-      "pa": 1152.0,
-      "me": true
     },
     {
       "id": 21,
@@ -334,19 +324,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1436.25,
-      "pa": 1286.5,
-      "me": false
-    },
-    {
-      "id": 1,
-      "name": "Everglades Gators",
-      "owner": "Ale Sotilli",
-      "w": 0,
-      "l": 1,
-      "t": 0,
-      "pf": 1396.75,
-      "pa": 1327.5,
+      "pf": 1521.75,
+      "pa": 1322.0,
       "me": false
     },
     {
@@ -356,9 +335,31 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1378.5,
-      "pa": 1533.25,
+      "pf": 1482.5,
+      "pa": 1603.25,
       "me": false
+    },
+    {
+      "id": 1,
+      "name": "Everglades Gators",
+      "owner": "Ale Sotilli",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 1466.75,
+      "pa": 1431.5,
+      "me": false
+    },
+    {
+      "id": 32,
+      "name": "Matheus's das Montanhans Team",
+      "owner": "Matheus Medeiros",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 1464.75,
+      "pa": 1264.0,
+      "me": true
     },
     {
       "id": 23,
@@ -367,8 +368,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1351.0,
-      "pa": 1264.25,
+      "pf": 1426.5,
+      "pa": 1298.5,
       "me": false
     },
     {
@@ -378,8 +379,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1323.25,
-      "pa": 1501.5,
+      "pf": 1357.5,
+      "pa": 1577.0,
       "me": false
     },
     {
@@ -389,8 +390,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1169.0,
-      "pa": 1190.25,
+      "pf": 1179.0,
+      "pa": 1342.0,
       "me": false
     },
     {
@@ -400,27 +401,19 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 768.75,
-      "pa": 1357.5,
+      "pf": 880.75,
+      "pa": 1361.5,
       "me": false
     }
   ],
   "freeAgents": [
     {
-      "name": "De'Anthony Melton",
-      "team": "GS",
-      "pos": "PG",
-      "total": 93.25,
-      "avg": 23.31,
-      "owned": 2.5
-    },
-    {
-      "name": "Matisse Thybulle",
-      "team": "LAL",
-      "pos": "SF",
-      "total": 81.0,
-      "avg": 20.25,
-      "owned": 5.2
+      "name": "Grayson Allen",
+      "team": "CHA",
+      "pos": "SG",
+      "total": 78.5,
+      "avg": 19.62,
+      "owned": 17.0
     },
     {
       "name": "Ziaire Williams",
@@ -428,7 +421,15 @@
       "pos": "SF",
       "total": 76.0,
       "avg": 25.33,
-      "owned": 5.6
+      "owned": 5.4
+    },
+    {
+      "name": "Isaiah Collier",
+      "team": "UTAH",
+      "pos": "PG",
+      "total": 75.5,
+      "avg": 18.88,
+      "owned": 3.6
     },
     {
       "name": "Max Christie",
@@ -437,6 +438,30 @@
       "total": 74.5,
       "avg": 18.62,
       "owned": 2.4
+    },
+    {
+      "name": "Justin Champagnie",
+      "team": "WAS",
+      "pos": "SF",
+      "total": 71.5,
+      "avg": 23.83,
+      "owned": 2.5
+    },
+    {
+      "name": "Dennis Schroder",
+      "team": "CHA",
+      "pos": "PG",
+      "total": 71.25,
+      "avg": 17.81,
+      "owned": 9.1
+    },
+    {
+      "name": "Robert Williams III",
+      "team": "POR",
+      "pos": "C",
+      "total": 66.25,
+      "avg": 33.12,
+      "owned": 8.9
     },
     {
       "name": "Brice Sensabaugh",
@@ -452,7 +477,7 @@
       "pos": "SG",
       "total": 65.75,
       "avg": 16.44,
-      "owned": 0.7
+      "owned": 0.8
     },
     {
       "name": "Kentavious Caldwell-Pope",
@@ -468,7 +493,7 @@
       "pos": "PG",
       "total": 62.5,
       "avg": 15.62,
-      "owned": 2.4
+      "owned": 2.3
     },
     {
       "name": "Jake LaRavia",
@@ -477,30 +502,6 @@
       "total": 60.0,
       "avg": 20.0,
       "owned": 7.8
-    },
-    {
-      "name": "Mario Hezonja",
-      "team": "CLE",
-      "pos": "SF",
-      "total": 57.25,
-      "avg": 14.31,
-      "owned": 0.7
-    },
-    {
-      "name": "Walter Clayton Jr.",
-      "team": "DAL",
-      "pos": "SG",
-      "total": 54.0,
-      "avg": 13.5,
-      "owned": 1.7
-    },
-    {
-      "name": "Jamal Shead",
-      "team": "TOR",
-      "pos": "PG",
-      "total": 53.75,
-      "avg": 17.92,
-      "owned": 2.1
     }
   ],
   "today": null,
@@ -1836,6 +1837,128 @@
           10
         ]
       }
+    ],
+    "2026-10-30": [
+      {
+        "id": "nikola-jokic",
+        "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 5,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 0,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 10,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "allen-graves",
+        "slot": 2,
+        "elig": [
+          2,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      }
     ]
   },
   "gamesData": {
@@ -1967,7 +2090,7 @@
           "oreb": 0,
           "reb": 5,
           "ast": 8,
-          "stl": 2,
+          "stl": 1,
           "blk": 0,
           "to": 3,
           "ej": 0,
@@ -3318,6 +3441,34 @@
           "td": 0,
           "qd": 0,
           "pts": 22
+        }
+      },
+      {
+        "id": "espn-2026-10-29-peyton-watson",
+        "date": "2026-10-29",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 1,
+          "fgmi": 7,
+          "ftm": 2,
+          "ftmi": 2,
+          "tpm": 0,
+          "tpmi": 3,
+          "oreb": 1,
+          "reb": 4,
+          "ast": 3,
+          "stl": 0,
+          "blk": 2,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 5,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 4
         }
       }
     ],

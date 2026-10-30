@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T15:39:28.956198+00:00",
+  "updatedAt": "2026-10-30T21:26:10.365297+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -413,7 +413,7 @@
       "pos": "SG",
       "total": 78.5,
       "avg": 19.62,
-      "owned": 17.4
+      "owned": 17.6
     },
     {
       "name": "Ziaire Williams",
@@ -421,7 +421,7 @@
       "pos": "SF",
       "total": 76.0,
       "avg": 25.33,
-      "owned": 5.3
+      "owned": 5.2
     },
     {
       "name": "Isaiah Collier",
@@ -445,7 +445,7 @@
       "pos": "SF",
       "total": 71.5,
       "avg": 23.83,
-      "owned": 2.4
+      "owned": 2.3
     },
     {
       "name": "Dennis Schroder",
@@ -453,7 +453,7 @@
       "pos": "PG",
       "total": 71.25,
       "avg": 17.81,
-      "owned": 8.9
+      "owned": 9.0
     },
     {
       "name": "Robert Williams III",
@@ -461,7 +461,7 @@
       "pos": "C",
       "total": 66.25,
       "avg": 33.12,
-      "owned": 8.3
+      "owned": 7.9
     },
     {
       "name": "Brice Sensabaugh",
@@ -480,6 +480,14 @@
       "owned": 0.9
     },
     {
+      "name": "Brandon Williams",
+      "team": "GS",
+      "pos": "PG",
+      "total": 65.0,
+      "avg": 16.25,
+      "owned": 1.0
+    },
+    {
       "name": "Moritz Wagner",
       "team": "BKN",
       "pos": "C",
@@ -493,15 +501,7 @@
       "pos": "PF",
       "total": 60.0,
       "avg": 20.0,
-      "owned": 7.8
-    },
-    {
-      "name": "Aaron Nesmith",
-      "team": "IND",
-      "pos": "SF",
-      "total": 58.25,
-      "avg": 14.56,
-      "owned": 3.4
+      "owned": 7.9
     }
   ],
   "today": null,

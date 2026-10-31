@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T21:26:10.365297+00:00",
+  "updatedAt": "2026-10-31T07:42:31.224682+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -226,20 +226,10 @@
     "2026-10-22": 52.5,
     "2026-10-28": 172.0,
     "2026-10-29": 112.0,
-    "2026-10-30": 0.0
+    "2026-10-30": 163.25,
+    "2026-10-31": 0.0
   },
   "table": [
-    {
-      "id": 31,
-      "name": "IBS Basketball Team",
-      "owner": "IGOR DA SILVA",
-      "w": 1,
-      "l": 0,
-      "t": 0,
-      "pf": 1572.75,
-      "pa": 1575.0,
-      "me": false
-    },
     {
       "id": 28,
       "name": "Gigantes da Colina",
@@ -247,8 +237,19 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1524.0,
-      "pa": 1436.25,
+      "pf": 1762.75,
+      "pa": 1595.0,
+      "me": false
+    },
+    {
+      "id": 31,
+      "name": "IBS Basketball Team",
+      "owner": "IGOR DA SILVA",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 1731.5,
+      "pa": 1813.75,
       "me": false
     },
     {
@@ -258,19 +259,8 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1511.75,
-      "pa": 1511.75,
-      "me": false
-    },
-    {
-      "id": 30,
-      "name": "Marcus's Monstrous Team",
-      "owner": "Marcus Cunha",
-      "w": 1,
-      "l": 0,
-      "t": 0,
-      "pf": 1462.5,
-      "pa": 1368.75,
+      "pf": 1653.25,
+      "pa": 1695.5,
       "me": false
     },
     {
@@ -280,8 +270,8 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1452.75,
-      "pa": 1361.25,
+      "pf": 1636.5,
+      "pa": 1502.75,
       "me": false
     },
     {
@@ -291,8 +281,19 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1387.5,
-      "pa": 958.5,
+      "pf": 1609.5,
+      "pa": 1144.5,
+      "me": false
+    },
+    {
+      "id": 30,
+      "name": "Marcus's Monstrous Team",
+      "owner": "Marcus Cunha",
+      "w": 1,
+      "l": 0,
+      "t": 0,
+      "pf": 1581.5,
+      "pa": 1521.25,
       "me": false
     },
     {
@@ -302,8 +303,8 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1341.75,
-      "pa": 1490.75,
+      "pf": 1527.75,
+      "pa": 1712.75,
       "me": false
     },
     {
@@ -313,8 +314,8 @@
       "w": 1,
       "l": 0,
       "t": 0,
-      "pf": 1201.5,
-      "pa": 1332.0,
+      "pf": 1396.75,
+      "pa": 1627.75,
       "me": false
     },
     {
@@ -324,8 +325,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1521.75,
-      "pa": 1322.0,
+      "pf": 1817.5,
+      "pa": 1517.25,
       "me": false
     },
     {
@@ -335,19 +336,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1482.5,
-      "pa": 1603.25,
-      "me": false
-    },
-    {
-      "id": 1,
-      "name": "Everglades Gators",
-      "owner": "Ale Sotilli",
-      "w": 0,
-      "l": 1,
-      "t": 0,
-      "pf": 1466.75,
-      "pa": 1431.5,
+      "pf": 1713.25,
+      "pa": 1751.5,
       "me": false
     },
     {
@@ -357,9 +347,20 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1464.75,
-      "pa": 1264.0,
+      "pf": 1702.0,
+      "pa": 1427.25,
       "me": true
+    },
+    {
+      "id": 1,
+      "name": "Everglades Gators",
+      "owner": "Ale Sotilli",
+      "w": 0,
+      "l": 1,
+      "t": 0,
+      "pf": 1615.0,
+      "pa": 1662.25,
+      "me": false
     },
     {
       "id": 23,
@@ -368,8 +369,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1426.5,
-      "pa": 1298.5,
+      "pf": 1605.25,
+      "pa": 1445.25,
       "me": false
     },
     {
@@ -379,8 +380,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1357.5,
-      "pa": 1577.0,
+      "pf": 1504.25,
+      "pa": 1755.75,
       "me": false
     },
     {
@@ -390,8 +391,8 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 1179.0,
-      "pa": 1342.0,
+      "pf": 1331.5,
+      "pa": 1461.0,
       "me": false
     },
     {
@@ -401,27 +402,83 @@
       "w": 0,
       "l": 1,
       "t": 0,
-      "pf": 880.75,
-      "pa": 1361.5,
+      "pf": 1044.0,
+      "pa": 1598.75,
       "me": false
     }
   ],
   "freeAgents": [
     {
+      "name": "Ronald Holland II",
+      "team": "DET",
+      "pos": "SF",
+      "total": 102.5,
+      "avg": 20.5,
+      "owned": 0.8
+    },
+    {
+      "name": "Dennis Schroder",
+      "team": "CHA",
+      "pos": "PG",
+      "total": 98.0,
+      "avg": 19.6,
+      "owned": 9.8
+    },
+    {
+      "name": "Moritz Wagner",
+      "team": "BKN",
+      "pos": "C",
+      "total": 91.75,
+      "avg": 22.94,
+      "owned": 0.8
+    },
+    {
+      "name": "Trevon Brazile",
+      "team": "DEN",
+      "pos": "SF",
+      "total": 83.5,
+      "avg": 20.88,
+      "owned": 4.7
+    },
+    {
+      "name": "Jordan Goodwin",
+      "team": "PHX",
+      "pos": "PG",
+      "total": 83.0,
+      "avg": 27.67,
+      "owned": 0.6
+    },
+    {
       "name": "Grayson Allen",
       "team": "CHA",
       "pos": "SG",
-      "total": 78.5,
-      "avg": 19.62,
-      "owned": 17.6
+      "total": 82.75,
+      "avg": 16.55,
+      "owned": 17.2
     },
     {
-      "name": "Ziaire Williams",
-      "team": "LAL",
-      "pos": "SF",
-      "total": 76.0,
-      "avg": 25.33,
-      "owned": 5.2
+      "name": "Brandon Williams",
+      "team": "GS",
+      "pos": "PG",
+      "total": 79.75,
+      "avg": 15.95,
+      "owned": 1.0
+    },
+    {
+      "name": "Max Christie",
+      "team": "DAL",
+      "pos": "SG",
+      "total": 79.0,
+      "avg": 15.8,
+      "owned": 2.4
+    },
+    {
+      "name": "Bones Hyland",
+      "team": "MIN",
+      "pos": "PG",
+      "total": 77.75,
+      "avg": 15.55,
+      "owned": 1.4
     },
     {
       "name": "Isaiah Collier",
@@ -429,15 +486,15 @@
       "pos": "PG",
       "total": 75.5,
       "avg": 18.88,
-      "owned": 3.6
+      "owned": 3.7
     },
     {
-      "name": "Max Christie",
-      "team": "DAL",
-      "pos": "SG",
-      "total": 74.5,
-      "avg": 18.62,
-      "owned": 2.5
+      "name": "Leonard Miller",
+      "team": "CHI",
+      "pos": "SF",
+      "total": 73.75,
+      "avg": 14.75,
+      "owned": 0.8
     },
     {
       "name": "Justin Champagnie",
@@ -445,63 +502,7 @@
       "pos": "SF",
       "total": 71.5,
       "avg": 23.83,
-      "owned": 2.3
-    },
-    {
-      "name": "Dennis Schroder",
-      "team": "CHA",
-      "pos": "PG",
-      "total": 71.25,
-      "avg": 17.81,
-      "owned": 9.0
-    },
-    {
-      "name": "Robert Williams III",
-      "team": "POR",
-      "pos": "C",
-      "total": 66.25,
-      "avg": 33.12,
-      "owned": 7.9
-    },
-    {
-      "name": "Brice Sensabaugh",
-      "team": "UTAH",
-      "pos": "SF",
-      "total": 65.75,
-      "avg": 16.44,
-      "owned": 1.5
-    },
-    {
-      "name": "Landry Shamet",
-      "team": "NY",
-      "pos": "SG",
-      "total": 65.75,
-      "avg": 16.44,
-      "owned": 0.9
-    },
-    {
-      "name": "Brandon Williams",
-      "team": "GS",
-      "pos": "PG",
-      "total": 65.0,
-      "avg": 16.25,
-      "owned": 1.0
-    },
-    {
-      "name": "Moritz Wagner",
-      "team": "BKN",
-      "pos": "C",
-      "total": 61.75,
-      "avg": 20.58,
-      "owned": 0.6
-    },
-    {
-      "name": "Jake LaRavia",
-      "team": "LAL",
-      "pos": "PF",
-      "total": 60.0,
-      "avg": 20.0,
-      "owned": 7.9
+      "owned": 2.1
     }
   ],
   "today": null,
@@ -1959,6 +1960,128 @@
           10
         ]
       }
+    ],
+    "2026-10-31": [
+      {
+        "id": "nikola-jokic",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 5,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 0,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 10,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 12,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "allen-graves",
+        "slot": 12,
+        "elig": [
+          2,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      }
     ]
   },
   "gamesData": {
@@ -2216,6 +2339,34 @@
           "qd": 0,
           "pts": 7
         }
+      },
+      {
+        "id": "espn-2026-10-30-mitchell-robinson",
+        "date": "2026-10-30",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 0,
+          "ftm": 3,
+          "ftmi": 2,
+          "tpm": 0,
+          "tpmi": 0,
+          "oreb": 2,
+          "reb": 4,
+          "ast": 0,
+          "stl": 0,
+          "blk": 1,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 11
+        }
       }
     ],
     "julian-champagnie": [
@@ -2471,6 +2622,34 @@
           "td": 0,
           "qd": 0,
           "pts": 26
+        }
+      },
+      {
+        "id": "espn-2026-10-30-cooper-flagg",
+        "date": "2026-10-30",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 13,
+          "fgmi": 6,
+          "ftm": 7,
+          "ftmi": 3,
+          "tpm": 0,
+          "tpmi": 4,
+          "oreb": 1,
+          "reb": 9,
+          "ast": 6,
+          "stl": 2,
+          "blk": 1,
+          "to": 3,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 33
         }
       }
     ],
@@ -2898,6 +3077,34 @@
           "qd": 0,
           "pts": 10
         }
+      },
+      {
+        "id": "espn-2026-10-30-davion-mitchell",
+        "date": "2026-10-30",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 6,
+          "fgmi": 10,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 3,
+          "tpmi": 5,
+          "oreb": 2,
+          "reb": 6,
+          "ast": 11,
+          "stl": 1,
+          "blk": 0,
+          "to": 3,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 15
+        }
       }
     ],
     "gradey-dick": [
@@ -3126,6 +3333,34 @@
           "qd": 0,
           "pts": 17
         }
+      },
+      {
+        "id": "espn-2026-10-30-jalen-smith",
+        "date": "2026-10-30",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 2,
+          "fgmi": 6,
+          "ftm": 1,
+          "ftmi": 1,
+          "tpm": 0,
+          "tpmi": 5,
+          "oreb": 4,
+          "reb": 12,
+          "ast": 1,
+          "stl": 0,
+          "blk": 2,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 1,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 5
+        }
       }
     ],
     "dennis-schroder": [
@@ -3327,6 +3562,34 @@
           "td": 1,
           "qd": 0,
           "pts": 21
+        }
+      },
+      {
+        "id": "espn-2026-10-30-nikola-jokic",
+        "date": "2026-10-30",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 8,
+          "fgmi": 5,
+          "ftm": 2,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 1,
+          "oreb": 3,
+          "reb": 7,
+          "ast": 10,
+          "stl": 3,
+          "blk": 0,
+          "to": 5,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 18
         }
       }
     ],
@@ -3555,6 +3818,34 @@
           "td": 0,
           "qd": 0,
           "pts": 8
+        }
+      },
+      {
+        "id": "espn-2026-10-30-brandin-podziemski",
+        "date": "2026-10-30",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 7,
+          "fgmi": 8,
+          "ftm": 3,
+          "ftmi": 2,
+          "tpm": 4,
+          "tpmi": 5,
+          "oreb": 2,
+          "reb": 5,
+          "ast": 6,
+          "stl": 2,
+          "blk": 1,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 21
         }
       }
     ],
@@ -3901,6 +4192,34 @@
           "td": 0,
           "qd": 0,
           "pts": 3
+        }
+      },
+      {
+        "id": "espn-2026-10-30-allen-graves",
+        "date": "2026-10-30",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 2,
+          "fgmi": 0,
+          "ftm": 2,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 0,
+          "oreb": 3,
+          "reb": 4,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 7
         }
       }
     ],

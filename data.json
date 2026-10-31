@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T07:42:31.224682+00:00",
+  "updatedAt": "2026-10-31T15:23:22.197623+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -409,20 +409,12 @@
   ],
   "freeAgents": [
     {
-      "name": "Ronald Holland II",
-      "team": "DET",
-      "pos": "SF",
-      "total": 102.5,
-      "avg": 20.5,
-      "owned": 0.8
-    },
-    {
       "name": "Dennis Schroder",
       "team": "CHA",
       "pos": "PG",
-      "total": 98.0,
-      "avg": 19.6,
-      "owned": 9.8
+      "total": 92.75,
+      "avg": 23.19,
+      "owned": 10.2
     },
     {
       "name": "Moritz Wagner",
@@ -438,7 +430,7 @@
       "pos": "SF",
       "total": 83.5,
       "avg": 20.88,
-      "owned": 4.7
+      "owned": 4.5
     },
     {
       "name": "Jordan Goodwin",
@@ -446,63 +438,71 @@
       "pos": "PG",
       "total": 83.0,
       "avg": 27.67,
-      "owned": 0.6
-    },
-    {
-      "name": "Grayson Allen",
-      "team": "CHA",
-      "pos": "SG",
-      "total": 82.75,
-      "avg": 16.55,
-      "owned": 17.2
+      "owned": 0.7
     },
     {
       "name": "Brandon Williams",
       "team": "GS",
       "pos": "PG",
-      "total": 79.75,
-      "avg": 15.95,
+      "total": 74.5,
+      "avg": 18.62,
       "owned": 1.0
-    },
-    {
-      "name": "Max Christie",
-      "team": "DAL",
-      "pos": "SG",
-      "total": 79.0,
-      "avg": 15.8,
-      "owned": 2.4
     },
     {
       "name": "Bones Hyland",
       "team": "MIN",
       "pos": "PG",
-      "total": 77.75,
-      "avg": 15.55,
-      "owned": 1.4
+      "total": 74.25,
+      "avg": 18.56,
+      "owned": 1.6
     },
     {
-      "name": "Isaiah Collier",
-      "team": "UTAH",
-      "pos": "PG",
-      "total": 75.5,
-      "avg": 18.88,
-      "owned": 3.7
-    },
-    {
-      "name": "Leonard Miller",
-      "team": "CHI",
+      "name": "Ronald Holland II",
+      "team": "DET",
       "pos": "SF",
-      "total": 73.75,
-      "avg": 14.75,
+      "total": 74.25,
+      "avg": 18.56,
       "owned": 0.8
     },
     {
-      "name": "Justin Champagnie",
-      "team": "WAS",
+      "name": "Jake LaRavia",
+      "team": "LAL",
+      "pos": "PF",
+      "total": 69.0,
+      "avg": 17.25,
+      "owned": 7.8
+    },
+    {
+      "name": "Grayson Allen",
+      "team": "CHA",
+      "pos": "SG",
+      "total": 67.75,
+      "avg": 16.94,
+      "owned": 17.1
+    },
+    {
+      "name": "Aaron Nesmith",
+      "team": "IND",
       "pos": "SF",
-      "total": 71.5,
-      "avg": 23.83,
-      "owned": 2.1
+      "total": 66.5,
+      "avg": 16.62,
+      "owned": 3.4
+    },
+    {
+      "name": "Bogdan Bogdanovic",
+      "team": "HOU",
+      "pos": "SG",
+      "total": 63.75,
+      "avg": 15.94,
+      "owned": 0.6
+    },
+    {
+      "name": "Andre Drummond",
+      "team": "NY",
+      "pos": "C",
+      "total": 63.5,
+      "avg": 15.88,
+      "owned": 11.4
     }
   ],
   "today": null,

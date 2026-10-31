@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:23:22.197623+00:00",
+  "updatedAt": "2026-10-31T21:23:51.111123+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -414,7 +414,7 @@
       "pos": "PG",
       "total": 92.75,
       "avg": 23.19,
-      "owned": 10.2
+      "owned": 10.9
     },
     {
       "name": "Moritz Wagner",
@@ -422,7 +422,7 @@
       "pos": "C",
       "total": 91.75,
       "avg": 22.94,
-      "owned": 0.8
+      "owned": 1.1
     },
     {
       "name": "Trevon Brazile",
@@ -430,7 +430,7 @@
       "pos": "SF",
       "total": 83.5,
       "avg": 20.88,
-      "owned": 4.5
+      "owned": 4.3
     },
     {
       "name": "Jordan Goodwin",
@@ -454,7 +454,7 @@
       "pos": "PG",
       "total": 74.25,
       "avg": 18.56,
-      "owned": 1.6
+      "owned": 2.0
     },
     {
       "name": "Ronald Holland II",
@@ -465,12 +465,20 @@
       "owned": 0.8
     },
     {
-      "name": "Jake LaRavia",
-      "team": "LAL",
+      "name": "Isaiah Collier",
+      "team": "UTAH",
+      "pos": "PG",
+      "total": 73.5,
+      "avg": 18.38,
+      "owned": 3.9
+    },
+    {
+      "name": "Draymond Green",
+      "team": "GS",
       "pos": "PF",
-      "total": 69.0,
-      "avg": 17.25,
-      "owned": 7.8
+      "total": 70.0,
+      "avg": 23.33,
+      "owned": 24.5
     },
     {
       "name": "Grayson Allen",
@@ -478,7 +486,7 @@
       "pos": "SG",
       "total": 67.75,
       "avg": 16.94,
-      "owned": 17.1
+      "owned": 16.9
     },
     {
       "name": "Aaron Nesmith",
@@ -486,7 +494,7 @@
       "pos": "SF",
       "total": 66.5,
       "avg": 16.62,
-      "owned": 3.4
+      "owned": 3.3
     },
     {
       "name": "Bogdan Bogdanovic",
@@ -495,14 +503,6 @@
       "total": 63.75,
       "avg": 15.94,
       "owned": 0.6
-    },
-    {
-      "name": "Andre Drummond",
-      "team": "NY",
-      "pos": "C",
-      "total": 63.5,
-      "avg": 15.88,
-      "owned": 11.4
     }
   ],
   "today": null,
@@ -2793,6 +2793,34 @@
           "qd": 0,
           "pts": 18
         }
+      },
+      {
+        "id": "espn-2026-10-31-darryn-peterson",
+        "date": "2026-10-31",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 6,
+          "fgmi": 9,
+          "ftm": 1,
+          "ftmi": 1,
+          "tpm": 3,
+          "tpmi": 5,
+          "oreb": 1,
+          "reb": 4,
+          "ast": 4,
+          "stl": 1,
+          "blk": 1,
+          "to": 3,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 16
+        }
       }
     ],
     "ace-bailey": [
@@ -2934,6 +2962,34 @@
           "td": 0,
           "qd": 0,
           "pts": 19
+        }
+      },
+      {
+        "id": "espn-2026-10-31-ace-bailey",
+        "date": "2026-10-31",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 6,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 5,
+          "oreb": 0,
+          "reb": 7,
+          "ast": 1,
+          "stl": 2,
+          "blk": 3,
+          "to": 3,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 9
         }
       }
     ],

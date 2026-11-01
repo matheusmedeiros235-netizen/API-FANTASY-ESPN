@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T15:23:57.091940+00:00",
+  "updatedAt": "2026-11-01T21:24:56.757136+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -415,7 +415,7 @@
       "pos": "PG",
       "total": 92.0,
       "avg": 18.4,
-      "owned": 1.9
+      "owned": 1.8
     },
     {
       "name": "Clint Capela",
@@ -423,15 +423,7 @@
       "pos": "C",
       "total": 92.0,
       "avg": 23.0,
-      "owned": 0.8
-    },
-    {
-      "name": "Grayson Allen",
-      "team": "CHA",
-      "pos": "SG",
-      "total": 76.25,
-      "avg": 19.06,
-      "owned": 16.7
+      "owned": 0.7
     },
     {
       "name": "Ronald Holland II",
@@ -447,7 +439,7 @@
       "pos": "PG",
       "total": 73.5,
       "avg": 18.38,
-      "owned": 3.6
+      "owned": 3.5
     },
     {
       "name": "Draymond Green",
@@ -455,7 +447,7 @@
       "pos": "PF",
       "total": 70.0,
       "avg": 23.33,
-      "owned": 24.0
+      "owned": 23.7
     },
     {
       "name": "Aaron Nesmith",
@@ -479,7 +471,7 @@
       "pos": "C",
       "total": 63.5,
       "avg": 15.88,
-      "owned": 10.6
+      "owned": 10.3
     },
     {
       "name": "Landry Shamet",
@@ -495,7 +487,7 @@
       "pos": "SG",
       "total": 57.5,
       "avg": 14.38,
-      "owned": 2.8
+      "owned": 2.7
     },
     {
       "name": "GG Jackson",
@@ -504,6 +496,14 @@
       "total": 57.25,
       "avg": 14.31,
       "owned": 1.7
+    },
+    {
+      "name": "Robert Williams III",
+      "team": "POR",
+      "pos": "C",
+      "total": 55.75,
+      "avg": 27.88,
+      "owned": 5.9
     }
   ],
   "today": null,

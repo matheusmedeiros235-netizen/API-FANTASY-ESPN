@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T08:17:28.875509+00:00",
+  "updatedAt": "2026-11-02T15:48:20.457870+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -411,44 +411,28 @@
   ],
   "freeAgents": [
     {
-      "name": "Bones Hyland",
-      "team": "MIN",
-      "pos": "PG",
-      "total": 92.0,
-      "avg": 18.4,
-      "owned": 1.8
-    },
-    {
       "name": "Clint Capela",
       "team": "HOU",
       "pos": "C",
       "total": 92.0,
       "avg": 23.0,
-      "owned": 0.7
+      "owned": 0.6
+    },
+    {
+      "name": "Bones Hyland",
+      "team": "MIN",
+      "pos": "PG",
+      "total": 74.25,
+      "avg": 18.56,
+      "owned": 1.7
     },
     {
       "name": "Aaron Nesmith",
       "team": "IND",
       "pos": "SF",
-      "total": 83.75,
-      "avg": 16.75,
+      "total": 68.75,
+      "avg": 17.19,
       "owned": 3.4
-    },
-    {
-      "name": "Ronald Holland II",
-      "team": "DET",
-      "pos": "SF",
-      "total": 74.25,
-      "avg": 18.56,
-      "owned": 0.8
-    },
-    {
-      "name": "Isaiah Collier",
-      "team": "UTAH",
-      "pos": "PG",
-      "total": 73.5,
-      "avg": 18.38,
-      "owned": 3.5
     },
     {
       "name": "Brandon Williams",
@@ -459,36 +443,20 @@
       "owned": 1.9
     },
     {
-      "name": "Keon Ellis",
-      "team": "BKN",
-      "pos": "SG",
-      "total": 65.0,
-      "avg": 16.25,
-      "owned": 2.8
+      "name": "GG Jackson",
+      "team": "MEM",
+      "pos": "PF",
+      "total": 58.0,
+      "avg": 19.33,
+      "owned": 1.7
     },
     {
-      "name": "Brice Sensabaugh",
+      "name": "Isaiah Collier",
       "team": "UTAH",
-      "pos": "SF",
-      "total": 63.75,
-      "avg": 15.94,
-      "owned": 1.6
-    },
-    {
-      "name": "Andre Drummond",
-      "team": "NY",
-      "pos": "C",
-      "total": 63.5,
-      "avg": 15.88,
-      "owned": 10.1
-    },
-    {
-      "name": "Landry Shamet",
-      "team": "NY",
-      "pos": "SG",
-      "total": 60.0,
-      "avg": 15.0,
-      "owned": 0.7
+      "pos": "PG",
+      "total": 57.75,
+      "avg": 19.25,
+      "owned": 3.4
     },
     {
       "name": "Luguentz Dort",
@@ -499,12 +467,44 @@
       "owned": 2.6
     },
     {
-      "name": "GG Jackson",
-      "team": "MEM",
-      "pos": "PF",
-      "total": 57.25,
-      "avg": 14.31,
-      "owned": 1.7
+      "name": "Robert Williams III",
+      "team": "POR",
+      "pos": "C",
+      "total": 55.75,
+      "avg": 27.88,
+      "owned": 5.5
+    },
+    {
+      "name": "Trevon Brazile",
+      "team": "DEN",
+      "pos": "SF",
+      "total": 50.75,
+      "avg": 16.92,
+      "owned": 3.7
+    },
+    {
+      "name": "Andre Drummond",
+      "team": "NY",
+      "pos": "C",
+      "total": 50.5,
+      "avg": 16.83,
+      "owned": 10.0
+    },
+    {
+      "name": "Landry Shamet",
+      "team": "NY",
+      "pos": "SG",
+      "total": 50.25,
+      "avg": 16.75,
+      "owned": 0.7
+    },
+    {
+      "name": "Herbert Jones",
+      "team": "NOP",
+      "pos": "SF",
+      "total": 49.25,
+      "avg": 16.42,
+      "owned": 1.5
     }
   ],
   "today": null,

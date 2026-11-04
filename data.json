@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T15:45:23.486354+00:00",
+  "updatedAt": "2026-11-04T21:39:33.430702+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -434,7 +434,7 @@
       "pos": "SF",
       "total": 78.0,
       "avg": 19.5,
-      "owned": 5.5
+      "owned": 5.4
     },
     {
       "name": "Herbert Jones",
@@ -450,7 +450,7 @@
       "pos": "SG",
       "total": 62.5,
       "avg": 15.62,
-      "owned": 2.6
+      "owned": 2.5
     },
     {
       "name": "Luke Kornet",
@@ -474,7 +474,7 @@
       "pos": "PG",
       "total": 56.5,
       "avg": 18.83,
-      "owned": 5.1
+      "owned": 5.0
     },
     {
       "name": "GG Jackson",
@@ -482,7 +482,7 @@
       "pos": "PF",
       "total": 52.75,
       "avg": 17.58,
-      "owned": 1.7
+      "owned": 1.6
     },
     {
       "name": "Baylor Scheierman",
@@ -2543,7 +2543,7 @@
       },
       {
         "id": "jalen-smith",
-        "slot": 4,
+        "slot": 12,
         "elig": [
           3,
           4,
@@ -2568,7 +2568,7 @@
       },
       {
         "id": "aday-mara",
-        "slot": 12,
+        "slot": 4,
         "elig": [
           4,
           10

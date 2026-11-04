@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T08:08:54.938205+00:00",
+  "updatedAt": "2026-11-04T15:45:23.486354+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -429,28 +429,12 @@
       "owned": 0.5
     },
     {
-      "name": "Landry Shamet",
-      "team": "NY",
-      "pos": "SG",
-      "total": 79.5,
-      "avg": 19.88,
-      "owned": 0.7
-    },
-    {
       "name": "Matisse Thybulle",
       "team": "LAL",
       "pos": "SF",
-      "total": 76.0,
-      "avg": 15.2,
-      "owned": 5.6
-    },
-    {
-      "name": "Robert Williams III",
-      "team": "POR",
-      "pos": "C",
-      "total": 67.75,
-      "avg": 22.58,
-      "owned": 4.8
+      "total": 78.0,
+      "avg": 19.5,
+      "owned": 5.5
     },
     {
       "name": "Herbert Jones",
@@ -459,14 +443,6 @@
       "total": 67.25,
       "avg": 16.81,
       "owned": 1.5
-    },
-    {
-      "name": "Andre Drummond",
-      "team": "NY",
-      "pos": "C",
-      "total": 64.5,
-      "avg": 16.12,
-      "owned": 9.4
     },
     {
       "name": "Luguentz Dort",
@@ -480,25 +456,25 @@
       "name": "Luke Kornet",
       "team": "SA",
       "pos": "C",
-      "total": 61.75,
-      "avg": 15.44,
+      "total": 62.5,
+      "avg": 20.83,
       "owned": 0.8
     },
     {
-      "name": "Baylor Scheierman",
-      "team": "BOS",
+      "name": "Landry Shamet",
+      "team": "NY",
       "pos": "SG",
-      "total": 58.75,
-      "avg": 14.69,
-      "owned": 0.7
+      "total": 59.25,
+      "avg": 19.75,
+      "owned": 0.8
     },
     {
-      "name": "Ronald Holland II",
+      "name": "Daniss Jenkins",
       "team": "DET",
-      "pos": "SF",
-      "total": 58.0,
-      "avg": 14.5,
-      "owned": 0.8
+      "pos": "PG",
+      "total": 56.5,
+      "avg": 18.83,
+      "owned": 5.1
     },
     {
       "name": "GG Jackson",
@@ -507,6 +483,30 @@
       "total": 52.75,
       "avg": 17.58,
       "owned": 1.7
+    },
+    {
+      "name": "Baylor Scheierman",
+      "team": "BOS",
+      "pos": "SG",
+      "total": 50.75,
+      "avg": 16.92,
+      "owned": 0.7
+    },
+    {
+      "name": "Aaron Nesmith",
+      "team": "IND",
+      "pos": "SF",
+      "total": 50.25,
+      "avg": 16.75,
+      "owned": 3.1
+    },
+    {
+      "name": "Royce O'Neale",
+      "team": "CHA",
+      "pos": "SF",
+      "total": 46.75,
+      "avg": 11.69,
+      "owned": 1.4
     }
   ],
   "today": null,

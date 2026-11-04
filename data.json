@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T21:31:07.976910+00:00",
+  "updatedAt": "2026-11-04T08:08:54.938205+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -230,7 +230,8 @@
     "2026-10-31": 93.25,
     "2026-11-01": 52.0,
     "2026-11-02": 243.5,
-    "2026-11-03": 0.0
+    "2026-11-03": 0.0,
+    "2026-11-04": 0.0
   },
   "table": [
     {
@@ -425,7 +426,7 @@
       "pos": "C",
       "total": 87.5,
       "avg": 29.17,
-      "owned": 0.6
+      "owned": 0.5
     },
     {
       "name": "Landry Shamet",
@@ -441,7 +442,7 @@
       "pos": "SF",
       "total": 76.0,
       "avg": 15.2,
-      "owned": 5.8
+      "owned": 5.6
     },
     {
       "name": "Robert Williams III",
@@ -449,7 +450,7 @@
       "pos": "C",
       "total": 67.75,
       "avg": 22.58,
-      "owned": 5.0
+      "owned": 4.8
     },
     {
       "name": "Herbert Jones",
@@ -465,7 +466,7 @@
       "pos": "C",
       "total": 64.5,
       "avg": 16.12,
-      "owned": 9.5
+      "owned": 9.4
     },
     {
       "name": "Luguentz Dort",
@@ -2446,6 +2447,128 @@
       {
         "id": "aday-mara",
         "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      }
+    ],
+    "2026-11-04": [
+      {
+        "id": "nikola-jokic",
+        "slot": 10,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 0,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 5,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 4,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "allen-graves",
+        "slot": 12,
+        "elig": [
+          2,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 12,
         "elig": [
           4,
           10

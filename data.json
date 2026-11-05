@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T08:12:14.176129+00:00",
+  "updatedAt": "2026-11-05T15:47:49.763181+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -12,6 +12,13 @@
       "id": "aday-mara",
       "name": "Aday Mara",
       "team": "OKC",
+      "pos": "C",
+      "active": true
+    },
+    {
+      "id": "al-horford",
+      "name": "Al Horford",
+      "team": "GS",
       "pos": "C",
       "active": true
     },
@@ -417,49 +424,33 @@
       "name": "Bones Hyland",
       "team": "MIN",
       "pos": "PG",
-      "total": 125.0,
-      "avg": 25.0,
+      "total": 108.5,
+      "avg": 27.12,
       "owned": 2.0
     },
     {
       "name": "Jarace Walker",
       "team": "IND",
       "pos": "PF",
-      "total": 105.0,
-      "avg": 21.0,
-      "owned": 1.8
-    },
-    {
-      "name": "Matisse Thybulle",
-      "team": "LAL",
-      "pos": "SF",
-      "total": 101.0,
-      "avg": 20.2,
-      "owned": 5.1
+      "total": 90.25,
+      "avg": 22.56,
+      "owned": 1.7
     },
     {
       "name": "Braden Smith",
       "team": "IND",
       "pos": "PG",
-      "total": 85.25,
-      "avg": 17.05,
+      "total": 83.0,
+      "avg": 20.75,
       "owned": 0.6
     },
     {
-      "name": "Aaron Nesmith",
-      "team": "IND",
+      "name": "Matisse Thybulle",
+      "team": "LAL",
       "pos": "SF",
-      "total": 81.25,
-      "avg": 20.31,
-      "owned": 3.1
-    },
-    {
-      "name": "Luguentz Dort",
-      "team": "ATL",
-      "pos": "SG",
-      "total": 78.0,
-      "avg": 15.6,
-      "owned": 2.5
+      "total": 76.75,
+      "avg": 19.19,
+      "owned": 4.8
     },
     {
       "name": "Baylor Scheierman",
@@ -470,43 +461,59 @@
       "owned": 0.7
     },
     {
+      "name": "Robert Williams III",
+      "team": "POR",
+      "pos": "C",
+      "total": 62.0,
+      "avg": 20.67,
+      "owned": 4.5
+    },
+    {
+      "name": "Aaron Nesmith",
+      "team": "IND",
+      "pos": "SF",
+      "total": 60.25,
+      "avg": 20.08,
+      "owned": 3.1
+    },
+    {
       "name": "Herbert Jones",
       "team": "NOP",
       "pos": "SF",
-      "total": 71.75,
-      "avg": 14.35,
+      "total": 59.0,
+      "avg": 14.75,
       "owned": 1.4
     },
     {
-      "name": "Landry Shamet",
-      "team": "NY",
+      "name": "Luguentz Dort",
+      "team": "ATL",
       "pos": "SG",
-      "total": 67.75,
-      "avg": 16.94,
-      "owned": 0.8
-    },
-    {
-      "name": "Luke Kornet",
-      "team": "SA",
-      "pos": "C",
-      "total": 67.5,
-      "avg": 16.88,
-      "owned": 0.8
-    },
-    {
-      "name": "Andre Drummond",
-      "team": "NY",
-      "pos": "C",
-      "total": 63.0,
-      "avg": 15.75,
-      "owned": 9.1
+      "total": 58.25,
+      "avg": 14.56,
+      "owned": 2.5
     },
     {
       "name": "Walter Clayton Jr.",
       "team": "DAL",
       "pos": "SG",
-      "total": 62.25,
-      "avg": 15.56,
+      "total": 54.5,
+      "avg": 18.17,
+      "owned": 1.6
+    },
+    {
+      "name": "Ronald Holland II",
+      "team": "DET",
+      "pos": "SF",
+      "total": 54.25,
+      "avg": 18.08,
+      "owned": 0.8
+    },
+    {
+      "name": "GG Jackson",
+      "team": "MEM",
+      "pos": "PF",
+      "total": 51.5,
+      "avg": 12.88,
       "owned": 1.6
     }
   ],
@@ -2587,7 +2594,7 @@
       },
       {
         "id": "cooper-flagg",
-        "slot": 3,
+        "slot": 12,
         "elig": [
           2,
           3,
@@ -2623,7 +2630,7 @@
       },
       {
         "id": "peyton-watson",
-        "slot": 12,
+        "slot": 13,
         "elig": [
           2,
           3,
@@ -2693,6 +2700,15 @@
         "id": "aday-mara",
         "slot": 4,
         "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "al-horford",
+        "slot": 3,
+        "elig": [
+          3,
           4,
           10
         ]

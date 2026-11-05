@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T15:47:49.763181+00:00",
+  "updatedAt": "2026-11-05T21:34:45.865451+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -434,7 +434,7 @@
       "pos": "PF",
       "total": 90.25,
       "avg": 22.56,
-      "owned": 1.7
+      "owned": 1.6
     },
     {
       "name": "Braden Smith",
@@ -442,7 +442,7 @@
       "pos": "PG",
       "total": 83.0,
       "avg": 20.75,
-      "owned": 0.6
+      "owned": 0.7
     },
     {
       "name": "Matisse Thybulle",
@@ -450,7 +450,7 @@
       "pos": "SF",
       "total": 76.75,
       "avg": 19.19,
-      "owned": 4.8
+      "owned": 4.7
     },
     {
       "name": "Baylor Scheierman",
@@ -459,6 +459,14 @@
       "total": 75.0,
       "avg": 18.75,
       "owned": 0.7
+    },
+    {
+      "name": "Kobe Sanders",
+      "team": "LAC",
+      "pos": "SG",
+      "total": 69.75,
+      "avg": 17.44,
+      "owned": 1.1
     },
     {
       "name": "Robert Williams III",
@@ -507,14 +515,6 @@
       "total": 54.25,
       "avg": 18.08,
       "owned": 0.8
-    },
-    {
-      "name": "GG Jackson",
-      "team": "MEM",
-      "pos": "PF",
-      "total": 51.5,
-      "avg": 12.88,
-      "owned": 1.6
     }
   ],
   "today": null,

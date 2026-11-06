@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T15:37:23.813603+00:00",
+  "updatedAt": "2026-11-06T21:29:17.559936+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -458,7 +458,7 @@
       "pos": "PF",
       "total": 69.75,
       "avg": 17.44,
-      "owned": 1.1
+      "owned": 1.0
     },
     {
       "name": "Kobe Sanders",
@@ -474,7 +474,7 @@
       "pos": "PG",
       "total": 69.0,
       "avg": 23.0,
-      "owned": 3.3
+      "owned": 3.0
     },
     {
       "name": "Kenrich Williams",
@@ -482,7 +482,7 @@
       "pos": "SF",
       "total": 56.25,
       "avg": 18.75,
-      "owned": 1.0
+      "owned": 1.2
     },
     {
       "name": "Walter Clayton Jr.",
@@ -490,7 +490,7 @@
       "pos": "SG",
       "total": 54.5,
       "avg": 18.17,
-      "owned": 1.6
+      "owned": 1.7
     },
     {
       "name": "Ronald Holland II",
@@ -501,12 +501,12 @@
       "owned": 0.8
     },
     {
-      "name": "Luguentz Dort",
-      "team": "ATL",
-      "pos": "SG",
-      "total": 49.75,
-      "avg": 16.58,
-      "owned": 2.6
+      "name": "Bennett Stirtz",
+      "team": "OKC",
+      "pos": "PG",
+      "total": 53.25,
+      "avg": 17.75,
+      "owned": 0.5
     },
     {
       "name": "Luke Kornet",

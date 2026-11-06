@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T21:34:45.865451+00:00",
+  "updatedAt": "2026-11-06T08:06:48.745142+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -239,7 +239,8 @@
     "2026-11-02": 243.5,
     "2026-11-03": 0.0,
     "2026-11-04": 187.75,
-    "2026-11-05": 0.0
+    "2026-11-05": 57.75,
+    "2026-11-06": 0.0
   },
   "table": [
     {
@@ -249,8 +250,8 @@
       "w": 2,
       "l": 0,
       "t": 0,
-      "pf": 2457.75,
-      "pa": 2260.5,
+      "pf": 2493.0,
+      "pa": 2295.75,
       "me": false
     },
     {
@@ -260,8 +261,8 @@
       "w": 2,
       "l": 0,
       "t": 0,
-      "pf": 2397.25,
-      "pa": 2111.25,
+      "pf": 2448.0,
+      "pa": 2210.75,
       "me": false
     },
     {
@@ -271,8 +272,8 @@
       "w": 2,
       "l": 0,
       "t": 0,
-      "pf": 2385.0,
-      "pa": 1996.5,
+      "pf": 2442.75,
+      "pa": 2064.25,
       "me": false
     },
     {
@@ -282,8 +283,8 @@
       "w": 2,
       "l": 0,
       "t": 0,
-      "pf": 2289.0,
-      "pa": 2131.0,
+      "pf": 2325.25,
+      "pa": 2167.75,
       "me": false
     },
     {
@@ -293,19 +294,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2574.5,
-      "pa": 2075.0,
-      "me": false
-    },
-    {
-      "id": 24,
-      "name": "Houston Lunar Fury",
-      "owner": "Vitor Hugo Melo Alves",
-      "w": 1,
-      "l": 1,
-      "t": 0,
-      "pf": 2492.5,
-      "pa": 2544.0,
+      "pf": 2680.75,
+      "pa": 2093.75,
       "me": false
     },
     {
@@ -315,8 +305,19 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2478.5,
+      "pf": 2544.0,
       "pa": 2504.0,
+      "me": false
+    },
+    {
+      "id": 24,
+      "name": "Houston Lunar Fury",
+      "owner": "Vitor Hugo Melo Alves",
+      "w": 1,
+      "l": 1,
+      "t": 0,
+      "pf": 2527.75,
+      "pa": 2579.25,
       "me": false
     },
     {
@@ -326,8 +327,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2408.0,
-      "pa": 2003.75,
+      "pf": 2475.75,
+      "pa": 2061.5,
       "me": true
     },
     {
@@ -337,8 +338,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2368.0,
-      "pa": 2442.75,
+      "pf": 2459.0,
+      "pa": 2512.0,
       "me": false
     },
     {
@@ -349,7 +350,7 @@
       "l": 1,
       "t": 0,
       "pf": 2273.25,
-      "pa": 2256.25,
+      "pa": 2312.0,
       "me": false
     },
     {
@@ -359,7 +360,7 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2027.0,
+      "pf": 2082.75,
       "pa": 2119.75,
       "me": false
     },
@@ -370,8 +371,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 1945.5,
-      "pa": 2380.75,
+      "pf": 1982.25,
+      "pa": 2417.0,
       "me": false
     },
     {
@@ -381,8 +382,8 @@
       "w": 0,
       "l": 2,
       "t": 0,
-      "pf": 2341.5,
-      "pa": 2412.5,
+      "pf": 2410.75,
+      "pa": 2503.5,
       "me": false
     },
     {
@@ -392,8 +393,8 @@
       "w": 0,
       "l": 2,
       "t": 0,
-      "pf": 2167.25,
-      "pa": 2377.5,
+      "pf": 2266.75,
+      "pa": 2428.25,
       "me": false
     },
     {
@@ -403,8 +404,8 @@
       "w": 0,
       "l": 2,
       "t": 0,
-      "pf": 1950.25,
-      "pa": 2172.5,
+      "pf": 1969.0,
+      "pa": 2278.75,
       "me": false
     },
     {
@@ -415,26 +416,18 @@
       "l": 2,
       "t": 0,
       "pf": 1636.25,
-      "pa": 2403.5,
+      "pa": 2469.0,
       "me": false
     }
   ],
   "freeAgents": [
-    {
-      "name": "Bones Hyland",
-      "team": "MIN",
-      "pos": "PG",
-      "total": 108.5,
-      "avg": 27.12,
-      "owned": 2.0
-    },
     {
       "name": "Jarace Walker",
       "team": "IND",
       "pos": "PF",
       "total": 90.25,
       "avg": 22.56,
-      "owned": 1.6
+      "owned": 1.5
     },
     {
       "name": "Braden Smith",
@@ -458,7 +451,15 @@
       "pos": "SG",
       "total": 75.0,
       "avg": 18.75,
-      "owned": 0.7
+      "owned": 0.8
+    },
+    {
+      "name": "Georges Niang",
+      "team": "GS",
+      "pos": "PF",
+      "total": 69.75,
+      "avg": 17.44,
+      "owned": 1.3
     },
     {
       "name": "Kobe Sanders",
@@ -466,15 +467,7 @@
       "pos": "SG",
       "total": 69.75,
       "avg": 17.44,
-      "owned": 1.1
-    },
-    {
-      "name": "Robert Williams III",
-      "team": "POR",
-      "pos": "C",
-      "total": 62.0,
-      "avg": 20.67,
-      "owned": 4.5
+      "owned": 1.0
     },
     {
       "name": "Aaron Nesmith",
@@ -482,7 +475,7 @@
       "pos": "SF",
       "total": 60.25,
       "avg": 20.08,
-      "owned": 3.1
+      "owned": 3.2
     },
     {
       "name": "Herbert Jones",
@@ -499,6 +492,14 @@
       "total": 58.25,
       "avg": 14.56,
       "owned": 2.5
+    },
+    {
+      "name": "Kenrich Williams",
+      "team": "OKC",
+      "pos": "SF",
+      "total": 56.25,
+      "avg": 18.75,
+      "owned": 0.8
     },
     {
       "name": "Walter Clayton Jr.",
@@ -2713,6 +2714,137 @@
           10
         ]
       }
+    ],
+    "2026-11-06": [
+      {
+        "id": "nikola-jokic",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 0,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 13,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 10,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 5,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "allen-graves",
+        "slot": 12,
+        "elig": [
+          2,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "al-horford",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      }
     ]
   },
   "gamesData": {
@@ -4240,6 +4372,34 @@
           "qd": 0,
           "pts": 11
         }
+      },
+      {
+        "id": "espn-2026-11-05-davion-mitchell",
+        "date": "2026-11-05",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 9,
+          "fgmi": 9,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 4,
+          "tpmi": 5,
+          "oreb": 0,
+          "reb": 2,
+          "ast": 8,
+          "stl": 1,
+          "blk": 0,
+          "to": 5,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 22
+        }
       }
     ],
     "gradey-dick": [
@@ -5178,6 +5338,34 @@
           "qd": 0,
           "pts": 20
         }
+      },
+      {
+        "id": "espn-2026-11-05-brandin-podziemski",
+        "date": "2026-11-05",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 3,
+          "fgmi": 5,
+          "ftm": 1,
+          "ftmi": 1,
+          "tpm": 2,
+          "tpmi": 4,
+          "oreb": 0,
+          "reb": 6,
+          "ast": 3,
+          "stl": 1,
+          "blk": 1,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 9
+        }
       }
     ],
     "isaiah-stewart": [
@@ -5777,6 +5965,36 @@
           "td": 0,
           "qd": 0,
           "pts": 9
+        }
+      }
+    ],
+    "al-horford": [
+      {
+        "id": "espn-2026-11-05-al-horford",
+        "date": "2026-11-05",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 3,
+          "fgmi": 0,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 0,
+          "oreb": 1,
+          "reb": 5,
+          "ast": 1,
+          "stl": 0,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 8
         }
       }
     ]

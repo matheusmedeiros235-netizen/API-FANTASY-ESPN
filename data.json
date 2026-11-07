@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T15:26:46.062975+00:00",
+  "updatedAt": "2026-11-07T21:25:31.591188+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -430,12 +430,20 @@
   ],
   "freeAgents": [
     {
+      "name": "Robert Williams III",
+      "team": "POR",
+      "pos": "C",
+      "total": 96.25,
+      "avg": 24.06,
+      "owned": 6.5
+    },
+    {
       "name": "Grayson Allen",
       "team": "CHA",
       "pos": "SG",
       "total": 92.75,
       "avg": 23.19,
-      "owned": 19.4
+      "owned": 18.7
     },
     {
       "name": "Braden Smith",
@@ -443,7 +451,7 @@
       "pos": "PG",
       "total": 78.0,
       "avg": 26.0,
-      "owned": 0.8
+      "owned": 0.9
     },
     {
       "name": "Bones Hyland",
@@ -451,7 +459,7 @@
       "pos": "PG",
       "total": 74.25,
       "avg": 18.56,
-      "owned": 3.0
+      "owned": 2.8
     },
     {
       "name": "Walter Clayton Jr.",
@@ -478,28 +486,12 @@
       "owned": 0.8
     },
     {
-      "name": "Jarace Walker",
-      "team": "IND",
-      "pos": "PF",
-      "total": 60.0,
-      "avg": 20.0,
-      "owned": 1.4
-    },
-    {
       "name": "Ziaire Williams",
       "team": "LAL",
       "pos": "SF",
       "total": 56.0,
       "avg": 18.67,
-      "owned": 4.1
-    },
-    {
-      "name": "Sidy Cissoko",
-      "team": "POR",
-      "pos": "SG",
-      "total": 54.75,
-      "avg": 13.69,
-      "owned": 0.5
+      "owned": 3.9
     },
     {
       "name": "Brandon Williams",
@@ -524,6 +516,14 @@
       "total": 53.75,
       "avg": 17.92,
       "owned": 0.8
+    },
+    {
+      "name": "Georges Niang",
+      "team": "GS",
+      "pos": "PF",
+      "total": 47.0,
+      "avg": 15.67,
+      "owned": 1.0
     }
   ],
   "today": null,

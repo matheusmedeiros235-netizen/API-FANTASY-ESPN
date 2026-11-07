@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T07:48:55.625703+00:00",
+  "updatedAt": "2026-11-07T15:26:46.062975+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -13,13 +13,6 @@
       "name": "Aday Mara",
       "team": "OKC",
       "pos": "C",
-      "active": true
-    },
-    {
-      "id": "allen-graves",
-      "name": "Allen Graves",
-      "team": "TOR",
-      "pos": "SF",
       "active": true
     },
     {
@@ -111,6 +104,13 @@
       "name": "Al Horford",
       "team": "GS",
       "pos": "C",
+      "active": false
+    },
+    {
+      "id": "allen-graves",
+      "name": "Allen Graves",
+      "team": "TOR",
+      "pos": "SF",
       "active": false
     },
     {
@@ -247,20 +247,10 @@
     "2026-11-03": 0.0,
     "2026-11-04": 187.75,
     "2026-11-05": 57.75,
-    "2026-11-06": 245.0
+    "2026-11-06": 245.0,
+    "2026-11-07": 0.0
   },
   "table": [
-    {
-      "id": 28,
-      "name": "Gigantes da Colina",
-      "owner": "Alexsander Mendes",
-      "w": 2,
-      "l": 0,
-      "t": 0,
-      "pf": 2493.0,
-      "pa": 2295.75,
-      "me": false
-    },
     {
       "id": 26,
       "name": "Sociedade Esportiva Utah Jazz",
@@ -268,8 +258,8 @@
       "w": 2,
       "l": 0,
       "t": 0,
-      "pf": 2448.0,
-      "pa": 2210.75,
+      "pf": 2723.0,
+      "pa": 2351.5,
       "me": false
     },
     {
@@ -279,8 +269,19 @@
       "w": 2,
       "l": 0,
       "t": 0,
-      "pf": 2442.75,
-      "pa": 2064.25,
+      "pf": 2687.75,
+      "pa": 2289.25,
+      "me": false
+    },
+    {
+      "id": 28,
+      "name": "Gigantes da Colina",
+      "owner": "Alexsander Mendes",
+      "w": 2,
+      "l": 0,
+      "t": 0,
+      "pf": 2638.75,
+      "pa": 2487.5,
       "me": false
     },
     {
@@ -290,8 +291,8 @@
       "w": 2,
       "l": 0,
       "t": 0,
-      "pf": 2325.25,
-      "pa": 2167.75,
+      "pf": 2501.0,
+      "pa": 2285.0,
       "me": false
     },
     {
@@ -301,8 +302,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2680.75,
-      "pa": 2093.75,
+      "pf": 2828.75,
+      "pa": 2274.5,
       "me": false
     },
     {
@@ -312,8 +313,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2544.0,
-      "pa": 2504.0,
+      "pf": 2732.0,
+      "pa": 2683.25,
       "me": false
     },
     {
@@ -323,8 +324,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2527.75,
-      "pa": 2579.25,
+      "pf": 2719.5,
+      "pa": 2725.0,
       "me": false
     },
     {
@@ -334,8 +335,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2475.75,
-      "pa": 2061.5,
+      "pf": 2700.75,
+      "pa": 2306.5,
       "me": true
     },
     {
@@ -345,8 +346,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2459.0,
-      "pa": 2512.0,
+      "pf": 2638.0,
+      "pa": 2737.5,
       "me": false
     },
     {
@@ -356,8 +357,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2273.25,
-      "pa": 2312.0,
+      "pf": 2427.75,
+      "pa": 2432.75,
       "me": false
     },
     {
@@ -367,8 +368,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 2082.75,
-      "pa": 2119.75,
+      "pf": 2203.5,
+      "pa": 2274.25,
       "me": false
     },
     {
@@ -378,8 +379,8 @@
       "w": 1,
       "l": 1,
       "t": 0,
-      "pf": 1982.25,
-      "pa": 2417.0,
+      "pf": 2099.5,
+      "pa": 2592.75,
       "me": false
     },
     {
@@ -389,8 +390,8 @@
       "w": 0,
       "l": 2,
       "t": 0,
-      "pf": 2410.75,
-      "pa": 2503.5,
+      "pf": 2636.25,
+      "pa": 2682.5,
       "me": false
     },
     {
@@ -400,8 +401,8 @@
       "w": 0,
       "l": 2,
       "t": 0,
-      "pf": 2266.75,
-      "pa": 2428.25,
+      "pf": 2407.5,
+      "pa": 2703.25,
       "me": false
     },
     {
@@ -411,8 +412,8 @@
       "w": 0,
       "l": 2,
       "t": 0,
-      "pf": 1969.0,
-      "pa": 2278.75,
+      "pf": 2149.75,
+      "pa": 2426.75,
       "me": false
     },
     {
@@ -422,8 +423,8 @@
       "w": 0,
       "l": 2,
       "t": 0,
-      "pf": 1636.25,
-      "pa": 2469.0,
+      "pf": 1815.5,
+      "pa": 2657.0,
       "me": false
     }
   ],
@@ -432,65 +433,41 @@
       "name": "Grayson Allen",
       "team": "CHA",
       "pos": "SG",
-      "total": 97.0,
-      "avg": 19.4,
-      "owned": 20.0
-    },
-    {
-      "name": "Jarace Walker",
-      "team": "IND",
-      "pos": "PF",
-      "total": 90.25,
-      "avg": 22.56,
-      "owned": 1.4
+      "total": 92.75,
+      "avg": 23.19,
+      "owned": 19.4
     },
     {
       "name": "Braden Smith",
       "team": "IND",
       "pos": "PG",
-      "total": 83.0,
-      "avg": 20.75,
+      "total": 78.0,
+      "avg": 26.0,
       "owned": 0.8
+    },
+    {
+      "name": "Bones Hyland",
+      "team": "MIN",
+      "pos": "PG",
+      "total": 74.25,
+      "avg": 18.56,
+      "owned": 3.0
     },
     {
       "name": "Walter Clayton Jr.",
       "team": "DAL",
       "pos": "SG",
-      "total": 71.5,
-      "avg": 17.88,
+      "total": 73.5,
+      "avg": 24.5,
       "owned": 1.7
     },
     {
-      "name": "Georges Niang",
-      "team": "GS",
-      "pos": "PF",
-      "total": 69.75,
-      "avg": 17.44,
-      "owned": 0.9
-    },
-    {
-      "name": "Kobe Sanders",
-      "team": "LAC",
+      "name": "Baylor Scheierman",
+      "team": "BOS",
       "pos": "SG",
-      "total": 69.75,
-      "avg": 17.44,
-      "owned": 0.9
-    },
-    {
-      "name": "Brandon Williams",
-      "team": "GS",
-      "pos": "PG",
-      "total": 69.0,
-      "avg": 23.0,
-      "owned": 2.8
-    },
-    {
-      "name": "Royce O'Neale",
-      "team": "CHA",
-      "pos": "SF",
-      "total": 62.25,
-      "avg": 12.45,
-      "owned": 1.4
+      "total": 72.5,
+      "avg": 18.12,
+      "owned": 0.8
     },
     {
       "name": "Luke Kornet",
@@ -501,12 +478,12 @@
       "owned": 0.8
     },
     {
-      "name": "Cameron Johnson",
-      "team": "DEN",
-      "pos": "SF",
-      "total": 58.25,
-      "avg": 19.42,
-      "owned": 8.2
+      "name": "Jarace Walker",
+      "team": "IND",
+      "pos": "PF",
+      "total": 60.0,
+      "avg": 20.0,
+      "owned": 1.4
     },
     {
       "name": "Ziaire Williams",
@@ -514,7 +491,7 @@
       "pos": "SF",
       "total": 56.0,
       "avg": 18.67,
-      "owned": 4.2
+      "owned": 4.1
     },
     {
       "name": "Sidy Cissoko",
@@ -523,6 +500,30 @@
       "total": 54.75,
       "avg": 13.69,
       "owned": 0.5
+    },
+    {
+      "name": "Brandon Williams",
+      "team": "GS",
+      "pos": "PG",
+      "total": 54.25,
+      "avg": 27.12,
+      "owned": 2.7
+    },
+    {
+      "name": "Royce O'Neale",
+      "team": "CHA",
+      "pos": "SF",
+      "total": 54.25,
+      "avg": 13.56,
+      "owned": 1.4
+    },
+    {
+      "name": "Kobe Sanders",
+      "team": "LAC",
+      "pos": "SG",
+      "total": 53.75,
+      "avg": 17.92,
+      "owned": 0.8
     }
   ],
   "today": null,
@@ -2832,6 +2833,129 @@
         "slot": 12,
         "elig": [
           2,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "jared-mccain",
+        "slot": 5,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      }
+    ],
+    "2026-11-07": [
+      {
+        "id": "nikola-jokic",
+        "slot": 10,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 0,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 12,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
           10
         ]
       },

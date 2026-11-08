@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T15:24:56.515046+00:00",
+  "updatedAt": "2026-11-08T21:24:51.371469+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -460,7 +460,7 @@
       "pos": "SG",
       "total": 84.0,
       "avg": 21.0,
-      "owned": 4.8
+      "owned": 4.2
     },
     {
       "name": "Braden Smith",
@@ -468,7 +468,7 @@
       "pos": "PG",
       "total": 84.0,
       "avg": 21.0,
-      "owned": 0.7
+      "owned": 0.6
     },
     {
       "name": "Robert Williams III",
@@ -476,7 +476,15 @@
       "pos": "C",
       "total": 83.75,
       "avg": 27.92,
-      "owned": 5.4
+      "owned": 5.1
+    },
+    {
+      "name": "Mario Hezonja",
+      "team": "CLE",
+      "pos": "SF",
+      "total": 75.0,
+      "avg": 18.75,
+      "owned": 3.3
     },
     {
       "name": "Baylor Scheierman",
@@ -484,7 +492,7 @@
       "pos": "SG",
       "total": 71.5,
       "avg": 17.88,
-      "owned": 0.8
+      "owned": 0.9
     },
     {
       "name": "Brandon Williams",
@@ -492,7 +500,7 @@
       "pos": "PG",
       "total": 67.0,
       "avg": 22.33,
-      "owned": 2.3
+      "owned": 2.0
     },
     {
       "name": "Georges Niang",
@@ -500,7 +508,7 @@
       "pos": "PF",
       "total": 62.5,
       "avg": 15.62,
-      "owned": 0.8
+      "owned": 0.7
     },
     {
       "name": "Bub Carrington",
@@ -516,15 +524,7 @@
       "pos": "SG",
       "total": 60.75,
       "avg": 15.19,
-      "owned": 0.8
-    },
-    {
-      "name": "Cameron Johnson",
-      "team": "DEN",
-      "pos": "SF",
-      "total": 60.0,
-      "avg": 20.0,
-      "owned": 8.6
+      "owned": 0.7
     }
   ],
   "today": null,
@@ -5190,6 +5190,34 @@
           "td": 0,
           "qd": 0,
           "pts": 3
+        }
+      },
+      {
+        "id": "espn-2026-11-08-jalen-smith",
+        "date": "2026-11-08",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 1,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 1,
+          "oreb": 0,
+          "reb": 3,
+          "ast": 1,
+          "stl": 0,
+          "blk": 3,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 12
         }
       }
     ],

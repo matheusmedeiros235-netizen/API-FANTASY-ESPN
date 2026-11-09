@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T08:13:26.078730+00:00",
+  "updatedAt": "2026-11-09T15:48:26.351720+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -437,7 +437,7 @@
       "pos": "SF",
       "total": 91.0,
       "avg": 22.75,
-      "owned": 0.8
+      "owned": 0.9
     },
     {
       "name": "Bennett Stirtz",
@@ -448,19 +448,27 @@
       "owned": 0.8
     },
     {
+      "name": "Luka Garza",
+      "team": "BOS",
+      "pos": "C",
+      "total": 88.5,
+      "avg": 22.12,
+      "owned": 0.7
+    },
+    {
       "name": "Luguentz Dort",
       "team": "ATL",
       "pos": "SG",
       "total": 84.0,
       "avg": 21.0,
-      "owned": 4.1
+      "owned": 4.0
     },
     {
       "name": "Braden Smith",
       "team": "IND",
       "pos": "PG",
       "total": 84.0,
-      "avg": 21.0,
+      "avg": 28.0,
       "owned": 0.5
     },
     {
@@ -469,15 +477,7 @@
       "pos": "C",
       "total": 83.75,
       "avg": 27.92,
-      "owned": 5.0
-    },
-    {
-      "name": "Baylor Scheierman",
-      "team": "BOS",
-      "pos": "SG",
-      "total": 82.75,
-      "avg": 16.55,
-      "owned": 0.8
+      "owned": 4.8
     },
     {
       "name": "Bones Hyland",
@@ -485,7 +485,7 @@
       "pos": "PG",
       "total": 81.5,
       "avg": 20.38,
-      "owned": 2.6
+      "owned": 2.5
     },
     {
       "name": "Mario Hezonja",
@@ -493,39 +493,39 @@
       "pos": "SF",
       "total": 75.0,
       "avg": 18.75,
-      "owned": 3.1
+      "owned": 3.0
     },
     {
-      "name": "Brandon Williams",
-      "team": "GS",
-      "pos": "PG",
-      "total": 67.0,
-      "avg": 22.33,
-      "owned": 2.0
+      "name": "Baylor Scheierman",
+      "team": "BOS",
+      "pos": "SG",
+      "total": 68.25,
+      "avg": 17.06,
+      "owned": 0.8
     },
     {
       "name": "Georges Niang",
       "team": "GS",
       "pos": "PF",
-      "total": 62.5,
-      "avg": 15.62,
-      "owned": 0.7
+      "total": 64.0,
+      "avg": 21.33,
+      "owned": 0.8
     },
     {
-      "name": "Jase Richardson",
-      "team": "ORL",
+      "name": "Bub Carrington",
+      "team": "WAS",
+      "pos": "PG",
+      "total": 61.0,
+      "avg": 15.25,
+      "owned": 1.8
+    },
+    {
+      "name": "Gradey Dick",
+      "team": "LAC",
       "pos": "SG",
-      "total": 60.75,
-      "avg": 15.19,
-      "owned": 0.6
-    },
-    {
-      "name": "Cameron Johnson",
-      "team": "DEN",
-      "pos": "SF",
-      "total": 60.0,
-      "avg": 20.0,
-      "owned": 8.5
+      "total": 60.25,
+      "avg": 20.08,
+      "owned": 1.3
     }
   ],
   "today": null,

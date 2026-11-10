@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T08:00:37.587698+00:00",
+  "updatedAt": "2026-11-10T15:35:46.858253+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -436,97 +436,97 @@
       "name": "Ziaire Williams",
       "team": "LAL",
       "pos": "SF",
-      "total": 105.25,
-      "avg": 21.05,
-      "owned": 6.0
-    },
-    {
-      "name": "Ryan Dunn",
-      "team": "PHX",
-      "pos": "SF",
-      "total": 104.75,
-      "avg": 20.95,
-      "owned": 1.4
+      "total": 88.25,
+      "avg": 22.06,
+      "owned": 5.8
     },
     {
       "name": "Luguentz Dort",
       "team": "ATL",
       "pos": "SG",
-      "total": 96.0,
-      "avg": 19.2,
-      "owned": 3.8
-    },
-    {
-      "name": "Karlo Matkovic",
-      "team": "NOP",
-      "pos": "PF",
-      "total": 94.0,
-      "avg": 18.8,
-      "owned": 4.5
-    },
-    {
-      "name": "Mario Hezonja",
-      "team": "CLE",
-      "pos": "SF",
-      "total": 90.75,
-      "avg": 18.15,
-      "owned": 2.7
+      "total": 78.75,
+      "avg": 19.69,
+      "owned": 3.6
     },
     {
       "name": "Luka Garza",
       "team": "BOS",
       "pos": "C",
-      "total": 88.5,
-      "avg": 22.12,
+      "total": 66.25,
+      "avg": 22.08,
       "owned": 0.6
     },
     {
-      "name": "Bennett Stirtz",
-      "team": "OKC",
-      "pos": "PG",
-      "total": 88.0,
-      "avg": 22.0,
-      "owned": 1.4
+      "name": "Danny Wolf",
+      "team": "BKN",
+      "pos": "PF",
+      "total": 56.25,
+      "avg": 18.75,
+      "owned": 2.7
     },
     {
-      "name": "Robert Williams III",
-      "team": "POR",
-      "pos": "C",
-      "total": 83.75,
-      "avg": 27.92,
-      "owned": 5.1
+      "name": "Mario Hezonja",
+      "team": "CLE",
+      "pos": "SF",
+      "total": 55.5,
+      "avg": 13.88,
+      "owned": 2.4
+    },
+    {
+      "name": "Aaron Nesmith",
+      "team": "IND",
+      "pos": "SF",
+      "total": 54.75,
+      "avg": 18.25,
+      "owned": 3.6
     },
     {
       "name": "Bones Hyland",
       "team": "MIN",
       "pos": "PG",
-      "total": 81.5,
-      "avg": 20.38,
-      "owned": 2.3
-    },
-    {
-      "name": "Luke Kornet",
-      "team": "SA",
-      "pos": "C",
-      "total": 71.0,
-      "avg": 14.2,
-      "owned": 0.7
+      "total": 53.5,
+      "avg": 17.83,
+      "owned": 2.2
     },
     {
       "name": "Kenrich Williams",
       "team": "OKC",
       "pos": "SF",
-      "total": 69.75,
-      "avg": 17.44,
-      "owned": 0.7
+      "total": 52.5,
+      "avg": 17.5,
+      "owned": 0.8
     },
     {
-      "name": "Baylor Scheierman",
-      "team": "BOS",
-      "pos": "SG",
-      "total": 64.5,
-      "avg": 16.12,
-      "owned": 0.8
+      "name": "Bub Carrington",
+      "team": "WAS",
+      "pos": "PG",
+      "total": 51.0,
+      "avg": 12.75,
+      "owned": 1.8
+    },
+    {
+      "name": "Harrison Barnes",
+      "team": "SA",
+      "pos": "PF",
+      "total": 49.5,
+      "avg": 12.38,
+      "owned": 0.5
+    },
+    {
+      "name": "Karlo Matkovic",
+      "team": "NOP",
+      "pos": "PF",
+      "total": 47.5,
+      "avg": 11.88,
+      "owned": 3.9
+    },
+    {
+      "name": "Luke Kornet",
+      "team": "SA",
+      "pos": "C",
+      "total": 45.5,
+      "avg": 11.38,
+      "owned": 0.7
     }
   ],
   "today": null,
@@ -3229,7 +3229,7 @@
     "2026-11-10": [
       {
         "id": "nikola-jokic",
-        "slot": 4,
+        "slot": 12,
         "elig": [
           4,
           10
@@ -3246,15 +3246,6 @@
       },
       {
         "id": "darryn-peterson",
-        "slot": 12,
-        "elig": [
-          0,
-          1,
-          5
-        ]
-      },
-      {
-        "id": "dylan-harper",
         "slot": 0,
         "elig": [
           0,
@@ -3263,8 +3254,17 @@
         ]
       },
       {
+        "id": "dylan-harper",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
         "id": "brandin-podziemski",
-        "slot": 1,
+        "slot": 12,
         "elig": [
           0,
           1,
@@ -3273,7 +3273,7 @@
       },
       {
         "id": "peyton-watson",
-        "slot": 10,
+        "slot": 12,
         "elig": [
           2,
           3,
@@ -3282,7 +3282,7 @@
       },
       {
         "id": "ace-bailey",
-        "slot": 12,
+        "slot": 2,
         "elig": [
           2,
           3,
@@ -3291,7 +3291,7 @@
       },
       {
         "id": "mitchell-robinson",
-        "slot": 12,
+        "slot": 10,
         "elig": [
           4,
           10
@@ -3307,7 +3307,7 @@
       },
       {
         "id": "julian-champagnie",
-        "slot": 2,
+        "slot": 12,
         "elig": [
           2,
           3,
@@ -3333,7 +3333,7 @@
       },
       {
         "id": "aday-mara",
-        "slot": 12,
+        "slot": 4,
         "elig": [
           4,
           10
@@ -3341,7 +3341,7 @@
       },
       {
         "id": "jared-mccain",
-        "slot": 12,
+        "slot": 1,
         "elig": [
           0,
           1,

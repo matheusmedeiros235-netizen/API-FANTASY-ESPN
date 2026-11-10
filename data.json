@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T21:38:59.564740+00:00",
+  "updatedAt": "2026-11-10T08:00:37.587698+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -248,9 +248,10 @@
     "2026-11-04": 187.75,
     "2026-11-05": 57.75,
     "2026-11-06": 245.0,
-    "2026-11-07": 75.25,
+    "2026-11-07": 71.25,
     "2026-11-08": 205.5,
-    "2026-11-09": 0.0
+    "2026-11-09": 145.5,
+    "2026-11-10": 0.0
   },
   "table": [
     {
@@ -260,8 +261,8 @@
       "w": 3,
       "l": 0,
       "t": 0,
-      "pf": 3045.0,
-      "pa": 2609.0,
+      "pf": 3267.5,
+      "pa": 2745.0,
       "me": false
     },
     {
@@ -271,19 +272,8 @@
       "w": 3,
       "l": 0,
       "t": 0,
-      "pf": 2704.0,
-      "pa": 2530.25,
-      "me": false
-    },
-    {
-      "id": 21,
-      "name": "Houston Foguetes",
-      "owner": "Bruno Carvalho",
-      "w": 2,
-      "l": 1,
-      "t": 0,
-      "pf": 3257.0,
-      "pa": 2436.5,
+      "pf": 2874.25,
+      "pa": 2683.75,
       "me": false
     },
     {
@@ -293,9 +283,20 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 3206.5,
-      "pa": 2587.25,
+      "pf": 3455.5,
+      "pa": 2728.75,
       "me": true
+    },
+    {
+      "id": 21,
+      "name": "Houston Foguetes",
+      "owner": "Bruno Carvalho",
+      "w": 2,
+      "l": 1,
+      "t": 0,
+      "pf": 3439.0,
+      "pa": 2609.25,
+      "me": false
     },
     {
       "id": 29,
@@ -304,8 +305,8 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 3052.25,
-      "pa": 2937.5,
+      "pf": 3188.25,
+      "pa": 3160.0,
       "me": false
     },
     {
@@ -315,8 +316,8 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 2993.25,
-      "pa": 2995.25,
+      "pf": 3148.25,
+      "pa": 3167.25,
       "me": false
     },
     {
@@ -326,8 +327,8 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 2968.5,
-      "pa": 2795.0,
+      "pf": 3146.0,
+      "pa": 2976.0,
       "me": false
     },
     {
@@ -337,8 +338,8 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 2909.0,
-      "pa": 2761.25,
+      "pf": 3080.0,
+      "pa": 3006.25,
       "me": false
     },
     {
@@ -348,8 +349,8 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 2697.0,
-      "pa": 2771.5,
+      "pf": 2870.5,
+      "pa": 2953.0,
       "me": false
     },
     {
@@ -359,8 +360,8 @@
       "w": 1,
       "l": 2,
       "t": 0,
-      "pf": 3004.75,
-      "pa": 2917.75,
+      "pf": 3143.5,
+      "pa": 3048.25,
       "me": false
     },
     {
@@ -370,8 +371,8 @@
       "w": 1,
       "l": 2,
       "t": 0,
-      "pf": 2873.25,
-      "pa": 3106.0,
+      "pf": 3046.0,
+      "pa": 3291.75,
       "me": false
     },
     {
@@ -381,8 +382,8 @@
       "w": 1,
       "l": 2,
       "t": 0,
-      "pf": 2542.25,
-      "pa": 2543.5,
+      "pf": 2687.75,
+      "pa": 2785.0,
       "me": false
     },
     {
@@ -392,8 +393,8 @@
       "w": 1,
       "l": 2,
       "t": 0,
-      "pf": 2344.75,
-      "pa": 2795.75,
+      "pf": 2588.25,
+      "pa": 2965.0,
       "me": false
     },
     {
@@ -403,8 +404,8 @@
       "w": 0,
       "l": 3,
       "t": 0,
-      "pf": 2665.0,
-      "pa": 3025.25,
+      "pf": 2801.25,
+      "pa": 3273.25,
       "me": false
     },
     {
@@ -414,8 +415,8 @@
       "w": 0,
       "l": 3,
       "t": 0,
-      "pf": 2311.75,
-      "pa": 2855.0,
+      "pf": 2442.25,
+      "pa": 2990.0,
       "me": false
     },
     {
@@ -425,27 +426,51 @@
       "w": 0,
       "l": 3,
       "t": 0,
-      "pf": 2069.75,
-      "pa": 2977.25,
+      "pf": 2317.75,
+      "pa": 3113.5,
       "me": false
     }
   ],
   "freeAgents": [
     {
+      "name": "Ziaire Williams",
+      "team": "LAL",
+      "pos": "SF",
+      "total": 105.25,
+      "avg": 21.05,
+      "owned": 6.0
+    },
+    {
       "name": "Ryan Dunn",
       "team": "PHX",
       "pos": "SF",
-      "total": 91.0,
-      "avg": 22.75,
-      "owned": 1.1
+      "total": 104.75,
+      "avg": 20.95,
+      "owned": 1.4
     },
     {
-      "name": "Bennett Stirtz",
-      "team": "OKC",
-      "pos": "PG",
-      "total": 90.25,
-      "avg": 22.56,
-      "owned": 0.9
+      "name": "Luguentz Dort",
+      "team": "ATL",
+      "pos": "SG",
+      "total": 96.0,
+      "avg": 19.2,
+      "owned": 3.8
+    },
+    {
+      "name": "Karlo Matkovic",
+      "team": "NOP",
+      "pos": "PF",
+      "total": 94.0,
+      "avg": 18.8,
+      "owned": 4.5
+    },
+    {
+      "name": "Mario Hezonja",
+      "team": "CLE",
+      "pos": "SF",
+      "total": 90.75,
+      "avg": 18.15,
+      "owned": 2.7
     },
     {
       "name": "Luka Garza",
@@ -456,12 +481,12 @@
       "owned": 0.6
     },
     {
-      "name": "Luguentz Dort",
-      "team": "ATL",
-      "pos": "SG",
-      "total": 84.0,
-      "avg": 21.0,
-      "owned": 4.0
+      "name": "Bennett Stirtz",
+      "team": "OKC",
+      "pos": "PG",
+      "total": 88.0,
+      "avg": 22.0,
+      "owned": 1.4
     },
     {
       "name": "Robert Williams III",
@@ -469,7 +494,7 @@
       "pos": "C",
       "total": 83.75,
       "avg": 27.92,
-      "owned": 4.7
+      "owned": 5.1
     },
     {
       "name": "Bones Hyland",
@@ -477,55 +502,31 @@
       "pos": "PG",
       "total": 81.5,
       "avg": 20.38,
-      "owned": 2.4
-    },
-    {
-      "name": "Mario Hezonja",
-      "team": "CLE",
-      "pos": "SF",
-      "total": 75.0,
-      "avg": 18.75,
-      "owned": 3.0
-    },
-    {
-      "name": "Baylor Scheierman",
-      "team": "BOS",
-      "pos": "SG",
-      "total": 68.25,
-      "avg": 17.06,
-      "owned": 0.8
-    },
-    {
-      "name": "Georges Niang",
-      "team": "GS",
-      "pos": "PF",
-      "total": 64.0,
-      "avg": 21.33,
-      "owned": 0.8
-    },
-    {
-      "name": "Bub Carrington",
-      "team": "WAS",
-      "pos": "PG",
-      "total": 61.0,
-      "avg": 15.25,
-      "owned": 1.9
-    },
-    {
-      "name": "Gradey Dick",
-      "team": "LAC",
-      "pos": "SG",
-      "total": 60.25,
-      "avg": 20.08,
-      "owned": 1.3
+      "owned": 2.3
     },
     {
       "name": "Luke Kornet",
       "team": "SA",
       "pos": "C",
-      "total": 59.25,
-      "avg": 14.81,
+      "total": 71.0,
+      "avg": 14.2,
       "owned": 0.7
+    },
+    {
+      "name": "Kenrich Williams",
+      "team": "OKC",
+      "pos": "SF",
+      "total": 69.75,
+      "avg": 17.44,
+      "owned": 0.7
+    },
+    {
+      "name": "Baylor Scheierman",
+      "team": "BOS",
+      "pos": "SG",
+      "total": 64.5,
+      "avg": 16.12,
+      "owned": 0.8
     }
   ],
   "today": null,
@@ -3224,6 +3225,129 @@
           5
         ]
       }
+    ],
+    "2026-11-10": [
+      {
+        "id": "nikola-jokic",
+        "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 0,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 10,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 5,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "jared-mccain",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      }
     ]
   },
   "gamesData": {
@@ -3494,7 +3618,7 @@
           "tpmi": 4,
           "oreb": 1,
           "reb": 7,
-          "ast": 3,
+          "ast": 4,
           "stl": 0,
           "blk": 1,
           "to": 1,
@@ -3506,6 +3630,34 @@
           "td": 0,
           "qd": 0,
           "pts": 13
+        }
+      },
+      {
+        "id": "espn-2026-11-09-dylan-harper",
+        "date": "2026-11-09",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 7,
+          "fgmi": 3,
+          "ftm": 3,
+          "ftmi": 2,
+          "tpm": 0,
+          "tpmi": 2,
+          "oreb": 0,
+          "reb": 5,
+          "ast": 4,
+          "stl": 0,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 17
         }
       }
     ],
@@ -4043,6 +4195,34 @@
           "qd": 0,
           "pts": 14
         }
+      },
+      {
+        "id": "espn-2026-11-09-julian-champagnie",
+        "date": "2026-11-09",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 7,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 3,
+          "tpmi": 6,
+          "oreb": 0,
+          "reb": 3,
+          "ast": 2,
+          "stl": 2,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 11
+        }
       }
     ],
     "cooper-flagg": [
@@ -4296,6 +4476,34 @@
           "td": 0,
           "qd": 0,
           "pts": 25
+        }
+      },
+      {
+        "id": "espn-2026-11-09-cooper-flagg",
+        "date": "2026-11-09",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 16,
+          "fgmi": 9,
+          "ftm": 8,
+          "ftmi": 0,
+          "tpm": 3,
+          "tpmi": 3,
+          "oreb": 2,
+          "reb": 10,
+          "ast": 6,
+          "stl": 3,
+          "blk": 1,
+          "to": 5,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 43
         }
       }
     ],
@@ -4819,7 +5027,7 @@
           "tpm": 0,
           "tpmi": 4,
           "oreb": 2,
-          "reb": 6,
+          "reb": 5,
           "ast": 0,
           "stl": 0,
           "blk": 1,
@@ -5123,7 +5331,7 @@
         "notStarted": false,
         "stats": {
           "fgm": 6,
-          "fgmi": 5,
+          "fgmi": 4,
           "ftm": 3,
           "ftmi": 3,
           "tpm": 2,
@@ -5797,6 +6005,34 @@
           "qd": 0,
           "pts": 19
         }
+      },
+      {
+        "id": "espn-2026-11-09-nikola-jokic",
+        "date": "2026-11-09",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 11,
+          "fgmi": 10,
+          "ftm": 2,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 4,
+          "oreb": 2,
+          "reb": 16,
+          "ast": 9,
+          "stl": 1,
+          "blk": 2,
+          "to": 3,
+          "ej": 0,
+          "ff": 0,
+          "pf": 4,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 25
+        }
       }
     ],
     "peyton-watson": [
@@ -6023,6 +6259,34 @@
           "qd": 0,
           "pts": 12
         }
+      },
+      {
+        "id": "espn-2026-11-09-peyton-watson",
+        "date": "2026-11-09",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 4,
+          "ftm": 1,
+          "ftmi": 1,
+          "tpm": 2,
+          "tpmi": 2,
+          "oreb": 0,
+          "reb": 2,
+          "ast": 1,
+          "stl": 0,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 13
+        }
       }
     ],
     "brandin-podziemski": [
@@ -6248,6 +6512,34 @@
           "td": 0,
           "qd": 0,
           "pts": 15
+        }
+      },
+      {
+        "id": "espn-2026-11-09-brandin-podziemski",
+        "date": "2026-11-09",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 10,
+          "fgmi": 9,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 5,
+          "tpmi": 6,
+          "oreb": 0,
+          "reb": 2,
+          "ast": 4,
+          "stl": 1,
+          "blk": 1,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 0,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 25
         }
       }
     ],
@@ -6499,6 +6791,34 @@
           "ej": 0,
           "ff": 0,
           "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 10
+        }
+      },
+      {
+        "id": "espn-2026-11-09-obi-toppin",
+        "date": "2026-11-09",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 3,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 2,
+          "oreb": 0,
+          "reb": 2,
+          "ast": 4,
+          "stl": 0,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 0,
           "tf": 0,
           "dd": 0,
           "td": 0,

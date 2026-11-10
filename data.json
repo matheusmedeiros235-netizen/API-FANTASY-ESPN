@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T15:35:46.858253+00:00",
+  "updatedAt": "2026-11-10T21:29:43.414335+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -438,7 +438,7 @@
       "pos": "SF",
       "total": 88.25,
       "avg": 22.06,
-      "owned": 5.8
+      "owned": 5.7
     },
     {
       "name": "Luguentz Dort",
@@ -446,7 +446,15 @@
       "pos": "SG",
       "total": 78.75,
       "avg": 19.69,
-      "owned": 3.6
+      "owned": 3.5
+    },
+    {
+      "name": "Charles Bassey",
+      "team": "GS",
+      "pos": "C",
+      "total": 66.5,
+      "avg": 22.17,
+      "owned": 1.0
     },
     {
       "name": "Luka Garza",
@@ -470,7 +478,7 @@
       "pos": "SF",
       "total": 55.5,
       "avg": 13.88,
-      "owned": 2.4
+      "owned": 2.3
     },
     {
       "name": "Aaron Nesmith",
@@ -494,7 +502,7 @@
       "pos": "SF",
       "total": 52.5,
       "avg": 17.5,
-      "owned": 0.8
+      "owned": 0.9
     },
     {
       "name": "Bub Carrington",
@@ -513,20 +521,12 @@
       "owned": 0.5
     },
     {
-      "name": "Karlo Matkovic",
-      "team": "NOP",
-      "pos": "PF",
-      "total": 47.5,
-      "avg": 11.88,
-      "owned": 3.9
-    },
-    {
-      "name": "Luke Kornet",
-      "team": "SA",
-      "pos": "C",
-      "total": 45.5,
-      "avg": 11.38,
-      "owned": 0.7
+      "name": "Royce O'Neale",
+      "team": "CHA",
+      "pos": "SF",
+      "total": 47.75,
+      "avg": 15.92,
+      "owned": 1.4
     }
   ],
   "today": null,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T08:09:00.799410+00:00",
+  "updatedAt": "2026-11-11T15:39:03.909619+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -439,7 +439,7 @@
       "pos": "SF",
       "total": 88.25,
       "avg": 22.06,
-      "owned": 5.8
+      "owned": 6.1
     },
     {
       "name": "Draymond Green",
@@ -455,15 +455,7 @@
       "pos": "SG",
       "total": 78.75,
       "avg": 19.69,
-      "owned": 3.3
-    },
-    {
-      "name": "Luka Garza",
-      "team": "BOS",
-      "pos": "C",
-      "total": 71.5,
-      "avg": 17.88,
-      "owned": 0.6
+      "owned": 3.2
     },
     {
       "name": "Sam Hauser",
@@ -482,6 +474,14 @@
       "owned": 1.1
     },
     {
+      "name": "Max Strus",
+      "team": "LAC",
+      "pos": "SF",
+      "total": 57.5,
+      "avg": 19.17,
+      "owned": 3.9
+    },
+    {
       "name": "Baylor Scheierman",
       "team": "BOS",
       "pos": "SG",
@@ -495,7 +495,7 @@
       "pos": "PF",
       "total": 56.25,
       "avg": 18.75,
-      "owned": 2.7
+      "owned": 2.8
     },
     {
       "name": "Mario Hezonja",
@@ -511,7 +511,7 @@
       "pos": "SF",
       "total": 54.75,
       "avg": 18.25,
-      "owned": 3.7
+      "owned": 3.9
     },
     {
       "name": "Luke Kennard",
@@ -519,7 +519,7 @@
       "pos": "SG",
       "total": 54.5,
       "avg": 10.9,
-      "owned": 1.2
+      "owned": 1.1
     },
     {
       "name": "Bones Hyland",
@@ -3361,7 +3361,7 @@
       },
       {
         "id": "cooper-flagg",
-        "slot": 3,
+        "slot": 12,
         "elig": [
           2,
           3,
@@ -3379,7 +3379,7 @@
       },
       {
         "id": "dylan-harper",
-        "slot": 12,
+        "slot": 5,
         "elig": [
           0,
           1,
@@ -3423,7 +3423,7 @@
       },
       {
         "id": "davion-mitchell",
-        "slot": 5,
+        "slot": 12,
         "elig": [
           0,
           5
@@ -3440,7 +3440,7 @@
       },
       {
         "id": "jalen-smith",
-        "slot": 12,
+        "slot": 3,
         "elig": [
           3,
           4,

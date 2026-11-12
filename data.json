@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T08:11:14.309270+00:00",
+  "updatedAt": "2026-11-12T15:47:43.223472+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -440,15 +440,7 @@
       "pos": "PF",
       "total": 118.5,
       "avg": 29.62,
-      "owned": 26.0
-    },
-    {
-      "name": "Ziaire Williams",
-      "team": "LAL",
-      "pos": "SF",
-      "total": 94.75,
-      "avg": 23.69,
-      "owned": 6.7
+      "owned": 25.9
     },
     {
       "name": "Charles Bassey",
@@ -456,7 +448,7 @@
       "pos": "C",
       "total": 86.5,
       "avg": 21.62,
-      "owned": 1.2
+      "owned": 1.1
     },
     {
       "name": "Bennett Stirtz",
@@ -464,7 +456,7 @@
       "pos": "PG",
       "total": 83.5,
       "avg": 20.88,
-      "owned": 2.3
+      "owned": 2.1
     },
     {
       "name": "Sam Hauser",
@@ -472,7 +464,7 @@
       "pos": "SF",
       "total": 79.5,
       "avg": 19.88,
-      "owned": 2.3
+      "owned": 2.2
     },
     {
       "name": "Baylor Scheierman",
@@ -488,7 +480,7 @@
       "pos": "PF",
       "total": 67.0,
       "avg": 16.75,
-      "owned": 0.7
+      "owned": 0.6
     },
     {
       "name": "Tre Johnson",
@@ -496,7 +488,7 @@
       "pos": "SG",
       "total": 63.5,
       "avg": 15.88,
-      "owned": 1.5
+      "owned": 1.6
     },
     {
       "name": "Luguentz Dort",
@@ -504,7 +496,15 @@
       "pos": "SG",
       "total": 63.25,
       "avg": 21.08,
-      "owned": 3.1
+      "owned": 3.0
+    },
+    {
+      "name": "Jake LaRavia",
+      "team": "LAL",
+      "pos": "PF",
+      "total": 59.5,
+      "avg": 14.88,
+      "owned": 7.2
     },
     {
       "name": "Luke Kornet",
@@ -3485,7 +3485,7 @@
       },
       {
         "id": "cooper-flagg",
-        "slot": 12,
+        "slot": 2,
         "elig": [
           2,
           3,
@@ -3530,7 +3530,7 @@
       },
       {
         "id": "ace-bailey",
-        "slot": 2,
+        "slot": 12,
         "elig": [
           2,
           3,

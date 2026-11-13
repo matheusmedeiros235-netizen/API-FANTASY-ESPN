@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T15:37:19.339532+00:00",
+  "updatedAt": "2026-11-13T21:37:47.307451+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -444,14 +444,6 @@
       "owned": 1.9
     },
     {
-      "name": "Bones Hyland",
-      "team": "MIN",
-      "pos": "PG",
-      "total": 80.25,
-      "avg": 26.75,
-      "owned": 3.1
-    },
-    {
       "name": "Sam Hauser",
       "team": "BOS",
       "pos": "SF",
@@ -489,7 +481,7 @@
       "pos": "SG",
       "total": 63.25,
       "avg": 21.08,
-      "owned": 3.0
+      "owned": 3.1
     },
     {
       "name": "Jake LaRavia",
@@ -497,7 +489,7 @@
       "pos": "PF",
       "total": 59.5,
       "avg": 14.88,
-      "owned": 7.0
+      "owned": 6.9
     },
     {
       "name": "Luke Kornet",
@@ -524,12 +516,20 @@
       "owned": 0.6
     },
     {
-      "name": "Bilal Coulibaly",
-      "team": "WAS",
-      "pos": "SF",
-      "total": 50.25,
-      "avg": 12.56,
-      "owned": 4.7
+      "name": "Gradey Dick",
+      "team": "LAC",
+      "pos": "SG",
+      "total": 49.75,
+      "avg": 24.88,
+      "owned": 1.4
+    },
+    {
+      "name": "Landry Shamet",
+      "team": "NY",
+      "pos": "SG",
+      "total": 48.0,
+      "avg": 16.0,
+      "owned": 1.2
     }
   ],
   "today": null,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T08:10:22.859792+00:00",
+  "updatedAt": "2026-11-13T15:37:19.339532+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -436,22 +436,6 @@
   ],
   "freeAgents": [
     {
-      "name": "Draymond Green",
-      "team": "GS",
-      "pos": "PF",
-      "total": 118.5,
-      "avg": 29.62,
-      "owned": 26.2
-    },
-    {
-      "name": "Charles Bassey",
-      "team": "GS",
-      "pos": "C",
-      "total": 86.5,
-      "avg": 21.62,
-      "owned": 1.1
-    },
-    {
       "name": "Bennett Stirtz",
       "team": "OKC",
       "pos": "PG",
@@ -460,12 +444,28 @@
       "owned": 1.9
     },
     {
+      "name": "Bones Hyland",
+      "team": "MIN",
+      "pos": "PG",
+      "total": 80.25,
+      "avg": 26.75,
+      "owned": 3.1
+    },
+    {
+      "name": "Sam Hauser",
+      "team": "BOS",
+      "pos": "SF",
+      "total": 79.5,
+      "avg": 19.88,
+      "owned": 2.1
+    },
+    {
       "name": "Kentavious Caldwell-Pope",
       "team": "PHI",
       "pos": "SG",
       "total": 79.25,
       "avg": 19.81,
-      "owned": 2.0
+      "owned": 1.9
     },
     {
       "name": "Baylor Scheierman",
@@ -476,27 +476,11 @@
       "owned": 0.8
     },
     {
-      "name": "Jamison Battle",
-      "team": "TOR",
-      "pos": "SF",
-      "total": 67.5,
-      "avg": 16.88,
-      "owned": 0.6
-    },
-    {
-      "name": "Georges Niang",
+      "name": "Charles Bassey",
       "team": "GS",
-      "pos": "PF",
-      "total": 67.0,
-      "avg": 16.75,
-      "owned": 0.6
-    },
-    {
-      "name": "Luke Kennard",
-      "team": "PHX",
-      "pos": "SG",
-      "total": 65.25,
-      "avg": 13.05,
+      "pos": "C",
+      "total": 67.75,
+      "avg": 22.58,
       "owned": 1.1
     },
     {
@@ -524,12 +508,28 @@
       "owned": 0.7
     },
     {
-      "name": "Brice Sensabaugh",
+      "name": "Isaiah Collier",
       "team": "UTAH",
+      "pos": "PG",
+      "total": 52.5,
+      "avg": 13.12,
+      "owned": 3.2
+    },
+    {
+      "name": "Kenrich Williams",
+      "team": "OKC",
       "pos": "SF",
-      "total": 54.75,
-      "avg": 13.69,
-      "owned": 1.4
+      "total": 52.25,
+      "avg": 13.06,
+      "owned": 0.6
+    },
+    {
+      "name": "Bilal Coulibaly",
+      "team": "WAS",
+      "pos": "SF",
+      "total": 50.25,
+      "avg": 12.56,
+      "owned": 4.7
     }
   ],
   "today": null,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T07:50:36.376957+00:00",
+  "updatedAt": "2026-11-14T15:27:45.364895+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -254,7 +254,8 @@
     "2026-11-10": 124.75,
     "2026-11-11": 126.0,
     "2026-11-12": 55.25,
-    "2026-11-13": 158.75
+    "2026-11-13": 158.75,
+    "2026-11-14": 0.0
   },
   "table": [
     {
@@ -264,8 +265,8 @@
       "w": 3,
       "l": 0,
       "t": 0,
-      "pf": 3786.5,
-      "pa": 3182.0,
+      "pf": 3918.25,
+      "pa": 3435.0,
       "me": false
     },
     {
@@ -275,8 +276,19 @@
       "w": 3,
       "l": 0,
       "t": 0,
-      "pf": 3343.25,
-      "pa": 3094.0,
+      "pf": 3526.25,
+      "pa": 3286.25,
+      "me": false
+    },
+    {
+      "id": 21,
+      "name": "Houston Foguetes",
+      "owner": "Bruno Carvalho",
+      "w": 2,
+      "l": 1,
+      "t": 0,
+      "pf": 4223.0,
+      "pa": 3144.75,
       "me": false
     },
     {
@@ -286,20 +298,9 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 3982.25,
-      "pa": 3034.75,
+      "pf": 4151.75,
+      "pa": 3193.5,
       "me": true
-    },
-    {
-      "id": 21,
-      "name": "Houston Foguetes",
-      "owner": "Bruno Carvalho",
-      "w": 2,
-      "l": 1,
-      "t": 0,
-      "pf": 3949.5,
-      "pa": 3089.5,
-      "me": false
     },
     {
       "id": 29,
@@ -308,30 +309,8 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 3625.25,
-      "pa": 3679.0,
-      "me": false
-    },
-    {
-      "id": 28,
-      "name": "Gigantes da Colina",
-      "owner": "Alexsander Mendes",
-      "w": 2,
-      "l": 1,
-      "t": 0,
-      "pf": 3582.25,
-      "pa": 3461.5,
-      "me": false
-    },
-    {
-      "id": 24,
-      "name": "Houston Lunar Fury",
-      "owner": "Vitor Hugo Melo Alves",
-      "w": 2,
-      "l": 1,
-      "t": 0,
-      "pf": 3558.5,
-      "pa": 3636.25,
+      "pf": 3878.25,
+      "pa": 3810.75,
       "me": false
     },
     {
@@ -341,8 +320,30 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 3517.75,
-      "pa": 3250.25,
+      "pf": 3772.0,
+      "pa": 3413.25,
+      "me": false
+    },
+    {
+      "id": 24,
+      "name": "Houston Lunar Fury",
+      "owner": "Vitor Hugo Melo Alves",
+      "w": 2,
+      "l": 1,
+      "t": 0,
+      "pf": 3750.75,
+      "pa": 3819.25,
+      "me": false
+    },
+    {
+      "id": 28,
+      "name": "Gigantes da Colina",
+      "owner": "Alexsander Mendes",
+      "w": 2,
+      "l": 1,
+      "t": 0,
+      "pf": 3746.25,
+      "pa": 3633.75,
       "me": false
     },
     {
@@ -352,19 +353,8 @@
       "w": 2,
       "l": 1,
       "t": 0,
-      "pf": 3144.75,
-      "pa": 3324.75,
-      "me": false
-    },
-    {
-      "id": 31,
-      "name": "IBS Basketball Team",
-      "owner": "IGOR DA SILVA",
-      "w": 1,
-      "l": 2,
-      "t": 0,
-      "pf": 3526.25,
-      "pa": 3802.25,
+      "pf": 3307.75,
+      "pa": 3579.0,
       "me": false
     },
     {
@@ -374,8 +364,19 @@
       "w": 1,
       "l": 2,
       "t": 0,
-      "pf": 3496.5,
-      "pa": 3411.5,
+      "pf": 3767.0,
+      "pa": 3569.25,
+      "me": false
+    },
+    {
+      "id": 31,
+      "name": "IBS Basketball Team",
+      "owner": "IGOR DA SILVA",
+      "w": 1,
+      "l": 2,
+      "t": 0,
+      "pf": 3581.5,
+      "pa": 4075.75,
       "me": false
     },
     {
@@ -385,8 +386,8 @@
       "w": 1,
       "l": 2,
       "t": 0,
-      "pf": 3043.5,
-      "pa": 3467.25,
+      "pf": 3215.75,
+      "pa": 3631.25,
       "me": false
     },
     {
@@ -396,8 +397,8 @@
       "w": 1,
       "l": 2,
       "t": 0,
-      "pf": 2993.75,
-      "pa": 3311.75,
+      "pf": 3152.5,
+      "pa": 3481.25,
       "me": false
     },
     {
@@ -407,8 +408,8 @@
       "w": 0,
       "l": 3,
       "t": 0,
-      "pf": 3229.75,
-      "pa": 3591.25,
+      "pf": 3378.75,
+      "pa": 3706.25,
       "me": false
     },
     {
@@ -418,8 +419,8 @@
       "w": 0,
       "l": 3,
       "t": 0,
-      "pf": 2805.5,
-      "pa": 3343.0,
+      "pf": 2963.25,
+      "pa": 3613.5,
       "me": false
     },
     {
@@ -429,83 +430,27 @@
       "w": 0,
       "l": 3,
       "t": 0,
-      "pf": 2635.75,
-      "pa": 3542.0,
+      "pf": 2750.75,
+      "pa": 3691.0,
       "me": false
     }
   ],
   "freeAgents": [
-    {
-      "name": "Tyrese Proctor",
-      "team": "CLE",
-      "pos": "SG",
-      "total": 106.25,
-      "avg": 21.25,
-      "owned": 0.7
-    },
     {
       "name": "Draymond Green",
       "team": "GS",
       "pos": "PF",
       "total": 94.0,
       "avg": 23.5,
-      "owned": 26.3
+      "owned": 25.9
     },
     {
-      "name": "Luguentz Dort",
-      "team": "ATL",
+      "name": "Tyrese Proctor",
+      "team": "CLE",
       "pos": "SG",
-      "total": 90.25,
-      "avg": 22.56,
-      "owned": 3.1
-    },
-    {
-      "name": "Bennett Stirtz",
-      "team": "OKC",
-      "pos": "PG",
-      "total": 88.5,
-      "avg": 17.7,
-      "owned": 1.7
-    },
-    {
-      "name": "Kenrich Williams",
-      "team": "OKC",
-      "pos": "SF",
-      "total": 88.0,
-      "avg": 17.6,
-      "owned": 0.6
-    },
-    {
-      "name": "Luke Kornet",
-      "team": "SA",
-      "pos": "C",
-      "total": 85.75,
-      "avg": 17.15,
-      "owned": 0.7
-    },
-    {
-      "name": "Tre Johnson",
-      "team": "WAS",
-      "pos": "SG",
-      "total": 80.75,
-      "avg": 16.15,
-      "owned": 1.6
-    },
-    {
-      "name": "Sam Hauser",
-      "team": "BOS",
-      "pos": "SF",
-      "total": 79.5,
-      "avg": 19.88,
-      "owned": 2.1
-    },
-    {
-      "name": "Kentavious Caldwell-Pope",
-      "team": "PHI",
-      "pos": "SG",
-      "total": 79.25,
-      "avg": 19.81,
-      "owned": 1.9
+      "total": 84.5,
+      "avg": 21.12,
+      "owned": 0.9
     },
     {
       "name": "Charles Bassey",
@@ -516,6 +461,38 @@
       "owned": 1.0
     },
     {
+      "name": "Luke Kornet",
+      "team": "SA",
+      "pos": "C",
+      "total": 74.0,
+      "avg": 18.5,
+      "owned": 0.7
+    },
+    {
+      "name": "Kenrich Williams",
+      "team": "OKC",
+      "pos": "SF",
+      "total": 72.5,
+      "avg": 18.12,
+      "owned": 0.6
+    },
+    {
+      "name": "Kentavious Caldwell-Pope",
+      "team": "PHI",
+      "pos": "SG",
+      "total": 70.75,
+      "avg": 23.58,
+      "owned": 1.9
+    },
+    {
+      "name": "Al Horford",
+      "team": "GS",
+      "pos": "C",
+      "total": 69.25,
+      "avg": 17.31,
+      "owned": 1.2
+    },
+    {
       "name": "Gradey Dick",
       "team": "LAC",
       "pos": "SG",
@@ -524,12 +501,36 @@
       "owned": 1.4
     },
     {
-      "name": "Baylor Scheierman",
-      "team": "BOS",
+      "name": "Bennett Stirtz",
+      "team": "OKC",
+      "pos": "PG",
+      "total": 60.5,
+      "avg": 15.12,
+      "owned": 1.6
+    },
+    {
+      "name": "Landry Shamet",
+      "team": "NY",
       "pos": "SG",
-      "total": 68.0,
-      "avg": 17.0,
-      "owned": 0.8
+      "total": 58.0,
+      "avg": 14.5,
+      "owned": 1.1
+    },
+    {
+      "name": "Georges Niang",
+      "team": "GS",
+      "pos": "PF",
+      "total": 56.5,
+      "avg": 14.12,
+      "owned": 0.5
+    },
+    {
+      "name": "Sam Hauser",
+      "team": "BOS",
+      "pos": "SF",
+      "total": 56.25,
+      "avg": 18.75,
+      "owned": 2.1
     }
   ],
   "today": null,
@@ -3706,6 +3707,129 @@
       {
         "id": "aday-mara",
         "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "jared-mccain",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      }
+    ],
+    "2026-11-14": [
+      {
+        "id": "nikola-jokic",
+        "slot": 10,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 5,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 0,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 4,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 12,
         "elig": [
           4,
           10

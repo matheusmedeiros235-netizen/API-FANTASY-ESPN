@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T15:27:45.364895+00:00",
+  "updatedAt": "2026-11-14T21:26:30.955023+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -442,7 +442,7 @@
       "pos": "PF",
       "total": 94.0,
       "avg": 23.5,
-      "owned": 25.9
+      "owned": 25.4
     },
     {
       "name": "Tyrese Proctor",
@@ -450,7 +450,7 @@
       "pos": "SG",
       "total": 84.5,
       "avg": 21.12,
-      "owned": 0.9
+      "owned": 1.3
     },
     {
       "name": "Charles Bassey",
@@ -458,7 +458,7 @@
       "pos": "C",
       "total": 79.25,
       "avg": 19.81,
-      "owned": 1.0
+      "owned": 0.9
     },
     {
       "name": "Luke Kornet",
@@ -475,6 +475,14 @@
       "total": 72.5,
       "avg": 18.12,
       "owned": 0.6
+    },
+    {
+      "name": "Miles McBride",
+      "team": "NY",
+      "pos": "SG",
+      "total": 71.25,
+      "avg": 17.81,
+      "owned": 1.4
     },
     {
       "name": "Kentavious Caldwell-Pope",
@@ -506,7 +514,7 @@
       "pos": "PG",
       "total": 60.5,
       "avg": 15.12,
-      "owned": 1.6
+      "owned": 1.4
     },
     {
       "name": "Landry Shamet",
@@ -517,20 +525,12 @@
       "owned": 1.1
     },
     {
-      "name": "Georges Niang",
-      "team": "GS",
-      "pos": "PF",
-      "total": 56.5,
-      "avg": 14.12,
-      "owned": 0.5
-    },
-    {
-      "name": "Sam Hauser",
-      "team": "BOS",
+      "name": "Brice Sensabaugh",
+      "team": "UTAH",
       "pos": "SF",
-      "total": 56.25,
-      "avg": 18.75,
-      "owned": 2.1
+      "total": 57.0,
+      "avg": 14.25,
+      "owned": 1.4
     }
   ],
   "today": null,

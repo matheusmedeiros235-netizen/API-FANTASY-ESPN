@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T21:37:47.307451+00:00",
+  "updatedAt": "2026-11-14T07:50:36.376957+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -254,7 +254,7 @@
     "2026-11-10": 124.75,
     "2026-11-11": 126.0,
     "2026-11-12": 55.25,
-    "2026-11-13": 0.0
+    "2026-11-13": 158.75
   },
   "table": [
     {
@@ -436,12 +436,60 @@
   ],
   "freeAgents": [
     {
+      "name": "Tyrese Proctor",
+      "team": "CLE",
+      "pos": "SG",
+      "total": 106.25,
+      "avg": 21.25,
+      "owned": 0.7
+    },
+    {
+      "name": "Draymond Green",
+      "team": "GS",
+      "pos": "PF",
+      "total": 94.0,
+      "avg": 23.5,
+      "owned": 26.3
+    },
+    {
+      "name": "Luguentz Dort",
+      "team": "ATL",
+      "pos": "SG",
+      "total": 90.25,
+      "avg": 22.56,
+      "owned": 3.1
+    },
+    {
       "name": "Bennett Stirtz",
       "team": "OKC",
       "pos": "PG",
-      "total": 83.5,
-      "avg": 20.88,
-      "owned": 1.9
+      "total": 88.5,
+      "avg": 17.7,
+      "owned": 1.7
+    },
+    {
+      "name": "Kenrich Williams",
+      "team": "OKC",
+      "pos": "SF",
+      "total": 88.0,
+      "avg": 17.6,
+      "owned": 0.6
+    },
+    {
+      "name": "Luke Kornet",
+      "team": "SA",
+      "pos": "C",
+      "total": 85.75,
+      "avg": 17.15,
+      "owned": 0.7
+    },
+    {
+      "name": "Tre Johnson",
+      "team": "WAS",
+      "pos": "SG",
+      "total": 80.75,
+      "avg": 16.15,
+      "owned": 1.6
     },
     {
       "name": "Sam Hauser",
@@ -460,76 +508,28 @@
       "owned": 1.9
     },
     {
+      "name": "Charles Bassey",
+      "team": "GS",
+      "pos": "C",
+      "total": 79.25,
+      "avg": 19.81,
+      "owned": 1.0
+    },
+    {
+      "name": "Gradey Dick",
+      "team": "LAC",
+      "pos": "SG",
+      "total": 68.0,
+      "avg": 22.67,
+      "owned": 1.4
+    },
+    {
       "name": "Baylor Scheierman",
       "team": "BOS",
       "pos": "SG",
       "total": 68.0,
       "avg": 17.0,
       "owned": 0.8
-    },
-    {
-      "name": "Charles Bassey",
-      "team": "GS",
-      "pos": "C",
-      "total": 67.75,
-      "avg": 22.58,
-      "owned": 1.1
-    },
-    {
-      "name": "Luguentz Dort",
-      "team": "ATL",
-      "pos": "SG",
-      "total": 63.25,
-      "avg": 21.08,
-      "owned": 3.1
-    },
-    {
-      "name": "Jake LaRavia",
-      "team": "LAL",
-      "pos": "PF",
-      "total": 59.5,
-      "avg": 14.88,
-      "owned": 6.9
-    },
-    {
-      "name": "Luke Kornet",
-      "team": "SA",
-      "pos": "C",
-      "total": 56.25,
-      "avg": 14.06,
-      "owned": 0.7
-    },
-    {
-      "name": "Isaiah Collier",
-      "team": "UTAH",
-      "pos": "PG",
-      "total": 52.5,
-      "avg": 13.12,
-      "owned": 3.2
-    },
-    {
-      "name": "Kenrich Williams",
-      "team": "OKC",
-      "pos": "SF",
-      "total": 52.25,
-      "avg": 13.06,
-      "owned": 0.6
-    },
-    {
-      "name": "Gradey Dick",
-      "team": "LAC",
-      "pos": "SG",
-      "total": 49.75,
-      "avg": 24.88,
-      "owned": 1.4
-    },
-    {
-      "name": "Landry Shamet",
-      "team": "NY",
-      "pos": "SG",
-      "total": 48.0,
-      "avg": 16.0,
-      "owned": 1.2
     }
   ],
   "today": null,
@@ -4059,6 +4059,34 @@
           "qd": 0,
           "pts": 18
         }
+      },
+      {
+        "id": "espn-2026-11-13-dylan-harper",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 4,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 2,
+          "oreb": 1,
+          "reb": 3,
+          "ast": 4,
+          "stl": 1,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 9
+        }
       }
     ],
     "mitchell-robinson": [
@@ -4706,6 +4734,34 @@
           "td": 0,
           "qd": 0,
           "pts": 12
+        }
+      },
+      {
+        "id": "espn-2026-11-13-julian-champagnie",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 3,
+          "fgmi": 5,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 4,
+          "oreb": 1,
+          "reb": 8,
+          "ast": 3,
+          "stl": 0,
+          "blk": 1,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 7
         }
       }
     ],
@@ -5355,6 +5411,34 @@
           "qd": 0,
           "pts": 22
         }
+      },
+      {
+        "id": "espn-2026-11-13-darryn-peterson",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 9,
+          "fgmi": 11,
+          "ftm": 6,
+          "ftmi": 1,
+          "tpm": 4,
+          "tpmi": 7,
+          "oreb": 0,
+          "reb": 7,
+          "ast": 2,
+          "stl": 2,
+          "blk": 1,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 28
+        }
       }
     ],
     "ace-bailey": [
@@ -5693,6 +5777,34 @@
           "qd": 0,
           "pts": 18
         }
+      },
+      {
+        "id": "espn-2026-11-13-ace-bailey",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 7,
+          "fgmi": 6,
+          "ftm": 4,
+          "ftmi": 0,
+          "tpm": 3,
+          "tpmi": 5,
+          "oreb": 2,
+          "reb": 3,
+          "ast": 1,
+          "stl": 0,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 1,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 21
+        }
       }
     ],
     "davion-mitchell": [
@@ -6002,6 +6114,34 @@
           "td": 0,
           "qd": 0,
           "pts": 19
+        }
+      },
+      {
+        "id": "espn-2026-11-13-davion-mitchell",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 7,
+          "fgmi": 7,
+          "ftm": 5,
+          "ftmi": 1,
+          "tpm": 3,
+          "tpmi": 4,
+          "oreb": 1,
+          "reb": 5,
+          "ast": 17,
+          "stl": 0,
+          "blk": 1,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 22
         }
       }
     ],
@@ -6370,6 +6510,34 @@
           "td": 0,
           "qd": 0,
           "pts": 23
+        }
+      },
+      {
+        "id": "espn-2026-11-13-jalen-smith",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 6,
+          "fgmi": 9,
+          "ftm": 2,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 5,
+          "oreb": 3,
+          "reb": 12,
+          "ast": 3,
+          "stl": 3,
+          "blk": 0,
+          "to": 4,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 15
         }
       }
     ],
@@ -7023,6 +7191,34 @@
           "qd": 0,
           "pts": 7
         }
+      },
+      {
+        "id": "espn-2026-11-13-peyton-watson",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 2,
+          "fgmi": 8,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 5,
+          "oreb": 1,
+          "reb": 4,
+          "ast": 2,
+          "stl": 0,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 4
+        }
       }
     ],
     "brandin-podziemski": [
@@ -7304,6 +7500,34 @@
           "td": 0,
           "qd": 0,
           "pts": 22
+        }
+      },
+      {
+        "id": "espn-2026-11-13-brandin-podziemski",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 2,
+          "fgmi": 8,
+          "ftm": 2,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 3,
+          "oreb": 1,
+          "reb": 3,
+          "ast": 0,
+          "stl": 0,
+          "blk": 1,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 0,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 8
         }
       }
     ],
@@ -7616,6 +7840,34 @@
           "td": 0,
           "qd": 0,
           "pts": 8
+        }
+      },
+      {
+        "id": "espn-2026-11-13-obi-toppin",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 4,
+          "fgmi": 2,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 2,
+          "oreb": 0,
+          "reb": 3,
+          "ast": 1,
+          "stl": 0,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 0,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 9
         }
       }
     ],
@@ -8129,6 +8381,34 @@
           "qd": 0,
           "pts": 11
         }
+      },
+      {
+        "id": "espn-2026-11-13-aday-mara",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 1,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 0,
+          "oreb": 0,
+          "reb": 3,
+          "ast": 0,
+          "stl": 0,
+          "blk": 3,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 10
+        }
       }
     ],
     "al-horford": [
@@ -8272,6 +8552,34 @@
           "td": 0,
           "qd": 0,
           "pts": 10
+        }
+      },
+      {
+        "id": "espn-2026-11-13-jared-mccain",
+        "date": "2026-11-13",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 8,
+          "fgmi": 9,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 7,
+          "tpmi": 4,
+          "oreb": 0,
+          "reb": 4,
+          "ast": 2,
+          "stl": 0,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 5,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 23
         }
       }
     ]

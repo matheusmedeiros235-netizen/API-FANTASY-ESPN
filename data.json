@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T15:28:26.737669+00:00",
+  "updatedAt": "2026-11-15T21:27:17.946871+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -438,12 +438,12 @@
   ],
   "freeAgents": [
     {
-      "name": "Kentavious Caldwell-Pope",
+      "name": "Dean Wade",
       "team": "PHI",
-      "pos": "SG",
-      "total": 70.75,
-      "avg": 23.58,
-      "owned": 1.9
+      "pos": "PF",
+      "total": 73.75,
+      "avg": 18.44,
+      "owned": 1.1
     },
     {
       "name": "Gradey Dick",
@@ -470,6 +470,14 @@
       "owned": 0.9
     },
     {
+      "name": "Jamison Battle",
+      "team": "TOR",
+      "pos": "SF",
+      "total": 61.75,
+      "avg": 20.58,
+      "owned": 0.6
+    },
+    {
       "name": "Brice Sensabaugh",
       "team": "UTAH",
       "pos": "SF",
@@ -491,7 +499,7 @@
       "pos": "SF",
       "total": 56.25,
       "avg": 18.75,
-      "owned": 2.3
+      "owned": 2.4
     },
     {
       "name": "Draymond Green",
@@ -499,7 +507,7 @@
       "pos": "PF",
       "total": 55.5,
       "avg": 18.5,
-      "owned": 24.7
+      "owned": 24.6
     },
     {
       "name": "Herbert Jones",
@@ -524,14 +532,6 @@
       "total": 54.75,
       "avg": 18.25,
       "owned": 0.8
-    },
-    {
-      "name": "Kenrich Williams",
-      "team": "OKC",
-      "pos": "SF",
-      "total": 54.0,
-      "avg": 18.0,
-      "owned": 0.7
     }
   ],
   "today": null,
@@ -8200,6 +8200,34 @@
           "td": 0,
           "qd": 0,
           "pts": 9
+        }
+      },
+      {
+        "id": "espn-2026-11-15-obi-toppin",
+        "date": "2026-11-15",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 2,
+          "fgmi": 5,
+          "ftm": 1,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 3,
+          "oreb": 0,
+          "reb": 2,
+          "ast": 1,
+          "stl": 0,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 0,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 5
         }
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T16:32:00.086776+00:00",
+  "updatedAt": "2026-11-16T21:39:18.601133+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -452,15 +452,7 @@
       "pos": "SG",
       "total": 80.0,
       "avg": 20.0,
-      "owned": 1.1
-    },
-    {
-      "name": "Baylor Scheierman",
-      "team": "BOS",
-      "pos": "SG",
-      "total": 79.25,
-      "avg": 26.42,
-      "owned": 1.0
+      "owned": 1.2
     },
     {
       "name": "Kenrich Williams",
@@ -484,7 +476,7 @@
       "pos": "PF",
       "total": 69.5,
       "avg": 23.17,
-      "owned": 1.2
+      "owned": 1.4
     },
     {
       "name": "Miles McBride",
@@ -525,6 +517,14 @@
       "total": 62.0,
       "avg": 15.5,
       "owned": 0.7
+    },
+    {
+      "name": "Noah Clowney",
+      "team": "BKN",
+      "pos": "PF",
+      "total": 61.75,
+      "avg": 30.88,
+      "owned": 0.5
     },
     {
       "name": "Sion James",

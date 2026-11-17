@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:39:18.601133+00:00",
+  "updatedAt": "2026-11-17T08:12:29.947279+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -257,7 +257,8 @@
     "2026-11-13": 158.75,
     "2026-11-14": 78.0,
     "2026-11-15": 142.0,
-    "2026-11-16": 0.0
+    "2026-11-16": 164.25,
+    "2026-11-17": 0.0
   },
   "table": [
     {
@@ -267,8 +268,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4559.25,
-      "pa": 3402.0,
+      "pf": 4794.5,
+      "pa": 3543.75,
       "me": false
     },
     {
@@ -278,8 +279,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4474.5,
-      "pa": 3413.5,
+      "pf": 4681.25,
+      "pa": 3577.75,
       "me": true
     },
     {
@@ -289,8 +290,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4206.75,
-      "pa": 4026.0,
+      "pf": 4456.5,
+      "pa": 4161.0,
       "me": false
     },
     {
@@ -300,8 +301,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4133.5,
-      "pa": 3763.5,
+      "pf": 4365.25,
+      "pa": 3893.5,
       "me": false
     },
     {
@@ -311,8 +312,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4133.25,
-      "pa": 3734.5,
+      "pf": 4263.25,
+      "pa": 3966.25,
       "me": false
     },
     {
@@ -322,8 +323,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4082.5,
-      "pa": 4028.25,
+      "pf": 4262.25,
+      "pa": 4156.75,
       "me": false
     },
     {
@@ -333,8 +334,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 3735.25,
-      "pa": 3618.0,
+      "pf": 3859.0,
+      "pa": 3841.25,
       "me": false
     },
     {
@@ -344,8 +345,8 @@
       "w": 2,
       "l": 2,
       "t": 0,
-      "pf": 4073.5,
-      "pa": 3797.5,
+      "pf": 4296.75,
+      "pa": 3921.25,
       "me": false
     },
     {
@@ -355,19 +356,8 @@
       "w": 2,
       "l": 2,
       "t": 0,
-      "pf": 4040.0,
-      "pa": 3991.75,
-      "me": false
-    },
-    {
-      "id": 19,
-      "name": "Space City Br",
-      "owner": "Matheus Sampaio",
-      "w": 2,
-      "l": 2,
-      "t": 0,
-      "pf": 3629.0,
-      "pa": 3940.25,
+      "pf": 4181.75,
+      "pa": 4227.0,
       "me": false
     },
     {
@@ -377,8 +367,19 @@
       "w": 2,
       "l": 2,
       "t": 0,
-      "pf": 3573.75,
-      "pa": 3925.0,
+      "pf": 3776.25,
+      "pa": 4017.75,
+      "me": false
+    },
+    {
+      "id": 19,
+      "name": "Space City Br",
+      "owner": "Matheus Sampaio",
+      "w": 2,
+      "l": 2,
+      "t": 0,
+      "pf": 3764.0,
+      "pa": 4190.0,
       "me": false
     },
     {
@@ -388,8 +389,8 @@
       "w": 1,
       "l": 3,
       "t": 0,
-      "pf": 3838.75,
-      "pa": 4412.0,
+      "pf": 3931.5,
+      "pa": 4614.5,
       "me": false
     },
     {
@@ -399,8 +400,8 @@
       "w": 1,
       "l": 3,
       "t": 0,
-      "pf": 3372.5,
-      "pa": 3804.0,
+      "pf": 3495.75,
+      "pa": 4062.75,
       "me": false
     },
     {
@@ -410,8 +411,8 @@
       "w": 1,
       "l": 3,
       "t": 0,
-      "pf": 3035.0,
-      "pa": 3934.0,
+      "pf": 3293.75,
+      "pa": 4057.25,
       "me": false
     },
     {
@@ -421,8 +422,8 @@
       "w": 0,
       "l": 4,
       "t": 0,
-      "pf": 3621.75,
-      "pa": 3990.5,
+      "pf": 3786.0,
+      "pa": 4197.25,
       "me": false
     },
     {
@@ -432,27 +433,43 @@
       "w": 0,
       "l": 4,
       "t": 0,
-      "pf": 3191.5,
-      "pa": 3920.0,
+      "pf": 3320.0,
+      "pa": 4099.75,
       "me": false
     }
   ],
   "freeAgents": [
+    {
+      "name": "Noah Clowney",
+      "team": "BKN",
+      "pos": "PF",
+      "total": 82.75,
+      "avg": 27.58,
+      "owned": 0.6
+    },
+    {
+      "name": "Herbert Jones",
+      "team": "NOP",
+      "pos": "SF",
+      "total": 81.75,
+      "avg": 16.35,
+      "owned": 1.3
+    },
     {
       "name": "Kasparas Jakucionis",
       "team": "MIL",
       "pos": "PG",
       "total": 81.5,
       "avg": 27.17,
-      "owned": 0.9
+      "owned": 1.0
     },
     {
-      "name": "Landry Shamet",
-      "team": "NY",
-      "pos": "SG",
-      "total": 80.0,
-      "avg": 20.0,
-      "owned": 1.2
+      "name": "Mario Hezonja",
+      "team": "CLE",
+      "pos": "SF",
+      "total": 78.75,
+      "avg": 15.75,
+      "owned": 1.6
     },
     {
       "name": "Kenrich Williams",
@@ -460,7 +477,7 @@
       "pos": "SF",
       "total": 78.25,
       "avg": 19.56,
-      "owned": 0.7
+      "owned": 0.6
     },
     {
       "name": "Brice Sensabaugh",
@@ -468,15 +485,7 @@
       "pos": "SF",
       "total": 75.5,
       "avg": 18.88,
-      "owned": 1.4
-    },
-    {
-      "name": "Dean Wade",
-      "team": "PHI",
-      "pos": "PF",
-      "total": 69.5,
-      "avg": 23.17,
-      "owned": 1.4
+      "owned": 1.7
     },
     {
       "name": "Miles McBride",
@@ -492,23 +501,23 @@
       "pos": "SF",
       "total": 68.5,
       "avg": 22.83,
-      "owned": 2.8
+      "owned": 3.3
     },
     {
-      "name": "Sam Hauser",
-      "team": "BOS",
-      "pos": "SF",
-      "total": 63.25,
-      "avg": 21.08,
-      "owned": 2.4
+      "name": "Danny Wolf",
+      "team": "BKN",
+      "pos": "PF",
+      "total": 67.75,
+      "avg": 22.58,
+      "owned": 5.2
     },
     {
-      "name": "Luke Kennard",
-      "team": "PHX",
+      "name": "Tre Johnson",
+      "team": "WAS",
       "pos": "SG",
-      "total": 62.25,
-      "avg": 15.56,
-      "owned": 1.0
+      "total": 67.5,
+      "avg": 16.88,
+      "owned": 1.4
     },
     {
       "name": "Luke Kornet",
@@ -519,20 +528,12 @@
       "owned": 0.7
     },
     {
-      "name": "Noah Clowney",
-      "team": "BKN",
-      "pos": "PF",
-      "total": 61.75,
-      "avg": 30.88,
-      "owned": 0.5
-    },
-    {
-      "name": "Sion James",
-      "team": "CHA",
-      "pos": "SF",
-      "total": 57.75,
-      "avg": 19.25,
-      "owned": 0.7
+      "name": "Al Horford",
+      "team": "GS",
+      "pos": "C",
+      "total": 61.25,
+      "avg": 15.31,
+      "owned": 1.2
     }
   ],
   "today": null,
@@ -4092,6 +4093,129 @@
           5
         ]
       }
+    ],
+    "2026-11-17": [
+      {
+        "id": "nikola-jokic",
+        "slot": 10,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 5,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 0,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 4,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "jared-mccain",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      }
     ]
   },
   "gamesData": {
@@ -4824,6 +4948,34 @@
           "td": 0,
           "qd": 0,
           "pts": 0
+        }
+      },
+      {
+        "id": "espn-2026-11-16-mitchell-robinson",
+        "date": "2026-11-16",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 2,
+          "fgmi": 1,
+          "ftm": 0,
+          "ftmi": 2,
+          "tpm": 0,
+          "tpmi": 0,
+          "oreb": 1,
+          "reb": 5,
+          "ast": 2,
+          "stl": 1,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 5,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 4
         }
       }
     ],
@@ -6739,6 +6891,34 @@
           "qd": 0,
           "pts": 15
         }
+      },
+      {
+        "id": "espn-2026-11-16-davion-mitchell",
+        "date": "2026-11-16",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 7,
+          "fgmi": 8,
+          "ftm": 1,
+          "ftmi": 0,
+          "tpm": 1,
+          "tpmi": 5,
+          "oreb": 0,
+          "reb": 3,
+          "ast": 10,
+          "stl": 4,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 16
+        }
       }
     ],
     "gradey-dick": [
@@ -7134,6 +7314,34 @@
           "td": 0,
           "qd": 0,
           "pts": 15
+        }
+      },
+      {
+        "id": "espn-2026-11-16-jalen-smith",
+        "date": "2026-11-16",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 6,
+          "fgmi": 3,
+          "ftm": 2,
+          "ftmi": 1,
+          "tpm": 3,
+          "tpmi": 3,
+          "oreb": 6,
+          "reb": 11,
+          "ast": 3,
+          "stl": 2,
+          "blk": 2,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 17
         }
       }
     ],
@@ -7533,6 +7741,34 @@
           "qd": 0,
           "pts": 26
         }
+      },
+      {
+        "id": "espn-2026-11-16-nikola-jokic",
+        "date": "2026-11-16",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 12,
+          "fgmi": 9,
+          "ftm": 2,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 4,
+          "oreb": 3,
+          "reb": 15,
+          "ast": 7,
+          "stl": 1,
+          "blk": 1,
+          "to": 7,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 28
+        }
       }
     ],
     "peyton-watson": [
@@ -7843,6 +8079,34 @@
           "qd": 0,
           "pts": 4
         }
+      },
+      {
+        "id": "espn-2026-11-16-peyton-watson",
+        "date": "2026-11-16",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 5,
+          "fgmi": 5,
+          "ftm": 2,
+          "ftmi": 2,
+          "tpm": 2,
+          "tpmi": 3,
+          "oreb": 0,
+          "reb": 4,
+          "ast": 0,
+          "stl": 0,
+          "blk": 1,
+          "to": 3,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 14
+        }
       }
     ],
     "brandin-podziemski": [
@@ -8152,6 +8416,34 @@
           "td": 0,
           "qd": 0,
           "pts": 8
+        }
+      },
+      {
+        "id": "espn-2026-11-16-brandin-podziemski",
+        "date": "2026-11-16",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 3,
+          "fgmi": 5,
+          "ftm": 6,
+          "ftmi": 1,
+          "tpm": 3,
+          "tpmi": 4,
+          "oreb": 1,
+          "reb": 6,
+          "ast": 3,
+          "stl": 1,
+          "blk": 2,
+          "to": 4,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 15
         }
       }
     ],

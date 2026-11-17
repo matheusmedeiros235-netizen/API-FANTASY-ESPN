@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T15:44:06.304632+00:00",
+  "updatedAt": "2026-11-17T21:41:13.635071+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -440,6 +440,14 @@
   ],
   "freeAgents": [
     {
+      "name": "Dean Wade",
+      "team": "PHI",
+      "pos": "PF",
+      "total": 107.0,
+      "avg": 26.75,
+      "owned": 1.4
+    },
+    {
       "name": "Noah Clowney",
       "team": "BKN",
       "pos": "PF",
@@ -453,7 +461,7 @@
       "pos": "SF",
       "total": 78.25,
       "avg": 26.08,
-      "owned": 8.3
+      "owned": 8.2
     },
     {
       "name": "Kenrich Williams",
@@ -477,7 +485,7 @@
       "pos": "SF",
       "total": 68.5,
       "avg": 22.83,
-      "owned": 3.6
+      "owned": 4.0
     },
     {
       "name": "Danny Wolf",
@@ -485,7 +493,7 @@
       "pos": "PF",
       "total": 67.75,
       "avg": 22.58,
-      "owned": 4.7
+      "owned": 4.4
     },
     {
       "name": "Robert Williams III",
@@ -509,7 +517,7 @@
       "pos": "SF",
       "total": 63.0,
       "avg": 15.75,
-      "owned": 1.6
+      "owned": 1.5
     },
     {
       "name": "Herbert Jones",
@@ -525,15 +533,7 @@
       "pos": "SF",
       "total": 58.25,
       "avg": 29.12,
-      "owned": 6.2
-    },
-    {
-      "name": "Buddy Hield",
-      "team": "CHI",
-      "pos": "SG",
-      "total": 56.5,
-      "avg": 18.83,
-      "owned": 0.9
+      "owned": 6.1
     }
   ],
   "today": null,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T08:09:32.099862+00:00",
+  "updatedAt": "2026-11-18T15:48:14.637142+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -441,36 +441,12 @@
   ],
   "freeAgents": [
     {
-      "name": "Dean Wade",
-      "team": "PHI",
-      "pos": "PF",
-      "total": 107.0,
-      "avg": 26.75,
-      "owned": 1.5
-    },
-    {
       "name": "Robert Williams III",
       "team": "POR",
       "pos": "C",
-      "total": 88.75,
-      "avg": 17.75,
-      "owned": 4.9
-    },
-    {
-      "name": "Noah Clowney",
-      "team": "BKN",
-      "pos": "PF",
-      "total": 82.75,
-      "avg": 27.58,
-      "owned": 0.5
-    },
-    {
-      "name": "Max Strus",
-      "team": "LAC",
-      "pos": "SF",
-      "total": 82.5,
-      "avg": 20.62,
-      "owned": 4.1
+      "total": 79.75,
+      "avg": 19.94,
+      "owned": 4.7
     },
     {
       "name": "Zaccharie Risacher",
@@ -484,17 +460,17 @@
       "name": "Kenrich Williams",
       "team": "OKC",
       "pos": "SF",
-      "total": 78.25,
-      "avg": 19.56,
+      "total": 77.25,
+      "avg": 25.75,
       "owned": 0.6
     },
     {
-      "name": "Miles McBride",
-      "team": "NY",
-      "pos": "SG",
-      "total": 72.5,
-      "avg": 14.5,
-      "owned": 1.4
+      "name": "Jake LaRavia",
+      "team": "LAL",
+      "pos": "PF",
+      "total": 73.0,
+      "avg": 24.33,
+      "owned": 7.7
     },
     {
       "name": "Danny Wolf",
@@ -502,7 +478,7 @@
       "pos": "PF",
       "total": 67.75,
       "avg": 22.58,
-      "owned": 4.1
+      "owned": 3.9
     },
     {
       "name": "Tre Johnson",
@@ -526,7 +502,7 @@
       "pos": "SF",
       "total": 63.0,
       "avg": 15.75,
-      "owned": 1.5
+      "owned": 1.4
     },
     {
       "name": "Herbert Jones",
@@ -535,6 +511,30 @@
       "total": 62.25,
       "avg": 15.56,
       "owned": 1.3
+    },
+    {
+      "name": "Buddy Hield",
+      "team": "CHI",
+      "pos": "SG",
+      "total": 56.5,
+      "avg": 18.83,
+      "owned": 0.8
+    },
+    {
+      "name": "Miles McBride",
+      "team": "NY",
+      "pos": "SG",
+      "total": 54.75,
+      "avg": 13.69,
+      "owned": 1.4
+    },
+    {
+      "name": "Kentavious Caldwell-Pope",
+      "team": "PHI",
+      "pos": "SG",
+      "total": 50.5,
+      "avg": 16.83,
+      "owned": 1.8
     }
   ],
   "today": null,
@@ -4229,7 +4229,7 @@
       },
       {
         "id": "cooper-flagg",
-        "slot": 12,
+        "slot": 2,
         "elig": [
           2,
           3,
@@ -4247,7 +4247,7 @@
       },
       {
         "id": "dylan-harper",
-        "slot": 5,
+        "slot": 12,
         "elig": [
           0,
           1,
@@ -4291,7 +4291,7 @@
       },
       {
         "id": "davion-mitchell",
-        "slot": 12,
+        "slot": 5,
         "elig": [
           0,
           5
@@ -4299,7 +4299,7 @@
       },
       {
         "id": "julian-champagnie",
-        "slot": 2,
+        "slot": 12,
         "elig": [
           2,
           3,

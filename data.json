@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T15:48:00.361946+00:00",
+  "updatedAt": "2026-11-19T21:39:51.140994+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -69,6 +69,13 @@
       "name": "Julian Champagnie",
       "team": "SA",
       "pos": "SF",
+      "active": true
+    },
+    {
+      "id": "miles-mcbride",
+      "name": "Miles McBride",
+      "team": "NY",
+      "pos": "SG",
       "active": true
     },
     {
@@ -442,12 +449,28 @@
   ],
   "freeAgents": [
     {
+      "name": "Brice Sensabaugh",
+      "team": "UTAH",
+      "pos": "SF",
+      "total": 96.25,
+      "avg": 24.06,
+      "owned": 6.8
+    },
+    {
       "name": "Mario Hezonja",
       "team": "CLE",
       "pos": "SF",
       "total": 94.0,
       "avg": 23.5,
       "owned": 1.6
+    },
+    {
+      "name": "Jordan Goodwin",
+      "team": "PHX",
+      "pos": "PG",
+      "total": 91.75,
+      "avg": 22.94,
+      "owned": 2.7
     },
     {
       "name": "Kenrich Williams",
@@ -479,7 +502,7 @@
       "pos": "PF",
       "total": 73.0,
       "avg": 24.33,
-      "owned": 7.3
+      "owned": 7.2
     },
     {
       "name": "Luke Kennard",
@@ -503,7 +526,7 @@
       "pos": "SG",
       "total": 54.0,
       "avg": 18.0,
-      "owned": 2.7
+      "owned": 2.6
     },
     {
       "name": "Egor Demin",
@@ -520,22 +543,6 @@
       "total": 50.0,
       "avg": 25.0,
       "owned": 5.8
-    },
-    {
-      "name": "Walter Clayton Jr.",
-      "team": "DAL",
-      "pos": "SG",
-      "total": 48.5,
-      "avg": 12.12,
-      "owned": 1.9
-    },
-    {
-      "name": "Luke Kornet",
-      "team": "SA",
-      "pos": "C",
-      "total": 47.75,
-      "avg": 15.92,
-      "owned": 0.7
     }
   ],
   "today": null,
@@ -4362,7 +4369,7 @@
       },
       {
         "id": "darryn-peterson",
-        "slot": 0,
+        "slot": 12,
         "elig": [
           0,
           1,
@@ -4371,7 +4378,7 @@
       },
       {
         "id": "dylan-harper",
-        "slot": 12,
+        "slot": 13,
         "elig": [
           0,
           1,
@@ -4458,6 +4465,15 @@
       {
         "id": "jared-mccain",
         "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "miles-mcbride",
+        "slot": 0,
         "elig": [
           0,
           1,

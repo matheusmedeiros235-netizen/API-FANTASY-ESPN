@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T15:46:36.382539+00:00",
+  "updatedAt": "2026-11-20T21:37:39.111978+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -470,7 +470,7 @@
       "pos": "SG",
       "total": 84.75,
       "avg": 21.19,
-      "owned": 1.2
+      "owned": 1.1
     },
     {
       "name": "Jake LaRavia",
@@ -478,7 +478,7 @@
       "pos": "PF",
       "total": 73.0,
       "avg": 24.33,
-      "owned": 7.1
+      "owned": 7.2
     },
     {
       "name": "Dean Wade",
@@ -495,14 +495,6 @@
       "total": 71.25,
       "avg": 23.75,
       "owned": 2.7
-    },
-    {
-      "name": "Trey Lyles",
-      "team": "MIN",
-      "pos": "PF",
-      "total": 67.75,
-      "avg": 16.94,
-      "owned": 0.6
     },
     {
       "name": "Sidy Cissoko",
@@ -526,7 +518,7 @@
       "pos": "SF",
       "total": 59.5,
       "avg": 14.88,
-      "owned": 1.4
+      "owned": 1.5
     },
     {
       "name": "Luke Kennard",
@@ -550,7 +542,15 @@
       "pos": "PG",
       "total": 53.5,
       "avg": 17.83,
-      "owned": 29.1
+      "owned": 29.3
+    },
+    {
+      "name": "Bones Hyland",
+      "team": "MIN",
+      "pos": "PG",
+      "total": 52.75,
+      "avg": 13.19,
+      "owned": 5.1
     }
   ],
   "today": null,

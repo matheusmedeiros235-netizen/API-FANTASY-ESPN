@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T21:37:39.111978+00:00",
+  "updatedAt": "2026-11-21T08:02:25.458858+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -274,8 +274,9 @@
     "2026-11-16": 164.25,
     "2026-11-17": 96.75,
     "2026-11-18": 208.0,
-    "2026-11-19": 145.0,
-    "2026-11-20": 0.0
+    "2026-11-19": 144.0,
+    "2026-11-20": 126.5,
+    "2026-11-21": 0.0
   },
   "table": [
     {
@@ -285,8 +286,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 5251.75,
-      "pa": 3891.75,
+      "pf": 5544.0,
+      "pa": 4042.25,
       "me": false
     },
     {
@@ -296,8 +297,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 5052.25,
-      "pa": 4027.5,
+      "pf": 5266.25,
+      "pa": 4153.0,
       "me": true
     },
     {
@@ -307,8 +308,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4905.5,
-      "pa": 4516.25,
+      "pf": 5078.5,
+      "pa": 4715.5,
       "me": false
     },
     {
@@ -318,19 +319,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4782.75,
-      "pa": 4354.0,
-      "me": false
-    },
-    {
-      "id": 27,
-      "name": "Jung vai te aniquilar ",
-      "owner": "Matheus Meireles Matoso",
-      "w": 3,
-      "l": 1,
-      "t": 0,
-      "pf": 4723.75,
-      "pa": 4383.75,
+      "pf": 4980.25,
+      "pa": 4455.25,
       "me": false
     },
     {
@@ -340,8 +330,19 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4657.5,
-      "pa": 4556.25,
+      "pf": 4833.75,
+      "pa": 4635.0,
+      "me": false
+    },
+    {
+      "id": 27,
+      "name": "Jung vai te aniquilar ",
+      "owner": "Matheus Meireles Matoso",
+      "w": 3,
+      "l": 1,
+      "t": 0,
+      "pf": 4825.0,
+      "pa": 4581.25,
       "me": false
     },
     {
@@ -351,8 +352,8 @@
       "w": 3,
       "l": 1,
       "t": 0,
-      "pf": 4317.25,
-      "pa": 4284.25,
+      "pf": 4473.5,
+      "pa": 4464.75,
       "me": false
     },
     {
@@ -362,8 +363,8 @@
       "w": 2,
       "l": 2,
       "t": 0,
-      "pf": 4739.75,
-      "pa": 4379.5,
+      "pf": 4920.25,
+      "pa": 4535.75,
       "me": false
     },
     {
@@ -373,8 +374,8 @@
       "w": 2,
       "l": 2,
       "t": 0,
-      "pf": 4529.75,
-      "pa": 4684.25,
+      "pf": 4680.25,
+      "pa": 4976.5,
       "me": false
     },
     {
@@ -384,8 +385,8 @@
       "w": 2,
       "l": 2,
       "t": 0,
-      "pf": 4190.5,
-      "pa": 4465.5,
+      "pf": 4420.0,
+      "pa": 4686.75,
       "me": false
     },
     {
@@ -395,8 +396,8 @@
       "w": 2,
       "l": 2,
       "t": 0,
-      "pf": 4119.25,
-      "pa": 4639.0,
+      "pf": 4318.5,
+      "pa": 4812.0,
       "me": false
     },
     {
@@ -406,8 +407,8 @@
       "w": 1,
       "l": 3,
       "t": 0,
-      "pf": 4379.25,
-      "pa": 5028.75,
+      "pf": 4600.5,
+      "pa": 5258.25,
       "me": false
     },
     {
@@ -417,8 +418,8 @@
       "w": 1,
       "l": 3,
       "t": 0,
-      "pf": 3776.5,
-      "pa": 4399.5,
+      "pf": 3911.5,
+      "pa": 4567.75,
       "me": false
     },
     {
@@ -428,8 +429,8 @@
       "w": 1,
       "l": 3,
       "t": 0,
-      "pf": 3630.5,
-      "pa": 4338.0,
+      "pf": 3798.75,
+      "pa": 4473.0,
       "me": false
     },
     {
@@ -439,8 +440,8 @@
       "w": 0,
       "l": 4,
       "t": 0,
-      "pf": 4235.75,
-      "pa": 4568.25,
+      "pf": 4361.25,
+      "pa": 4782.25,
       "me": false
     },
     {
@@ -450,8 +451,8 @@
       "w": 0,
       "l": 4,
       "t": 0,
-      "pf": 3719.5,
-      "pa": 4495.0,
+      "pf": 3798.25,
+      "pa": 4671.25,
       "me": false
     }
   ],
@@ -460,9 +461,25 @@
       "name": "Brice Sensabaugh",
       "team": "UTAH",
       "pos": "SF",
-      "total": 96.25,
-      "avg": 24.06,
-      "owned": 6.2
+      "total": 120.0,
+      "avg": 24.0,
+      "owned": 6.0
+    },
+    {
+      "name": "Jordan Goodwin",
+      "team": "PHX",
+      "pos": "PG",
+      "total": 105.5,
+      "avg": 26.38,
+      "owned": 2.6
+    },
+    {
+      "name": "Allen Graves",
+      "team": "TOR",
+      "pos": "SF",
+      "total": 91.0,
+      "avg": 22.75,
+      "owned": 0.6
     },
     {
       "name": "Will Richard",
@@ -470,15 +487,15 @@
       "pos": "SG",
       "total": 84.75,
       "avg": 21.19,
-      "owned": 1.1
+      "owned": 1.0
     },
     {
       "name": "Jake LaRavia",
       "team": "LAL",
       "pos": "PF",
-      "total": 73.0,
-      "avg": 24.33,
-      "owned": 7.2
+      "total": 81.0,
+      "avg": 20.25,
+      "owned": 7.1
     },
     {
       "name": "Dean Wade",
@@ -486,15 +503,15 @@
       "pos": "PF",
       "total": 72.25,
       "avg": 36.12,
-      "owned": 1.3
+      "owned": 1.2
     },
     {
-      "name": "Jordan Goodwin",
-      "team": "PHX",
-      "pos": "PG",
-      "total": 71.25,
-      "avg": 23.75,
-      "owned": 2.7
+      "name": "Danny Wolf",
+      "team": "BKN",
+      "pos": "PF",
+      "total": 65.5,
+      "avg": 16.38,
+      "owned": 3.4
     },
     {
       "name": "Sidy Cissoko",
@@ -505,28 +522,20 @@
       "owned": 1.3
     },
     {
+      "name": "Luke Kennard",
+      "team": "PHX",
+      "pos": "SG",
+      "total": 64.5,
+      "avg": 16.12,
+      "owned": 1.0
+    },
+    {
       "name": "Sam Hauser",
       "team": "BOS",
       "pos": "SF",
       "total": 60.25,
       "avg": 20.08,
-      "owned": 2.3
-    },
-    {
-      "name": "Herbert Jones",
-      "team": "NOP",
-      "pos": "SF",
-      "total": 59.5,
-      "avg": 14.88,
-      "owned": 1.5
-    },
-    {
-      "name": "Luke Kennard",
-      "team": "PHX",
-      "pos": "SG",
-      "total": 59.5,
-      "avg": 19.83,
-      "owned": 1.0
+      "owned": 2.9
     },
     {
       "name": "Luke Kornet",
@@ -537,20 +546,12 @@
       "owned": 0.7
     },
     {
-      "name": "Egor Demin",
-      "team": "BKN",
+      "name": "Bennett Stirtz",
+      "team": "OKC",
       "pos": "PG",
-      "total": 53.5,
-      "avg": 17.83,
-      "owned": 29.3
-    },
-    {
-      "name": "Bones Hyland",
-      "team": "MIN",
-      "pos": "PG",
-      "total": 52.75,
-      "avg": 13.19,
-      "owned": 5.1
+      "total": 57.75,
+      "avg": 14.44,
+      "owned": 0.6
     }
   ],
   "today": null,
@@ -4579,7 +4580,7 @@
       },
       {
         "id": "jalen-smith",
-        "slot": 3,
+        "slot": 12,
         "elig": [
           3,
           4,
@@ -4588,7 +4589,138 @@
       },
       {
         "id": "obi-toppin",
+        "slot": 3,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "jared-mccain",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "tre-johnson",
+        "slot": 5,
+        "elig": [
+          1,
+          5
+        ]
+      }
+    ],
+    "2026-11-21": [
+      {
+        "id": "nikola-jokic",
+        "slot": 10,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
         "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 0,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 13,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 12,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 3,
         "elig": [
           3,
           10
@@ -6730,6 +6862,34 @@
           "qd": 0,
           "pts": 11
         }
+      },
+      {
+        "id": "espn-2026-11-20-darryn-peterson",
+        "date": "2026-11-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 7,
+          "fgmi": 13,
+          "ftm": 6,
+          "ftmi": 2,
+          "tpm": 0,
+          "tpmi": 7,
+          "oreb": 5,
+          "reb": 10,
+          "ast": 8,
+          "stl": 2,
+          "blk": 1,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 20
+        }
       }
     ],
     "ace-bailey": [
@@ -7179,6 +7339,34 @@
           "td": 0,
           "qd": 0,
           "pts": 19
+        }
+      },
+      {
+        "id": "espn-2026-11-20-ace-bailey",
+        "date": "2026-11-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 3,
+          "fgmi": 8,
+          "ftm": 1,
+          "ftmi": 1,
+          "tpm": 0,
+          "tpmi": 7,
+          "oreb": 3,
+          "reb": 7,
+          "ast": 1,
+          "stl": 0,
+          "blk": 1,
+          "to": 3,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 7
         }
       }
     ],
@@ -8508,6 +8696,34 @@
           "qd": 0,
           "pts": 24
         }
+      },
+      {
+        "id": "espn-2026-11-20-nikola-jokic",
+        "date": "2026-11-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 10,
+          "fgmi": 5,
+          "ftm": 4,
+          "ftmi": 0,
+          "tpm": 2,
+          "tpmi": 1,
+          "oreb": 3,
+          "reb": 7,
+          "ast": 11,
+          "stl": 0,
+          "blk": 0,
+          "to": 4,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 26
+        }
       }
     ],
     "peyton-watson": [
@@ -8845,6 +9061,34 @@
           "td": 0,
           "qd": 0,
           "pts": 14
+        }
+      },
+      {
+        "id": "espn-2026-11-20-peyton-watson",
+        "date": "2026-11-20",
+        "opp": "",
+        "notStarted": true,
+        "stats": {
+          "fgm": 6,
+          "fgmi": 3,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 3,
+          "tpmi": 3,
+          "oreb": 0,
+          "reb": 4,
+          "ast": 3,
+          "stl": 2,
+          "blk": 1,
+          "to": 4,
+          "ej": 0,
+          "ff": 0,
+          "pf": 5,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 15
         }
       }
     ],
@@ -9636,6 +9880,34 @@
           "qd": 0,
           "pts": 6
         }
+      },
+      {
+        "id": "espn-2026-11-20-obi-toppin",
+        "date": "2026-11-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 6,
+          "fgmi": 5,
+          "ftm": 3,
+          "ftmi": 1,
+          "tpm": 2,
+          "tpmi": 3,
+          "oreb": 0,
+          "reb": 3,
+          "ast": 2,
+          "stl": 0,
+          "blk": 0,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 2,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 17
+        }
       }
     ],
     "kasparas-jakucionis": [
@@ -10232,6 +10504,34 @@
           "qd": 0,
           "pts": 10
         }
+      },
+      {
+        "id": "espn-2026-11-20-aday-mara",
+        "date": "2026-11-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 11,
+          "fgmi": 4,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 0,
+          "oreb": 7,
+          "reb": 16,
+          "ast": 2,
+          "stl": 0,
+          "blk": 2,
+          "to": 1,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 1,
+          "td": 0,
+          "qd": 0,
+          "pts": 22
+        }
       }
     ],
     "al-horford": [
@@ -10460,6 +10760,34 @@
           "qd": 0,
           "pts": 18
         }
+      },
+      {
+        "id": "espn-2026-11-20-jared-mccain",
+        "date": "2026-11-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 7,
+          "fgmi": 7,
+          "ftm": 1,
+          "ftmi": 1,
+          "tpm": 3,
+          "tpmi": 6,
+          "oreb": 0,
+          "reb": 3,
+          "ast": 0,
+          "stl": 1,
+          "blk": 1,
+          "to": 2,
+          "ej": 0,
+          "ff": 0,
+          "pf": 3,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 18
+        }
       }
     ],
     "miles-mcbride": [
@@ -10489,6 +10817,36 @@
           "td": 0,
           "qd": 0,
           "pts": 3
+        }
+      }
+    ],
+    "tre-johnson": [
+      {
+        "id": "espn-2026-11-20-tre-johnson",
+        "date": "2026-11-20",
+        "opp": "",
+        "notStarted": false,
+        "stats": {
+          "fgm": 1,
+          "fgmi": 1,
+          "ftm": 0,
+          "ftmi": 0,
+          "tpm": 0,
+          "tpmi": 1,
+          "oreb": 0,
+          "reb": 1,
+          "ast": 0,
+          "stl": 0,
+          "blk": 0,
+          "to": 0,
+          "ej": 0,
+          "ff": 0,
+          "pf": 0,
+          "tf": 0,
+          "dd": 0,
+          "td": 0,
+          "qd": 0,
+          "pts": 2
         }
       }
     ]

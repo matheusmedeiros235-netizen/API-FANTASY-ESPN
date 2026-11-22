@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T08:02:06.683688+00:00",
+  "updatedAt": "2026-11-22T20:53:55.875690+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -62,13 +62,6 @@
       "name": "Jared McCain",
       "team": "OKC",
       "pos": "SG",
-      "active": true
-    },
-    {
-      "id": "jordan-walsh",
-      "name": "Jordan Walsh",
-      "team": "BOS",
-      "pos": "SF",
       "active": true
     },
     {
@@ -167,6 +160,13 @@
       "name": "Isaiah Stewart",
       "team": "MEM",
       "pos": "C",
+      "active": false
+    },
+    {
+      "id": "jordan-walsh",
+      "name": "Jordan Walsh",
+      "team": "BOS",
+      "pos": "SF",
       "active": false
     },
     {
@@ -291,7 +291,7 @@
     "2026-11-19": 144.0,
     "2026-11-20": 129.25,
     "2026-11-21": 156.25,
-    "2026-11-22": 0.0
+    "2026-11-22": 10.0
   },
   "table": [
     {
@@ -478,7 +478,7 @@
       "pos": "SF",
       "total": 116.25,
       "avg": 29.06,
-      "owned": 6.5
+      "owned": 7.6
     },
     {
       "name": "Jordan Goodwin",
@@ -494,15 +494,7 @@
       "pos": "SF",
       "total": 91.0,
       "avg": 22.75,
-      "owned": 0.8
-    },
-    {
-      "name": "Sam Hauser",
-      "team": "BOS",
-      "pos": "SF",
-      "total": 81.5,
-      "avg": 20.38,
-      "owned": 4.3
+      "owned": 0.9
     },
     {
       "name": "Jake LaRavia",
@@ -510,7 +502,15 @@
       "pos": "PF",
       "total": 81.0,
       "avg": 20.25,
-      "owned": 6.8
+      "owned": 6.7
+    },
+    {
+      "name": "Svi Mykhailiuk",
+      "team": "UTAH",
+      "pos": "SG",
+      "total": 80.75,
+      "avg": 20.19,
+      "owned": 0.7
     },
     {
       "name": "Will Richard",
@@ -518,7 +518,7 @@
       "pos": "SG",
       "total": 77.75,
       "avg": 25.92,
-      "owned": 1.0
+      "owned": 1.2
     },
     {
       "name": "Dean Wade",
@@ -534,7 +534,7 @@
       "pos": "SF",
       "total": 67.75,
       "avg": 16.94,
-      "owned": 4.0
+      "owned": 4.3
     },
     {
       "name": "T.J. McConnell",
@@ -542,15 +542,7 @@
       "pos": "PG",
       "total": 67.0,
       "avg": 22.33,
-      "owned": 7.6
-    },
-    {
-      "name": "Bones Hyland",
-      "team": "MIN",
-      "pos": "PG",
-      "total": 66.25,
-      "avg": 13.25,
-      "owned": 4.3
+      "owned": 7.5
     },
     {
       "name": "Jamal Shead",
@@ -558,7 +550,7 @@
       "pos": "PG",
       "total": 66.0,
       "avg": 16.5,
-      "owned": 5.9
+      "owned": 5.5
     },
     {
       "name": "Luke Kennard",
@@ -566,7 +558,15 @@
       "pos": "SG",
       "total": 64.5,
       "avg": 16.12,
-      "owned": 1.0
+      "owned": 0.9
+    },
+    {
+      "name": "Kentavious Caldwell-Pope",
+      "team": "PHI",
+      "pos": "SG",
+      "total": 59.5,
+      "avg": 14.88,
+      "owned": 1.9
     }
   ],
   "today": null,
@@ -4865,7 +4865,7 @@
       },
       {
         "id": "jalen-smith",
-        "slot": 13,
+        "slot": 12,
         "elig": [
           3,
           4,
@@ -4903,14 +4903,6 @@
         "elig": [
           1,
           5
-        ]
-      },
-      {
-        "id": "jordan-walsh",
-        "slot": 12,
-        "elig": [
-          2,
-          10
         ]
       }
     ]

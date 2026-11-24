@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T05:06:15.336162+00:00",
+  "updatedAt": "2026-11-24T18:33:58.108380+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -82,6 +82,13 @@
       "id": "nikola-jokic",
       "name": "Nikola Jokic",
       "team": "DEN",
+      "pos": "C",
+      "active": true
+    },
+    {
+      "id": "nikola-vucevic",
+      "name": "Nikola Vucevic",
+      "team": "ORL",
       "pos": "C",
       "active": true
     },
@@ -292,7 +299,8 @@
     "2026-11-20": 129.25,
     "2026-11-21": 156.25,
     "2026-11-22": 181.75,
-    "2026-11-23": 218.75
+    "2026-11-23": 226.0,
+    "2026-11-24": 0.0
   },
   "table": [
     {
@@ -302,8 +310,8 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "pf": 5794.25,
-      "pa": 4331.25,
+      "pf": 5942.75,
+      "pa": 4529.75,
       "me": false
     },
     {
@@ -313,8 +321,8 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "pf": 5403.75,
-      "pa": 4926.0,
+      "pf": 5573.0,
+      "pa": 5121.5,
       "me": false
     },
     {
@@ -324,8 +332,8 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "pf": 5225.75,
-      "pa": 4780.25,
+      "pf": 5426.25,
+      "pa": 5029.5,
       "me": false
     },
     {
@@ -335,8 +343,8 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "pf": 5039.0,
-      "pa": 4870.75,
+      "pf": 5279.5,
+      "pa": 5017.0,
       "me": false
     },
     {
@@ -346,8 +354,8 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "pf": 5549.5,
-      "pa": 4493.75,
+      "pf": 5713.75,
+      "pa": 4719.75,
       "me": true
     },
     {
@@ -357,7 +365,7 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "pf": 5281.0,
+      "pf": 5558.5,
       "pa": 4854.25,
       "me": false
     },
@@ -368,8 +376,8 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "pf": 5150.0,
-      "pa": 4826.75,
+      "pf": 5348.5,
+      "pa": 4975.25,
       "me": false
     },
     {
@@ -379,8 +387,8 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "pf": 4792.0,
-      "pa": 4825.5,
+      "pf": 4973.0,
+      "pa": 5049.25,
       "me": false
     },
     {
@@ -390,8 +398,8 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "pf": 4686.5,
-      "pa": 4906.75,
+      "pf": 4882.0,
+      "pa": 5076.0,
       "me": false
     },
     {
@@ -401,8 +409,8 @@
       "w": 2,
       "l": 3,
       "t": 0,
-      "pf": 4969.25,
-      "pa": 5226.75,
+      "pf": 5218.5,
+      "pa": 5427.25,
       "me": false
     },
     {
@@ -412,8 +420,8 @@
       "w": 2,
       "l": 3,
       "t": 0,
-      "pf": 4529.0,
-      "pa": 5137.25,
+      "pf": 4699.0,
+      "pa": 5324.0,
       "me": false
     },
     {
@@ -423,8 +431,8 @@
       "w": 2,
       "l": 3,
       "t": 0,
-      "pf": 4050.25,
-      "pa": 4653.75,
+      "pf": 4274.0,
+      "pa": 4834.75,
       "me": false
     },
     {
@@ -434,8 +442,8 @@
       "w": 1,
       "l": 4,
       "t": 0,
-      "pf": 4820.5,
-      "pa": 5524.75,
+      "pf": 5007.25,
+      "pa": 5694.75,
       "me": false
     },
     {
@@ -445,8 +453,8 @@
       "w": 1,
       "l": 4,
       "t": 0,
-      "pf": 4702.0,
-      "pa": 5065.5,
+      "pf": 4848.25,
+      "pa": 5306.0,
       "me": false
     },
     {
@@ -457,7 +465,7 @@
       "l": 4,
       "t": 0,
       "pf": 4092.25,
-      "pa": 4819.25,
+      "pa": 5096.75,
       "me": false
     },
     {
@@ -467,19 +475,19 @@
       "w": 0,
       "l": 5,
       "t": 0,
-      "pf": 4034.0,
-      "pa": 4876.5,
+      "pf": 4260.0,
+      "pa": 5040.75,
       "me": false
     }
   ],
   "freeAgents": [
     {
-      "name": "Buddy Hield",
-      "team": "CHI",
-      "pos": "SG",
-      "total": 126.0,
-      "avg": 25.2,
-      "owned": 4.8
+      "name": "Brice Sensabaugh",
+      "team": "UTAH",
+      "pos": "SF",
+      "total": 124.75,
+      "avg": 24.95,
+      "owned": 5.6
     },
     {
       "name": "Svi Mykhailiuk",
@@ -487,39 +495,47 @@
       "pos": "SG",
       "total": 117.0,
       "avg": 23.4,
-      "owned": 2.4
+      "owned": 1.8
     },
     {
-      "name": "Herbert Jones",
-      "team": "NOP",
-      "pos": "SF",
-      "total": 94.0,
-      "avg": 18.8,
-      "owned": 1.4
-    },
-    {
-      "name": "Bones Hyland",
-      "team": "MIN",
-      "pos": "PG",
-      "total": 82.0,
-      "avg": 16.4,
-      "owned": 3.5
-    },
-    {
-      "name": "Will Richard",
-      "team": "GS",
+      "name": "Buddy Hield",
+      "team": "CHI",
       "pos": "SG",
-      "total": 82.0,
-      "avg": 20.5,
-      "owned": 0.7
+      "total": 116.75,
+      "avg": 29.19,
+      "owned": 5.2
+    },
+    {
+      "name": "Allen Graves",
+      "team": "TOR",
+      "pos": "SF",
+      "total": 85.0,
+      "avg": 21.25,
+      "owned": 1.1
+    },
+    {
+      "name": "Jake LaRavia",
+      "team": "LAL",
+      "pos": "PF",
+      "total": 82.5,
+      "avg": 20.62,
+      "owned": 6.6
     },
     {
       "name": "Scoot Henderson",
       "team": "POR",
       "pos": "PG",
-      "total": 81.75,
-      "avg": 16.35,
+      "total": 79.5,
+      "avg": 19.88,
       "owned": 5.4
+    },
+    {
+      "name": "Luke Kornet",
+      "team": "SA",
+      "pos": "C",
+      "total": 70.75,
+      "avg": 17.69,
+      "owned": 0.8
     },
     {
       "name": "Jamal Shead",
@@ -527,47 +543,39 @@
       "pos": "PG",
       "total": 70.25,
       "avg": 17.56,
-      "owned": 5.2
+      "owned": 5.1
     },
     {
-      "name": "Jake LaRavia",
-      "team": "LAL",
-      "pos": "PF",
-      "total": 68.75,
-      "avg": 17.19,
-      "owned": 6.6
-    },
-    {
-      "name": "Bilal Coulibaly",
-      "team": "WAS",
+      "name": "Mario Hezonja",
+      "team": "CLE",
       "pos": "SF",
-      "total": 62.5,
-      "avg": 15.62,
-      "owned": 4.5
+      "total": 68.75,
+      "avg": 22.92,
+      "owned": 2.3
     },
     {
-      "name": "Kentavious Caldwell-Pope",
-      "team": "PHI",
-      "pos": "SG",
-      "total": 61.5,
-      "avg": 15.38,
-      "owned": 1.9
+      "name": "Herbert Jones",
+      "team": "NOP",
+      "pos": "SF",
+      "total": 68.5,
+      "avg": 17.12,
+      "owned": 1.4
     },
     {
-      "name": "Draymond Green",
+      "name": "Bones Hyland",
+      "team": "MIN",
+      "pos": "PG",
+      "total": 67.0,
+      "avg": 16.75,
+      "owned": 3.4
+    },
+    {
+      "name": "Will Richard",
       "team": "GS",
-      "pos": "PF",
-      "total": 57.0,
-      "avg": 19.0,
-      "owned": 22.6
-    },
-    {
-      "name": "Luke Kornet",
-      "team": "SA",
-      "pos": "C",
-      "total": 56.25,
-      "avg": 14.06,
-      "owned": 0.8
+      "pos": "SG",
+      "total": 63.0,
+      "avg": 21.0,
+      "owned": 0.6
     }
   ],
   "today": null,
@@ -5037,6 +5045,145 @@
           5
         ]
       }
+    ],
+    "2026-11-24": [
+      {
+        "id": "nikola-jokic",
+        "slot": 10,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 0,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 13,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 12,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 13,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "jared-mccain",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "sidy-cissoko",
+        "slot": 5,
+        "elig": [
+          1,
+          5
+        ]
+      },
+      {
+        "id": "nikola-vucevic",
+        "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      }
     ]
   },
   "gamesData": {
@@ -6340,14 +6487,14 @@
         "notStarted": true,
         "stats": {
           "fgm": 7,
-          "fgmi": 6,
+          "fgmi": 7,
           "ftm": 2,
           "ftmi": 1,
           "tpm": 6,
-          "tpmi": 6,
+          "tpmi": 7,
           "oreb": 1,
-          "reb": 6,
-          "ast": 1,
+          "reb": 7,
+          "ast": 3,
           "stl": 0,
           "blk": 1,
           "to": 2,
@@ -7324,11 +7471,11 @@
         "notStarted": false,
         "stats": {
           "fgm": 6,
-          "fgmi": 6,
+          "fgmi": 7,
           "ftm": 1,
           "ftmi": 1,
           "tpm": 0,
-          "tpmi": 3,
+          "tpmi": 4,
           "oreb": 3,
           "reb": 6,
           "ast": 5,
@@ -7337,7 +7484,7 @@
           "to": 2,
           "ej": 0,
           "ff": 0,
-          "pf": 2,
+          "pf": 3,
           "tf": 0,
           "dd": 0,
           "td": 0,
@@ -7858,20 +8005,20 @@
         "notStarted": false,
         "stats": {
           "fgm": 8,
-          "fgmi": 7,
+          "fgmi": 8,
           "ftm": 1,
           "ftmi": 0,
           "tpm": 1,
           "tpmi": 2,
           "oreb": 3,
-          "reb": 4,
-          "ast": 0,
+          "reb": 5,
+          "ast": 1,
           "stl": 2,
           "blk": 1,
-          "to": 2,
+          "to": 3,
           "ej": 0,
           "ff": 0,
-          "pf": 0,
+          "pf": 1,
           "tf": 0,
           "dd": 0,
           "td": 0,

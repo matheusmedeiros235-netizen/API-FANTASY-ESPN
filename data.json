@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T03:20:38.200233+00:00",
+  "updatedAt": "2026-11-26T17:28:39.126891+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -308,7 +308,8 @@
     "2026-11-22": 181.75,
     "2026-11-23": 226.0,
     "2026-11-24": 70.5,
-    "2026-11-25": 132.0
+    "2026-11-25": 171.75,
+    "2026-11-26": 0.0
   },
   "table": [
     {
@@ -318,8 +319,8 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "pf": 6053.0,
-      "pa": 4663.75,
+      "pf": 6239.25,
+      "pa": 4879.5,
       "me": false
     },
     {
@@ -329,8 +330,8 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "pf": 5647.0,
-      "pa": 5282.0,
+      "pf": 5890.5,
+      "pa": 5441.5,
       "me": false
     },
     {
@@ -340,8 +341,8 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "pf": 5509.5,
-      "pa": 5038.5,
+      "pf": 5729.0,
+      "pa": 5207.5,
       "me": false
     },
     {
@@ -351,8 +352,8 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "pf": 5323.25,
-      "pa": 5103.75,
+      "pf": 5533.0,
+      "pa": 5311.75,
       "me": false
     },
     {
@@ -362,8 +363,8 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "pf": 5800.25,
-      "pa": 4790.25,
+      "pf": 5942.25,
+      "pa": 4962.0,
       "me": true
     },
     {
@@ -373,8 +374,8 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "pf": 5589.25,
-      "pa": 4900.75,
+      "pf": 5887.75,
+      "pa": 4983.75,
       "me": false
     },
     {
@@ -384,19 +385,8 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "pf": 5481.5,
-      "pa": 5085.5,
-      "me": false
-    },
-    {
-      "id": 33,
-      "name": "JAU BENGALS",
-      "owner": "Bruno Machado",
-      "w": 3,
-      "l": 2,
-      "t": 0,
-      "pf": 5042.5,
-      "pa": 5149.5,
+      "pf": 5697.25,
+      "pa": 5272.25,
       "me": false
     },
     {
@@ -406,8 +396,19 @@
       "w": 3,
       "l": 2,
       "t": 0,
-      "pf": 5009.5,
-      "pa": 5119.25,
+      "pf": 5253.25,
+      "pa": 5192.5,
+      "me": false
+    },
+    {
+      "id": 33,
+      "name": "JAU BENGALS",
+      "owner": "Bruno Machado",
+      "w": 3,
+      "l": 2,
+      "t": 0,
+      "pf": 5202.0,
+      "pa": 5393.0,
       "me": false
     },
     {
@@ -417,8 +418,8 @@
       "w": 2,
       "l": 3,
       "t": 0,
-      "pf": 5228.5,
-      "pa": 5510.5,
+      "pf": 5397.5,
+      "pa": 5729.5,
       "me": false
     },
     {
@@ -428,8 +429,8 @@
       "w": 2,
       "l": 3,
       "t": 0,
-      "pf": 4771.0,
-      "pa": 5397.25,
+      "pf": 4936.0,
+      "pa": 5599.25,
       "me": false
     },
     {
@@ -439,8 +440,8 @@
       "w": 2,
       "l": 3,
       "t": 0,
-      "pf": 4344.0,
-      "pa": 4871.25,
+      "pf": 4416.25,
+      "pa": 5112.5,
       "me": false
     },
     {
@@ -450,8 +451,8 @@
       "w": 1,
       "l": 4,
       "t": 0,
-      "pf": 5080.0,
-      "pa": 5766.75,
+      "pf": 5282.0,
+      "pa": 5931.75,
       "me": false
     },
     {
@@ -461,8 +462,8 @@
       "w": 1,
       "l": 4,
       "t": 0,
-      "pf": 4935.0,
-      "pa": 5352.25,
+      "pf": 5143.0,
+      "pa": 5562.0,
       "me": false
     },
     {
@@ -472,8 +473,8 @@
       "w": 1,
       "l": 4,
       "t": 0,
-      "pf": 4138.75,
-      "pa": 5127.5,
+      "pf": 4219.25,
+      "pa": 5425.0,
       "me": false
     },
     {
@@ -483,8 +484,8 @@
       "w": 0,
       "l": 5,
       "t": 0,
-      "pf": 4330.5,
-      "pa": 5124.75,
+      "pf": 4502.25,
+      "pa": 5266.75,
       "me": false
     }
   ],
@@ -493,97 +494,97 @@
       "name": "Jaylen Wells",
       "team": "MEM",
       "pos": "SF",
-      "total": 94.5,
-      "avg": 18.9,
-      "owned": 7.6
-    },
-    {
-      "name": "Svi Mykhailiuk",
-      "team": "UTAH",
-      "pos": "SG",
-      "total": 92.75,
-      "avg": 23.19,
-      "owned": 1.2
-    },
-    {
-      "name": "Allen Graves",
-      "team": "TOR",
-      "pos": "SF",
-      "total": 79.0,
-      "avg": 26.33,
-      "owned": 0.9
-    },
-    {
-      "name": "Christian Anderson",
-      "team": "CHA",
-      "pos": "PG",
-      "total": 75.5,
-      "avg": 25.17,
-      "owned": 0.6
-    },
-    {
-      "name": "Mario Hezonja",
-      "team": "CLE",
-      "pos": "SF",
-      "total": 71.25,
-      "avg": 17.81,
-      "owned": 2.1
+      "total": 86.0,
+      "avg": 21.5,
+      "owned": 7.7
     },
     {
       "name": "Scoot Henderson",
       "team": "POR",
       "pos": "PG",
-      "total": 69.5,
-      "avg": 23.17,
+      "total": 80.75,
+      "avg": 20.19,
       "owned": 5.6
     },
     {
-      "name": "Kentavious Caldwell-Pope",
-      "team": "PHI",
+      "name": "Luke Kornet",
+      "team": "SA",
+      "pos": "C",
+      "total": 76.25,
+      "avg": 19.06,
+      "owned": 0.8
+    },
+    {
+      "name": "Svi Mykhailiuk",
+      "team": "UTAH",
       "pos": "SG",
-      "total": 68.75,
-      "avg": 17.19,
-      "owned": 1.8
+      "total": 66.0,
+      "avg": 22.0,
+      "owned": 1.1
+    },
+    {
+      "name": "Allen Graves",
+      "team": "TOR",
+      "pos": "SF",
+      "total": 63.5,
+      "avg": 31.75,
+      "owned": 0.9
+    },
+    {
+      "name": "Morez Johnson Jr.",
+      "team": "DAL",
+      "pos": "PF",
+      "total": 61.25,
+      "avg": 20.42,
+      "owned": 3.1
+    },
+    {
+      "name": "Brice Sensabaugh",
+      "team": "UTAH",
+      "pos": "SF",
+      "total": 55.75,
+      "avg": 18.58,
+      "owned": 4.2
+    },
+    {
+      "name": "Kyle Filipowski",
+      "team": "UTAH",
+      "pos": "C",
+      "total": 55.25,
+      "avg": 27.62,
+      "owned": 3.1
     },
     {
       "name": "Herbert Jones",
       "team": "NOP",
       "pos": "SF",
-      "total": 68.5,
-      "avg": 17.12,
+      "total": 52.75,
+      "avg": 17.58,
       "owned": 1.3
     },
     {
-      "name": "Jake LaRavia",
-      "team": "LAL",
+      "name": "Walter Clayton Jr.",
+      "team": "DAL",
+      "pos": "SG",
+      "total": 51.5,
+      "avg": 17.17,
+      "owned": 2.1
+    },
+    {
+      "name": "Taylor Hendricks",
+      "team": "MEM",
       "pos": "PF",
-      "total": 67.25,
-      "avg": 22.42,
-      "owned": 6.5
-    },
-    {
-      "name": "Sam Hauser",
-      "team": "BOS",
-      "pos": "SF",
-      "total": 65.25,
-      "avg": 16.31,
-      "owned": 3.0
-    },
-    {
-      "name": "Mike Conley",
-      "team": "BOS",
-      "pos": "PG",
-      "total": 59.75,
-      "avg": 29.88,
-      "owned": 0.6
+      "total": 47.75,
+      "avg": 11.94,
+      "owned": 1.2
     },
     {
       "name": "Bilal Coulibaly",
       "team": "WAS",
       "pos": "SF",
-      "total": 59.5,
-      "avg": 14.88,
-      "owned": 4.5
+      "total": 45.25,
+      "avg": 15.08,
+      "owned": 4.4
     }
   ],
   "today": null,
@@ -5331,6 +5332,145 @@
           10
         ]
       }
+    ],
+    "2026-11-26": [
+      {
+        "id": "nikola-jokic",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 13,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 5,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 10,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 0,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 4,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 13,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "jared-mccain",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "sidy-cissoko",
+        "slot": 12,
+        "elig": [
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dean-wade",
+        "slot": 3,
+        "elig": [
+          3,
+          10
+        ]
+      }
     ]
   },
   "gamesData": {
@@ -6661,26 +6801,26 @@
         "opp": "",
         "notStarted": false,
         "stats": {
-          "fgm": 0,
-          "fgmi": 0,
-          "ftm": 1,
+          "fgm": 4,
+          "fgmi": 8,
+          "ftm": 2,
           "ftmi": 1,
-          "tpm": 0,
-          "tpmi": 0,
-          "oreb": 0,
-          "reb": 0,
+          "tpm": 1,
+          "tpmi": 6,
+          "oreb": 1,
+          "reb": 4,
           "ast": 1,
           "stl": 1,
-          "blk": 0,
-          "to": 0,
+          "blk": 1,
+          "to": 1,
           "ej": 0,
           "ff": 0,
-          "pf": 0,
+          "pf": 3,
           "tf": 0,
           "dd": 0,
           "td": 0,
           "qd": 0,
-          "pts": 1
+          "pts": 11
         }
       }
     ],
@@ -10603,26 +10743,26 @@
         "opp": "",
         "notStarted": false,
         "stats": {
-          "fgm": 2,
-          "fgmi": 0,
+          "fgm": 5,
+          "fgmi": 4,
           "ftm": 0,
-          "ftmi": 0,
-          "tpm": 1,
-          "tpmi": 0,
+          "ftmi": 1,
+          "tpm": 3,
+          "tpmi": 3,
           "oreb": 0,
-          "reb": 0,
-          "ast": 1,
-          "stl": 0,
-          "blk": 0,
+          "reb": 2,
+          "ast": 6,
+          "stl": 1,
+          "blk": 1,
           "to": 0,
           "ej": 0,
           "ff": 0,
-          "pf": 0,
+          "pf": 3,
           "tf": 0,
           "dd": 0,
           "td": 0,
           "qd": 0,
-          "pts": 5
+          "pts": 13
         }
       }
     ],
@@ -12193,26 +12333,26 @@
         "opp": "",
         "notStarted": true,
         "stats": {
-          "fgm": 1,
-          "fgmi": 0,
+          "fgm": 6,
+          "fgmi": 8,
           "ftm": 0,
           "ftmi": 0,
-          "tpm": 0,
-          "tpmi": 0,
+          "tpm": 4,
+          "tpmi": 6,
           "oreb": 1,
-          "reb": 1,
-          "ast": 1,
-          "stl": 0,
-          "blk": 0,
+          "reb": 4,
+          "ast": 2,
+          "stl": 2,
+          "blk": 1,
           "to": 0,
           "ej": 0,
           "ff": 0,
-          "pf": 0,
+          "pf": 2,
           "tf": 0,
           "dd": 0,
           "td": 0,
           "qd": 0,
-          "pts": 2
+          "pts": 16
         }
       }
     ],

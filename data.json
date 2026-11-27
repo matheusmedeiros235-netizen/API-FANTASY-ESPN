@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T17:28:39.126891+00:00",
+  "updatedAt": "2026-11-27T03:26:03.844989+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -544,7 +544,7 @@
       "pos": "SF",
       "total": 55.75,
       "avg": 18.58,
-      "owned": 4.2
+      "owned": 4.1
     },
     {
       "name": "Kyle Filipowski",
@@ -576,7 +576,7 @@
       "pos": "PF",
       "total": 47.75,
       "avg": 11.94,
-      "owned": 1.2
+      "owned": 1.1
     },
     {
       "name": "Bilal Coulibaly",
@@ -584,7 +584,7 @@
       "pos": "SF",
       "total": 45.25,
       "avg": 15.08,
-      "owned": 4.4
+      "owned": 4.3
     }
   ],
   "today": null,

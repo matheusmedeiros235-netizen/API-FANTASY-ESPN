@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T03:26:03.844989+00:00",
+  "updatedAt": "2026-11-27T17:08:10.670408+00:00",
   "players": [
     {
       "id": "ace-bailey",
@@ -309,7 +309,8 @@
     "2026-11-23": 226.0,
     "2026-11-24": 70.5,
     "2026-11-25": 171.75,
-    "2026-11-26": 0.0
+    "2026-11-26": 0.0,
+    "2026-11-27": 0.0
   },
   "table": [
     {
@@ -319,7 +320,7 @@
       "w": 4,
       "l": 1,
       "t": 0,
-      "pf": 6239.25,
+      "pf": 6243.0,
       "pa": 4879.5,
       "me": false
     },
@@ -386,7 +387,7 @@
       "l": 2,
       "t": 0,
       "pf": 5697.25,
-      "pa": 5272.25,
+      "pa": 5276.0,
       "me": false
     },
     {
@@ -491,28 +492,12 @@
   ],
   "freeAgents": [
     {
-      "name": "Jaylen Wells",
-      "team": "MEM",
-      "pos": "SF",
-      "total": 86.0,
-      "avg": 21.5,
-      "owned": 7.7
-    },
-    {
-      "name": "Scoot Henderson",
-      "team": "POR",
-      "pos": "PG",
-      "total": 80.75,
-      "avg": 20.19,
-      "owned": 5.6
-    },
-    {
-      "name": "Luke Kornet",
-      "team": "SA",
-      "pos": "C",
-      "total": 76.25,
-      "avg": 19.06,
-      "owned": 0.8
+      "name": "Landry Shamet",
+      "team": "NY",
+      "pos": "SG",
+      "total": 68.25,
+      "avg": 22.75,
+      "owned": 4.3
     },
     {
       "name": "Svi Mykhailiuk",
@@ -521,6 +506,14 @@
       "total": 66.0,
       "avg": 22.0,
       "owned": 1.1
+    },
+    {
+      "name": "Luke Kornet",
+      "team": "SA",
+      "pos": "C",
+      "total": 65.5,
+      "avg": 21.83,
+      "owned": 0.8
     },
     {
       "name": "Allen Graves",
@@ -571,20 +564,28 @@
       "owned": 2.1
     },
     {
-      "name": "Taylor Hendricks",
-      "team": "MEM",
-      "pos": "PF",
-      "total": 47.75,
-      "avg": 11.94,
-      "owned": 1.1
-    },
-    {
       "name": "Bilal Coulibaly",
       "team": "WAS",
       "pos": "SF",
       "total": 45.25,
       "avg": 15.08,
-      "owned": 4.3
+      "owned": 4.2
+    },
+    {
+      "name": "Nikola Vucevic",
+      "team": "ORL",
+      "pos": "C",
+      "total": 44.75,
+      "avg": 22.38,
+      "owned": 31.4
+    },
+    {
+      "name": "Jake LaRavia",
+      "team": "LAL",
+      "pos": "PF",
+      "total": 44.5,
+      "avg": 22.25,
+      "owned": 6.6
     }
   ],
   "today": null,
@@ -5466,6 +5467,145 @@
       {
         "id": "dean-wade",
         "slot": 3,
+        "elig": [
+          3,
+          10
+        ]
+      }
+    ],
+    "2026-11-27": [
+      {
+        "id": "nikola-jokic",
+        "slot": 4,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "cooper-flagg",
+        "slot": 10,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "darryn-peterson",
+        "slot": 1,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dylan-harper",
+        "slot": 13,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "brandin-podziemski",
+        "slot": 5,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "peyton-watson",
+        "slot": 12,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "ace-bailey",
+        "slot": 3,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "mitchell-robinson",
+        "slot": 12,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "davion-mitchell",
+        "slot": 0,
+        "elig": [
+          0,
+          5
+        ]
+      },
+      {
+        "id": "julian-champagnie",
+        "slot": 2,
+        "elig": [
+          2,
+          3,
+          10
+        ]
+      },
+      {
+        "id": "jalen-smith",
+        "slot": 12,
+        "elig": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "id": "obi-toppin",
+        "slot": 12,
+        "elig": [
+          3,
+          10
+        ]
+      },
+      {
+        "id": "aday-mara",
+        "slot": 13,
+        "elig": [
+          4,
+          10
+        ]
+      },
+      {
+        "id": "jared-mccain",
+        "slot": 12,
+        "elig": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "sidy-cissoko",
+        "slot": 12,
+        "elig": [
+          1,
+          5
+        ]
+      },
+      {
+        "id": "dean-wade",
+        "slot": 12,
         "elig": [
           3,
           10
